@@ -2,57 +2,58 @@
  "date": "2026-09-30",
  "mode": "live",
  "issue": 1,
- "theme": "民主主義・政治・法",
+ "theme": "国際関係・安全保障",
  "essays": [
   {
-   "title": "政府・与党 臨時国会で消費税法案成立を 野党は論戦の構え",
-   "link": "https://news.web.nhk/newsweb/na/nd-20260930de53231",
-   "summary": "10月5日に召集される臨時国会で、政府・与党は食料品の消費税減税に関する法案などの成立に向けて野党との協力を模索していく方針です。 一方、野党の中には法案に反対や慎重な意見が根強くあり、国会論戦でた…",
-   "source": "NHK 政治",
-   "published": "2026-09-30T04:07:00+09:00",
-   "theme": "politics",
-   "score": 24.0,
+   "title": "【随時更新】ロシア ウクライナに軍事侵攻（9月30日の動き）",
+   "link": "https://news.web.nhk/newsweb/na/nd-20260828de47018",
+   "summary": "ロシアによるウクライナに対する軍事侵攻が続いています。 ウクライナの各地でロシア軍とウクライナ軍が戦闘を続けています。戦闘の状況や関係各国の外交など、ウクライナ情勢をめぐる30日（日本時間）の動きを…",
+   "source": "NHK 国際",
+   "published": "2026-09-30T15:43:00+09:00",
+   "theme": "global",
+   "score": 25.5,
    "faculty": "hou",
    "faculties": [
-    "hou"
+    "hou",
+    "sogo"
    ],
    "paper": {
-    "index_line": "政府・与党 臨時国会で消費税法案成立を 野党は論戦の構え",
-    "headline": "政府・与党 臨時国会で消費税法案成立を 野党は論戦の構え",
-    "subhead": "民主主義・政治・法の具体例として読む",
-    "lead": "10月5日に召集される臨時国会で、政府・与党は食料品の消費税減税に関する法案などの成立に向けて野党との協力を模索していく方針です。 一方、野党の中には法案に反対や慎重な意見が根強くあり、国会論戦でた…",
-    "sources": "NHK 政治",
+    "index_line": "【随時更新】ロシア ウクライナに軍事侵攻（9月30日の動き）",
+    "headline": "【随時更新】ロシア ウクライナに軍事侵攻（9月30日の動き）",
+    "subhead": "国際関係・安全保障の具体例として読む",
+    "lead": "ロシアによるウクライナに対する軍事侵攻が続いています。 ウクライナの各地でロシア軍とウクライナ軍が戦闘を続けています。戦闘の状況や関係各国の外交など、ウクライナ情勢をめぐる30日（日本時間）の動きを…",
+    "sources": "NHK 国際",
     "what_happened": "",
     "context_title": "なぜ重要か",
     "context": "",
     "points": [],
-    "issue": "迅速な意思決定か、熟議・手続きの正当性か",
+    "issue": "国益の追求か、国際協調・人道か",
     "pros": [
-     "迅速な意思決定"
+     "国益の追求"
     ],
     "cons": [
-     "熟議・手続きの正当性"
+     "国際協調・人道"
     ],
     "connection": "",
     "keywords": [
      {
-      "term": "代表制民主主義",
+      "term": "安全保障のジレンマ",
       "definition": ""
      },
      {
-      "term": "熟議民主主義",
+      "term": "ソフトパワー",
       "definition": ""
      },
      {
-      "term": "法の支配",
+      "term": "経済安全保障",
       "definition": ""
      },
      {
-      "term": "政治的無関心",
+      "term": "グローバル・ガバナンス",
       "definition": ""
      }
     ],
-    "question": "この政治・制度上の論点について、賛否両方の根拠を整理したうえで自分の立場を示せ。",
+    "question": "この国際問題に対し、日本はどのような立場・行動をとるべきか。複数の立場を比較して論じよ。",
     "answer_claim": "",
     "answer_reason": "",
     "answer_plan": ""
@@ -127,7 +128,7 @@
    "theme": "econ",
    "score": 11,
    "paper": {
-    "index_line": "UK interest rate rise ‘increasingly like",
+    "index_line": "UK interest rate rise ‘increasingly likely’ with high energy prices; inflation fears hit bonds – as it happened",
     "headline": "UK interest rate rise ‘increasingly likely’ with high energy prices; inflation fears hit bonds – as it happened",
     "subhead": "経済・市場",
     "lead": "BoE deputy governor cites risks from energy prices, as US 30-year bond yields hits highest since 2004Newsflash: A Bank of England deputy governor is warning that interest rates will be raised, if necessary, to combat the risk of persistent inflationary pressures from higher oil prices.Clare Lombarde",
@@ -164,41 +165,41 @@
    "outside_window": false
   },
   {
-   "title": "Biden-Era Migration Surge Boosts U.S. Economy, Study Finds",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LekVQRkdNZU9YZkRnV25vUEFDWGtGeGRuYjV6UnV5dHZmeEFiMWpva3VtOEVmS2F1bVZRVEhiVXZjTXd0NWh1d2x2N19pa0JiVU12WE8zNDE?oc=5",
-   "summary": "",
-   "source": "CubaHeadlines",
-   "published": "2026-09-30T01:01:02+00:00",
-   "theme": "society",
-   "score": 8,
+   "title": "The climate fight has one great ally. You just can’t look at it directly | Bill McKibben",
+   "link": "https://www.theguardian.com/commentisfree/2026/sep/23/climate-un-clean-energy-2030",
+   "summary": "There is hope in solar power. As the UN meets, we are urging leaders to pursue a clear goal: clean energy for all by 2030Our message to global leaders: we need solar power everywhere by the decade’s endAs climate experts from around the world gather in New York for their annual week of talking throu",
+   "source": "The Guardian Environment",
+   "published": "2026-09-23T10:00:46+00:00",
+   "theme": "environment",
+   "score": 9,
    "paper": {
-    "index_line": "Biden-Era Migration Surge Boosts U.S. Ec",
-    "headline": "Biden-Era Migration Surge Boosts U.S. Economy, Study Finds",
-    "subhead": "社会・心理・教育",
-    "lead": "",
-    "sources": "CubaHeadlines",
+    "index_line": "The climate fight has one great ally. You just can’t look at it directly | Bill McKibben",
+    "headline": "The climate fight has one great ally. You just can’t look at it directly | Bill McKibben",
+    "subhead": "環境・エネルギー",
+    "lead": "There is hope in solar power. As the UN meets, we are urging leaders to pursue a clear goal: clean energy for all by 2030Our message to global leaders: we need solar power everywhere by the decade’s endAs climate experts from around the world gather in New York for their annual week of talking throu",
+    "sources": "The Guardian Environment",
     "what_happened": "",
-    "keio_angle": "心理学・行動科学の実験を紹介する英文は経済・商ともに多い。「実験の設定→結果→解釈」の流れを追う練習になる。",
+    "keio_angle": "気候変動は「外部性」「共有地の悲劇」など経済学の概念と結びつけて出題されやすい。",
     "vocab": [
      {
-      "en": "cognitive bias",
-      "ja": "認知バイアス"
+      "en": "emissions",
+      "ja": "排出（量）"
      },
      {
-      "en": "well-being",
-      "ja": "幸福"
+      "en": "externality",
+      "ja": "外部性"
      },
      {
-      "en": "hypothesis",
-      "ja": "仮説"
+      "en": "sustainable",
+      "ja": "持続可能な"
      },
      {
-      "en": "demographic",
-      "ja": "人口統計の"
+      "en": "fossil fuel",
+      "ja": "化石燃料"
      },
      {
-      "en": "conformity",
-      "ja": "同調"
+      "en": "mitigate",
+      "ja": "緩和する"
      }
     ],
     "word_forms": [],
