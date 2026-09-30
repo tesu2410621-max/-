@@ -4,7 +4,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from ronbun_news.__main__ import build, main
+from ronbun_news.__main__ import _with_faculties, build, essay_slots, main
+from ronbun_news.enrich import research, template_english, template_essay, write
 from ronbun_news.exam import in_window, season
 from ronbun_news.feeds import parse_feed
 from ronbun_news.picker import pick_english, pick_essays, score
@@ -73,25 +74,29 @@ class BuildTest(unittest.TestCase):
     def test_live_day(self):
         entry = build(D(2026, 9, 30), [], ja, en)
         self.assertEqual(entry["mode"], "live")
-        self.assertEqual([a["faculty"] for a in entry["essays"]], ["bun", "hou", "kankyo", "sogo"])
+        self.assertEqual(entry["issue"], 1)
+        self.assertEqual([a["faculty"] for a in entry["essays"]], essay_slots(D(2026, 9, 30)))
         self.assertEqual(len(entry["english"]), 2)
-        self.assertIn(entry["main"], {"bun", "hou", "kankyo", "sogo"})
+        self.assertTrue(all(a["paper"]["headline"] for a in entry["essays"] + entry["english"]))
 
-    def test_main_faculty_rotates(self):
-        mains = {build(D(2026, 10, d), [], ja, en)["main"] for d in range(1, 5)}
-        self.assertEqual(mains, {"bun", "hou", "kankyo", "sogo"})
+    def test_faculties_rotate_every_two_days(self):
+        seen = set()
+        for d in (1, 2):
+            entry = build(D(2026, 10, d), [], ja, en)
+            seen |= {a["faculty"] for a in entry["essays"]}
+        self.assertEqual(seen, {"bun", "hou", "kankyo", "sogo"})
 
-    def test_review_mode_uses_archive_without_repeats(self):
+    def test_review_mode_reuses_papers_without_repeats(self):
         history = []
-        for d in (D(2026, 11, 1), D(2026, 11, 2)):
-            history.insert(0, (d.isoformat(), build(d, history, ja, en)))
+        for d in range(1, 5):
+            day = D(2026, 11, d)
+            history.insert(0, (day.isoformat(), build(day, history, ja, en)))
         dec1 = build(D(2026, 12, 1), history, offline, offline)
         self.assertEqual(dec1["mode"], "review")
-        self.assertTrue(all(a.get("from_date") for a in dec1["essays"] + dec1["english"]))
+        self.assertTrue(all(a.get("from_date") and a["paper"] for a in dec1["essays"] + dec1["english"]))
         history.insert(0, ("2026-12-01", dec1))
-        dec2 = build(D(2026, 12, 2), history, ja, en)
-        seen = {a["link"] for a in dec1["essays"]}
-        self.assertFalse(seen & {a["link"] for a in dec2["essays"] if a.get("from_date")})
+        dec5 = build(D(2026, 12, 5), history, ja, en)  # 12/1 と同じ学部の枠
+        self.assertFalse({a["link"] for a in dec1["essays"]} & {a["link"] for a in dec5["essays"] if a.get("from_date")})
 
     def test_review_falls_back_to_fresh_news_marked_outside(self):
         entry = build(D(2027, 1, 10), [], ja, en)
@@ -105,14 +110,68 @@ class BuildTest(unittest.TestCase):
             self.assertEqual(main(["--date", "2026-10-01", *args]), 0)
             root = Path(out)
             data = json.loads((root / "data" / "2026-09-30.json").read_text(encoding="utf-8"))
-            self.assertEqual(len(data["essays"]), 4)
+            self.assertEqual(len(data["essays"]), 2)
             index = (root / "index.html").read_text(encoding="utf-8")
-            self.assertIn("2026年10月1日（木）", index)
+            self.assertIn("慶應入試新聞", index)
+            self.assertIn("第2号", index)
+            self.assertIn("2026年（令和8年）10月1日　木曜日", index)
             self.assertIn("出題圏の締め切り", index)
-            self.assertIn("英語長文の背景知識", index)
+            self.assertIn("英語長文面", index)
+            self.assertIn("pdf/2026-10-01.pdf", index)
             archive = (root / "archive.html").read_text(encoding="utf-8")
             self.assertLess(archive.index("2026-10-01"), archive.index("2026-09-30"))
 
+
+class ClaudePaperTest(unittest.TestCase):
+    """Claude の呼び出し（取材→執筆）の流れを、偽のクライアントで確かめる。"""
+
+    def test_research_resumes_pause_turn_then_writes_paper(self):
+        essays = [_with_faculties(a) for a in pick_essays(ja(), ["sogo", "kankyo"]).values()]
+        english = pick_english(en(), 2)
+        paper = {
+            "theme": "テスト",
+            "essays": [template_essay(a) for a in essays],
+            "english": [template_english(a) for a in english],
+            "history": {"index_line": "産業革命", "paragraphs": ["**産業革命**の話。"]},
+        }
+        client = FakeClient([
+            FakeResponse("pause_turn", [FakeBlock("text", "メモ前半")]),
+            FakeResponse("end_turn", [FakeBlock("text", "メモ後半")]),
+            FakeResponse("end_turn", [FakeBlock("text", json.dumps(paper, ensure_ascii=False))]),
+        ])
+        notes = research(client, essays, english)
+        self.assertEqual(notes, "メモ前半\nメモ後半")
+        resumed = client.calls[1]["messages"]
+        self.assertEqual([m["role"] for m in resumed], ["user", "assistant"])
+        self.assertEqual(write(client, essays, english, notes)["theme"], "テスト")
+        self.assertIn("メモ後半", client.calls[2]["messages"][0]["content"])
+        self.assertEqual(client.calls[2]["output_config"]["format"]["type"], "json_schema")
+
+    def test_refusal_raises(self):
+        client = FakeClient([FakeResponse("refusal", [])])
+        with self.assertRaises(RuntimeError):
+            research(client, [], [])
+
+
+class FakeBlock:
+    def __init__(self, type, text):
+        self.type, self.text = type, text
+
+
+class FakeResponse:
+    def __init__(self, stop_reason, content):
+        self.stop_reason, self.content = stop_reason, content
+
+
+class FakeClient:
+    def __init__(self, responses):
+        self.responses, self.calls = list(responses), []
+        self.beta = self
+        self.messages = self
+
+    def create(self, **kwargs):
+        self.calls.append({**kwargs, "messages": list(kwargs["messages"])})
+        return self.responses.pop(0)
 
 
 class RealWorldRegressionTest(unittest.TestCase):

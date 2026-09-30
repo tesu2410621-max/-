@@ -13,10 +13,16 @@ from .exam import in_window, season
 from .feeds import ENGLISH_FEEDS, FEEDS, fetch_all, parse_feed
 from .picker import pick_english, pick_essays
 from .render import archive_page, day_page
-from .themes import FACULTIES
+from .themes import THEME_BY_ID
 
 JST = datetime.timezone(datetime.timedelta(hours=9))
-REVIEW_MESSAGE = "ここからは総仕上げ 🔥 出題圏内のニュースを1本ずつ「自分の言葉で説明できる」状態にしよう。"
+# 小論文面の2枠は、4学部を2日で一巡するように回す（例: 総合政策＋環境情報 → 法＋文 → …）
+ROTATION = ["sogo", "hou", "kankyo", "bun"]
+
+
+def essay_slots(day):
+    k = day.toordinal() % 4
+    return [ROTATION[k], ROTATION[(k + 2) % 4]]
 
 
 def load_history(data_dir):
@@ -32,21 +38,28 @@ def _load(files, feeds, label):
     return fetch_all(feeds)
 
 
-def review_picks(day, history):
-    """出題圏内に集めた記事から、直近30日に復習していないものを学部ごと・英語2本選ぶ。"""
+def _with_faculties(article):
+    """対象学部の表示用に、主対象＋テーマのもう1学部を並べる（例: 総合政策・環境情報）。"""
+    others = [f for f in THEME_BY_ID[article["theme"]]["faculties"] if f != article["faculty"]]
+    return {**article, "faculties": [article["faculty"]] + others[:1]}
+
+
+def review_picks(day, history, slots):
+    """出題圏内に集めた記事から、直近30日に復習していないものを選ぶ。紙面ごと再利用する。"""
     recent = {a["link"] for d, e in history[:30] if e.get("mode") == "review"
               for a in e["essays"] + e["english"]}
     pool_essays, pool_english = [], []
     for d, e in history:
         if e.get("mode") == "review" or not in_window(d, day):
             continue
-        pool_essays += [{**a, "from_date": d} for a in e["essays"] if a["link"] not in recent]
+        pool_essays += [({**a, "from_date": d}, e) for a in e["essays"] if a["link"] not in recent]
         pool_english += [{**a, "from_date": d} for a in e["english"] if a["link"] not in recent]
-    essays = {}
-    for fac in (f["id"] for f in FACULTIES):
-        cands = sorted((a for a in pool_essays if a["faculty"] == fac), key=lambda a: a["score"], reverse=True)
+    essays, source = {}, None
+    for fac in slots:
+        cands = sorted((x for x in pool_essays if x[0]["faculty"] == fac), key=lambda x: x[0]["score"], reverse=True)
         if cands:
-            essays[fac] = cands[0]
+            essays[fac] = cands[0][0]
+            source = source or cands[0][1]
     english, used = [], set()
     for a in sorted(pool_english, key=lambda a: a["score"], reverse=True):
         if a["theme"] not in used:
@@ -54,37 +67,36 @@ def review_picks(day, history):
             used.add(a["theme"])
         if len(english) == 2:
             break
-    return essays, english
+    return essays, english, source
 
 
 def build(day, history, ja_articles, en_articles):
     mode = season(day)[0]
+    slots = essay_slots(day)
     recent_titles = [a["title"] for _, e in history[:7] for a in e["essays"] + e["english"]]
-    essays, english, message = {}, [], None
+    essays, english, source = {}, [], None
 
     if mode == "review":
-        essays, english = review_picks(day, history)
-        message = REVIEW_MESSAGE
+        essays, english, source = review_picks(day, history, slots)
 
     # 生の記事を使うのは、出題圏内の時期か、復習用のストックが足りないときだけ
-    missing = [f["id"] for f in FACULTIES if f["id"] not in essays]
+    missing = [f for f in slots if f not in essays]
     fresh_essays = pick_essays(ja_articles(), missing, recent_titles) if missing else {}
     fresh_english = pick_english(en_articles(), 2 - len(english), recent_titles) if len(english) < 2 else []
-    fresh_order = list(fresh_essays)
-    enriched_essays, enriched_english, fresh_message, _ = enrich(list(fresh_essays.values()), fresh_english)
-    for fac, a in zip(fresh_order, enriched_essays):
+    order = list(fresh_essays)
+    papers_e, papers_en, theme, history_window, by = enrich(
+        [_with_faculties(fresh_essays[f]) for f in order], fresh_english)
+    for fac, a in zip(order, papers_e):
         essays[fac] = {**a, "outside_window": mode == "review"}
-    english += [{**a, "outside_window": mode == "review"} for a in enriched_english]
+    english += [{**a, "outside_window": mode == "review"} for a in papers_en]
 
-    ordered = [essays[f["id"]] for f in FACULTIES if f["id"] in essays]
+    ordered = [essays[f] for f in slots if f in essays]
     if not ordered and not english:
         return None
-    # メイン設問は学部を日替わりで回す（4日で一巡）
-    rotation = [f["id"] for f in FACULTIES]
-    main = next((rotation[(day.toordinal() + k) % 4] for k in range(4)
-                 if rotation[(day.toordinal() + k) % 4] in essays), None)
-    return {"date": day.isoformat(), "mode": mode, "main": main, "essays": ordered,
-            "english": english, "daily_message": message or fresh_message}
+    if source:  # 復習日は、元の号のテーマと世界史の窓を使う
+        theme, history_window, by = source["theme"], source["history"], source.get("generated_by", by)
+    return {"date": day.isoformat(), "mode": mode, "issue": len(history) + 1, "theme": theme,
+            "essays": ordered, "english": english, "history": history_window, "generated_by": by}
 
 
 def main(argv=None):
@@ -117,7 +129,7 @@ def main(argv=None):
     (out / ".nojekyll").touch()
 
     for a in entry["essays"]:
-        print(f"- [{a['faculty']}/{a['theme']}] {a['title']}", file=sys.stderr)
+        print(f"- [{'/'.join(a['faculties'])}:{a['theme']}] {a['title']}", file=sys.stderr)
     for a in entry["english"]:
         print(f"- [EN/{a['theme']}] {a['title']}", file=sys.stderr)
     return 0

@@ -1,4 +1,4 @@
-name: 朝の入試ニュース
+name: 慶應入試新聞
 
 on:
   schedule:
@@ -26,19 +26,26 @@ jobs:
           python-version: "3.11"
 
       - name: 依存関係をインストール
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+          sudo apt-get install -y -q fonts-noto-cjk
 
       - name: ニュースを集めてページを生成
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python -m ronbun_news --out docs
 
+      - name: 手書き用のA5 PDFを作成
+        continue-on-error: true  # PDF に失敗しても Web 版は更新する
+        run: python -m ronbun_news.pdf --out docs
+
       - name: 生成したページをコミット
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs
-          git diff --cached --quiet || git commit -m "朝の入試ニュース $(TZ=Asia/Tokyo date +%F)"
+          git diff --cached --quiet || git commit -m "慶應入試新聞 $(TZ=Asia/Tokyo date +%F)"
           git push
 
       - name: Discord に通知（任意）
@@ -47,5 +54,5 @@ jobs:
         if: env.DISCORD_WEBHOOK_URL != ''
         run: |
           curl -fsS -H "Content-Type: application/json" \
-            -d "{\"content\": \"📰 今朝の入試ニュースが届きました！ 10分でチェックしよう → ${PAGE_URL}\"}" \
+            -d "{\"content\": \"📰 今朝の慶應入試新聞が届きました！ 10分でチェックしよう → ${PAGE_URL}\"}" \
             "$DISCORD_WEBHOOK_URL"
