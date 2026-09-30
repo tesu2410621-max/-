@@ -1,67 +1,100 @@
 <!doctype html>
 <html lang="ja"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>慶應 朝の入試ニュース アーカイブ</title>
+<title>慶應入試新聞 バックナンバー</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>">
-<style>
-:root{--bg:#f6f5f1;--card:#fff;--ink:#1d1d1f;--sub:#5f6368;--line:#e4e2dc;--accent:#0b3d91;
---accent-soft:#e8eefb;--pro:#1e7a46;--pro-soft:#e7f5ec;--con:#b3261e;--con-soft:#fcebea;--gold:#9a6b00;--gold-soft:#fff5dc}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121316;--card:#1c1d21;--ink:#ececf0;
---sub:#a4a6ad;--line:#2e3036;--accent:#8fb2ff;--accent-soft:#1d2740;--pro:#6fd39a;--pro-soft:#15291e;--con:#ff8a80;
---con-soft:#331a19;--gold:#f3c562;--gold-soft:#2e2612}}
-:root[data-theme="dark"]{--bg:#121316;--card:#1c1d21;--ink:#ececf0;--sub:#a4a6ad;--line:#2e3036;--accent:#8fb2ff;
---accent-soft:#1d2740;--pro:#6fd39a;--pro-soft:#15291e;--con:#ff8a80;--con-soft:#331a19;--gold:#f3c562;--gold-soft:#2e2612}
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700;900&display=swap" rel="stylesheet"><style>
+:root{color-scheme:light;--ink:#1a1a1a;--sub:#555;--rule:#1a1a1a;--line:#bdbdbd;--paper:#fff;--desk:#e9e7e2;--tint:#efeeea}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 "Hiragino Sans","Noto Sans JP","Yu Gothic UI",system-ui,sans-serif}
-main{max-width:760px;margin:0 auto;padding:24px 16px 64px}
-a{color:var(--accent)}
-header h1{font-size:1.35rem;margin:0}
-header .date{color:var(--sub);margin:2px 0 12px}
-.msg{background:var(--gold-soft);color:var(--ink);border-left:4px solid var(--gold);padding:10px 14px;border-radius:8px}
-.nav{display:flex;gap:16px;font-size:.9rem;margin:10px 0 0}
-h2{font-size:1.05rem;margin:32px 0 12px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin:0 0 16px}
-.card.main{border:2px solid var(--accent)}
-.chip{display:inline-block;background:var(--accent-soft);color:var(--accent);font-size:.8rem;font-weight:600;
-padding:2px 10px;border-radius:999px;margin-right:6px}
-.card h3{font-size:1.08rem;line-height:1.5;margin:10px 0 4px}
-.card h3 a{color:var(--ink);text-decoration:none}
-.card h3 a:hover{text-decoration:underline}
-.src{color:var(--sub);font-size:.82rem;margin:0 0 10px}
-.label{font-weight:700;font-size:.85rem;color:var(--sub);margin:14px 0 4px}
-.sides{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-@media (max-width:560px){.sides{grid-template-columns:1fr}}
-.side{border-radius:10px;padding:10px 12px;font-size:.92rem}
-.side.pro{background:var(--pro-soft)}.side.con{background:var(--con-soft)}
-.side b{display:block;font-size:.82rem}.side.pro b{color:var(--pro)}.side.con b{color:var(--con)}
-.side ul{margin:4px 0 0;padding-left:1.1em}
-.concepts span{display:inline-block;border:1px solid var(--line);border-radius:6px;padding:1px 8px;margin:0 6px 6px 0;font-size:.85rem}
-.q{background:var(--accent-soft);border-radius:10px;padding:10px 12px;font-weight:600}
-ol.outline{margin:6px 0 0;padding-left:1.3em;font-size:.93rem}
-details summary{cursor:pointer;color:var(--accent);font-size:.9rem;margin-top:12px}
-textarea{width:100%;min-height:180px;margin-top:8px;padding:10px;border:1px solid var(--line);border-radius:10px;
-background:var(--bg);color:var(--ink);font:inherit;resize:vertical}
-.count{text-align:right;color:var(--sub);font-size:.82rem}
-.done{display:flex;align-items:center;gap:8px;margin-top:12px;font-size:.9rem;color:var(--sub)}
-.done input{width:18px;height:18px}
-.stats{display:flex;gap:10px;margin:14px 0 0}
-.stat{flex:1;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 12px;text-align:center}
-.stat b{display:block;font-size:1.3rem}.stat span{font-size:.78rem;color:var(--sub)}
-.routine{font-size:.92rem}.routine li{margin-bottom:4px}
-.archive a{display:block;padding:10px 0;border-bottom:1px solid var(--line);text-decoration:none;color:var(--ink)}
+html{background:var(--desk)}
+body{margin:0;color:var(--ink);background:var(--desk);
+font:15px/1.9 "Noto Serif JP","Hiragino Mincho ProN","Yu Mincho",serif}
+.sans,.kicker,.sec,.topbar,.dateline,.index,.box h4,.tools,.src,.foot,h3.label,.from,.window,.note{
+font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",sans-serif}
+.tools{max-width:760px;margin:0 auto;padding:12px 16px 0;display:flex;gap:16px;font-size:.85rem;flex-wrap:wrap}
+.tools a{color:var(--ink)}
+.sheet{max-width:760px;margin:12px auto 40px;background:var(--paper);padding:28px 32px 36px;box-shadow:0 1px 3px rgba(0,0,0,.15)}
+@media (max-width:600px){.sheet{padding:20px 16px 28px;margin:8px 0 24px}}
+.topbar{display:flex;justify-content:space-between;gap:8px;font-size:.72rem;color:var(--sub)}
+.masthead{text-align:center;margin:4px 0 0}
+.masthead h1{font-weight:900;font-size:clamp(2rem,8vw,3.1rem);letter-spacing:.18em;margin:0;line-height:1.3}
+.masthead .en{font-size:.72rem;letter-spacing:.42em;color:var(--sub);margin:2px 0 8px}
+.dateline{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;border-top:3px double var(--rule);
+border-bottom:1px solid var(--rule);padding:4px 0;font-size:.78rem}
+.index{display:flex;border:1px solid var(--rule);margin:12px 0 6px}
+.index .v{writing-mode:vertical-rl;background:var(--ink);color:#fff;font-weight:700;font-size:.78rem;padding:8px 4px;letter-spacing:.2em}
+.index ol{list-style:none;margin:0;padding:4px 10px;flex:1;font-size:.8rem}
+.index li{border-bottom:1px dotted var(--line);padding:3px 0;line-height:1.5}
+.index li:last-child{border-bottom:0}
+.index b{display:inline-block;min-width:5.2em}
+.window{font-size:.74rem;color:var(--sub);margin:0 0 4px}
+.sec{display:flex;align-items:center;gap:10px;margin:26px 0 8px}
+.sec span{background:var(--ink);color:#fff;font-weight:700;font-size:.8rem;padding:3px 10px;letter-spacing:.1em}
+.sec::after{content:"";flex:1;border-top:2px solid var(--rule)}
+.kicker{font-size:.76rem;font-weight:700;color:var(--sub);margin:0}
+.from{font-size:.74rem;font-weight:700;margin:2px 0 0}
+h2.hl{font-weight:900;font-size:clamp(1.45rem,5.2vw,1.9rem);line-height:1.35;margin:2px 0 6px}
+.subhead{font-weight:700;font-size:1.02rem;border-left:5px solid var(--ink);padding-left:8px;margin:0 0 8px;line-height:1.5}
+.lead{font-family:"Noto Sans JP","Hiragino Sans",sans-serif;font-weight:700;font-size:.9rem;border-top:1px solid var(--rule);
+border-bottom:1px solid var(--rule);padding:8px 0;margin:0 0 4px;line-height:1.8}
+.lead .src{font-weight:400;font-size:.76rem;color:var(--sub)}
+h3.label{font-size:.88rem;font-weight:700;border-bottom:1px solid var(--rule);padding-bottom:2px;margin:16px 0 6px}
+p.body{text-indent:1em;margin:0 0 6px}
+b.k{font-weight:700;text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}
+ul.dots{list-style:none;padding:0;margin:6px 0}
+ul.dots li{padding-left:1em;text-indent:-1em}
+ul.dots li::before{content:"・"}
+.box{border:1px solid var(--rule);padding:8px 12px;margin:12px 0}
+.box h4{font-size:.8rem;margin:0 0 6px;padding-bottom:3px;border-bottom:1px solid var(--line)}
+.issue .cols{display:grid;grid-template-columns:1fr 1fr}
+.issue .cols>div{padding:0 10px}.issue .cols>div:first-child{border-right:1px solid var(--line);padding-left:0}
+.issue .cols b{font-family:"Noto Sans JP",sans-serif;font-size:.8rem}
+.issue ul{margin:2px 0 0}
+.kw{background:var(--tint);border:0;border-left:4px solid var(--ink)}
+.kw p{margin:2px 0;font-size:.9rem}
+.q{border:1.5px dashed var(--ink)}
+.ans{background:var(--tint);border-left:0;border-right:0;border-width:1.5px 0}
+.ans p{margin:2px 0;font-size:.9rem}
+.ans b,.kw b{font-family:"Noto Sans JP",sans-serif}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:600px){.pair,.issue .cols{grid-template-columns:1fr}.issue .cols>div{padding:0!important;border:0!important}}
+table.words{width:100%;border-collapse:collapse;font-size:.88rem}
+table.words td{border-bottom:1px dotted var(--line);padding:3px 4px}
+table.words td:first-child{font-style:italic;font-weight:700;font-family:Georgia,"Times New Roman",serif}
+.ex .en{font-style:italic;font-family:Georgia,"Times New Roman",serif;font-size:.98rem;margin:0;line-height:1.6}
+.ex .ja{font-size:.78rem;color:var(--sub);margin:2px 0 0}
+.hist{border:1px solid var(--rule);margin:26px 0 8px}
+.hist .bar{background:var(--ink);color:#fff;font-family:"Noto Sans JP",sans-serif;font-weight:700;padding:3px 10px;letter-spacing:.3em;font-size:.85rem}
+.hist .in{padding:8px 12px}
+.note{font-size:.78rem;color:var(--sub);border:1px solid var(--line);padding:6px 10px;margin:10px 0}
+.foot{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;border-top:1px solid var(--rule);
+margin-top:14px;padding-top:4px;font-size:.7rem;color:var(--sub)}
+.archive a{display:block;padding:10px 0;border-bottom:1px dotted var(--line);color:var(--ink);text-decoration:none}
 .archive small{color:var(--sub)}
-footer{color:var(--sub);font-size:.8rem;margin-top:40px}
-.chip.fac{background:var(--ink);color:var(--bg)}
-.window{border-radius:10px;padding:10px 14px;margin:0 0 10px;font-size:.92rem;background:var(--pro-soft)}
-.window.review{background:var(--accent-soft)}
-.meta{color:var(--sub);font-size:.85rem;margin:6px 0 0}
-.from{font-size:.8rem;color:var(--gold);font-weight:600;margin:8px 0 0}
-table.vocab{border-collapse:collapse;width:100%;font-size:.9rem;margin-top:4px}
-table.vocab td{border-bottom:1px solid var(--line);padding:4px 6px;vertical-align:top}
-table.vocab td:first-child{font-weight:600;white-space:nowrap}
-.en h3{font-family:Georgia,"Times New Roman",serif}
+@page{size:A5;margin:10mm 10mm 11mm}
+@media print{
+  html,body{background:#fff}
+  body{font-size:9.2pt;line-height:1.68}
+  .tools,.lead a{display:none}
+  .sheet{max-width:none;margin:0;padding:0;box-shadow:none}
+  .masthead h1{font-size:30pt}
+  .masthead .en{margin:0 0 4px}
+  .index{margin:8px 0 4px}.index ol{font-size:8pt}.index li{padding:1px 0;line-height:1.45}
+  .sec{margin:10px 0 4px}
+  h2.hl{font-size:17pt;margin:0 0 4px}
+  .subhead{font-size:10pt;margin:0 0 6px}
+  .lead{font-size:8.8pt;padding:5px 0;line-height:1.65}
+  h3.label{font-size:8.8pt;margin:9px 0 4px}
+  .box{margin:8px 0;padding:6px 10px}
+  .kw p,.ans p{font-size:8.8pt}
+  table.words{font-size:8.4pt}
+  table.words td{padding:2px 4px;white-space:nowrap}
+  .newpage{break-before:page}
+  .box,.ex,.hist{break-inside:avoid}
+  h2.hl,.subhead,h3.label,.sec,.kicker{break-after:avoid}
+  a{color:inherit;text-decoration:none}
+}
 </style></head>
-<body><main><header><h1>📚 過去のニュース</h1>
-<nav class="nav"><a href="index.html">今日のニュースへ</a></nav></header>
-<section class="card archive"><a href="days/2026-09-30.html"><b>2026年9月30日（水）</b> 📖 ⚖️ 💡 🏛️ 🇬🇧 🇬🇧<br><small>政府・与党 臨時国会で消費税法案成立を 野党は論戦の構え</small></a></section>
-</main></body></html>
+<body><nav class="tools"><a href="index.html">最新号</a></nav>
+<main class="sheet"><header class="masthead"><h1>慶應入試新聞</h1><p class="en">BACK NUMBERS</p></header>
+<section class="archive"><a href="days/2026-09-30.html"><b>第1号　2026年（令和8年）9月30日　水曜日</b><br><small>民主主義・政治・法　政府・与党 臨時国会で消費税法案成立を 野党は論戦の構え ／ 天皇皇后両陛下 国民文化祭と全国障害者芸術・文化祭で高知へ</small></a></section></main></body></html>

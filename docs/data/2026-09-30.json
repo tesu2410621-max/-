@@ -1,42 +1,9 @@
 {
  "date": "2026-09-30",
  "mode": "live",
- "main": "hou",
+ "issue": 1,
+ "theme": "民主主義・政治・法",
  "essays": [
-  {
-   "title": "天皇皇后両陛下 国民文化祭と全国障害者芸術・文化祭で高知へ",
-   "link": "https://news.web.nhk/newsweb/na/nd-20260924de52200",
-   "summary": "天皇皇后両陛下は国民文化祭と、全国障害者芸術・文化祭の開会式に出席するため、来月25日から2日間の日程で、高知県を訪問されることになりました。",
-   "source": "NHK 社会",
-   "published": "2026-09-24T17:56:00+09:00",
-   "theme": "culture",
-   "score": 18.0,
-   "faculty": "bun",
-   "notes": {
-    "summary": "天皇皇后両陛下は国民文化祭と、全国障害者芸術・文化祭の開会式に出席するため、来月25日から2日間の日程で、高知県を訪問されることになりました。",
-    "angle": "文学部：課題文（評論）の要約と意見論述。言語・文化・歴史・人間など人文系の抽象的テーマが中心。「文化・言語・歴史・メディア」の具体例として使える。",
-    "pros": [
-     "伝統・固有性の継承"
-    ],
-    "cons": [
-     "変化・グローバル化への適応"
-    ],
-    "concepts": [
-     "アイデンティティ",
-     "集合的記憶",
-     "文化相対主義"
-    ],
-    "question": "このニュースを手がかりに、人間にとって文化（言葉・歴史・芸術）が持つ意味について考えを述べよ。",
-    "outline": [
-     "問題提起：このニュースが示す課題・問いは何か",
-     "原因分析：なぜそれが起きているのか（構造・制度・価値観）",
-     "解決策・自説の根拠：誰が何をすべきか／なぜそう考えるか",
-     "結論：自分の立場を一文で"
-    ]
-   },
-   "generated_by": "template",
-   "outside_window": false
-  },
   {
    "title": "政府・与党 臨時国会で消費税法案成立を 野党は論戦の構え",
    "link": "https://news.web.nhk/newsweb/na/nd-20260930de53231",
@@ -46,95 +13,105 @@
    "theme": "politics",
    "score": 24.0,
    "faculty": "hou",
-   "notes": {
-    "summary": "10月5日に召集される臨時国会で、政府・与党は食料品の消費税減税に関する法案などの成立に向けて野党との協力を模索していく方針です。 一方、野党の中には法案に反対や慎重な意見が根強くあり、国会論戦でた…",
-    "angle": "法学部：課題文を踏まえた論述。法・政治・人権・民主主義・国際社会について論理的な意見が求められる。「民主主義・政治・法」の具体例として使える。",
+   "faculties": [
+    "hou"
+   ],
+   "paper": {
+    "index_line": "政府・与党 臨時国会で消費税法案成立を 野党は論戦の構え",
+    "headline": "政府・与党 臨時国会で消費税法案成立を 野党は論戦の構え",
+    "subhead": "民主主義・政治・法の具体例として読む",
+    "lead": "10月5日に召集される臨時国会で、政府・与党は食料品の消費税減税に関する法案などの成立に向けて野党との協力を模索していく方針です。 一方、野党の中には法案に反対や慎重な意見が根強くあり、国会論戦でた…",
+    "sources": "NHK 政治",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "迅速な意思決定か、熟議・手続きの正当性か",
     "pros": [
      "迅速な意思決定"
     ],
     "cons": [
      "熟議・手続きの正当性"
     ],
-    "concepts": [
-     "代表制民主主義",
-     "熟議民主主義",
-     "法の支配"
+    "connection": "",
+    "keywords": [
+     {
+      "term": "代表制民主主義",
+      "definition": ""
+     },
+     {
+      "term": "熟議民主主義",
+      "definition": ""
+     },
+     {
+      "term": "法の支配",
+      "definition": ""
+     },
+     {
+      "term": "政治的無関心",
+      "definition": ""
+     }
     ],
     "question": "この政治・制度上の論点について、賛否両方の根拠を整理したうえで自分の立場を示せ。",
-    "outline": [
-     "問題提起：このニュースが示す課題・問いは何か",
-     "原因分析：なぜそれが起きているのか（構造・制度・価値観）",
-     "解決策・自説の根拠：誰が何をすべきか／なぜそう考えるか",
-     "結論：自分の立場を一文で"
-    ]
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
    },
    "generated_by": "template",
    "outside_window": false
   },
   {
-   "title": "ノーベル賞の研究成果を新たな治療法開発に 阪大が拠点設置へ",
-   "link": "https://news.web.nhk/newsweb/na/nd-20260928de52895",
-   "summary": "大阪大学は、2025年にノーベル賞を受賞した坂口志文さんをセンター長とする研究拠点を設置する方針を固めたことがわかりました。坂口さんが発見した過剰な免疫反応を抑える細胞を患者に投与する臨床研究などを行…",
-   "source": "NHK 科学・医療",
-   "published": "2026-09-28T18:40:02+09:00",
-   "theme": "science",
-   "score": 22.5,
-   "faculty": "kankyo",
-   "notes": {
-    "summary": "大阪大学は、2025年にノーベル賞を受賞した坂口志文さんをセンター長とする研究拠点を設置する方針を固めたことがわかりました。坂口さんが発見した過剰な免疫反応を抑える細胞を患者に投与する臨床研究などを行…",
-    "angle": "環境情報学部：テクノロジー・情報・生命・環境・デザイン。問題を発見し、アイデアや仕組みを構想・提案する力。「科学技術・生命・デザイン」の具体例として使える。",
-    "pros": [
-     "研究・技術開発の自由と恩恵"
-    ],
-    "cons": [
-     "倫理的限界・予期せぬリスク"
-    ],
-    "concepts": [
-     "科学技術の倫理",
-     "予防原則",
-     "オープンイノベーション"
-    ],
-    "question": "この技術・研究成果を社会に実装するとしたら、どんな仕組みをデザインするか。課題とあわせて提案せよ。",
-    "outline": [
-     "問題提起：このニュースが示す課題・問いは何か",
-     "原因分析：なぜそれが起きているのか（構造・制度・価値観）",
-     "解決策・自説の根拠：誰が何をすべきか／なぜそう考えるか",
-     "結論：自分の立場を一文で"
-    ]
-   },
-   "generated_by": "template",
-   "outside_window": false
-  },
-  {
-   "title": "熊本地震2か月 被災自治体の復旧・復興に向け支援チーム設置へ",
-   "link": "https://news.web.nhk/newsweb/na/nd-20260927de52689",
-   "summary": "7月の熊本地震から28日で2か月です。 熊本県は、被災した各自治体の課題などを把握し被災地の一刻も早い復旧・復興につなげるため、県庁内に部局横断型の「市町村復旧・復興支援チーム」を設置することになり…",
+   "title": "天皇皇后両陛下 国民文化祭と全国障害者芸術・文化祭で高知へ",
+   "link": "https://news.web.nhk/newsweb/na/nd-20260924de52200",
+   "summary": "天皇皇后両陛下は国民文化祭と、全国障害者芸術・文化祭の開会式に出席するため、来月25日から2日間の日程で、高知県を訪問されることになりました。",
    "source": "NHK 社会",
-   "published": "2026-09-28T19:35:00+09:00",
-   "theme": "disaster",
-   "score": 19.5,
-   "faculty": "sogo",
-   "notes": {
-    "summary": "7月の熊本地震から28日で2か月です。 熊本県は、被災した各自治体の課題などを把握し被災地の一刻も早い復旧・復興につなげるため、県庁内に部局横断型の「市町村復旧・復興支援チーム」を設置することになり…",
-    "angle": "総合政策学部：社会課題の発見と解決策の提案。資料・データの読み取りと政策的な思考が重視される。「防災・リスク社会」の具体例として使える。",
+   "published": "2026-09-24T17:56:00+09:00",
+   "theme": "culture",
+   "score": 18.0,
+   "faculty": "bun",
+   "faculties": [
+    "bun"
+   ],
+   "paper": {
+    "index_line": "天皇皇后両陛下 国民文化祭と全国障害者芸術・文化祭で高知へ",
+    "headline": "天皇皇后両陛下 国民文化祭と全国障害者芸術・文化祭で高知へ",
+    "subhead": "文化・言語・歴史・メディアの具体例として読む",
+    "lead": "天皇皇后両陛下は国民文化祭と、全国障害者芸術・文化祭の開会式に出席するため、来月25日から2日間の日程で、高知県を訪問されることになりました。",
+    "sources": "NHK 社会",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "伝統・固有性の継承か、変化・グローバル化への適応か",
     "pros": [
-     "事前防災への投資"
+     "伝統・固有性の継承"
     ],
     "cons": [
-     "限られた財源の他分野への配分"
+     "変化・グローバル化への適応"
     ],
-    "concepts": [
-     "自助・共助・公助",
-     "レジリエンス",
-     "費用便益分析"
+    "connection": "",
+    "keywords": [
+     {
+      "term": "アイデンティティ",
+      "definition": ""
+     },
+     {
+      "term": "集合的記憶",
+      "definition": ""
+     },
+     {
+      "term": "文化相対主義",
+      "definition": ""
+     },
+     {
+      "term": "他者理解",
+      "definition": ""
+     }
     ],
-    "question": "災害リスクに社会全体でどう備えるべきか。行政・地域・個人の役割に分けて提案せよ。",
-    "outline": [
-     "問題提起：このニュースが示す課題・問いは何か",
-     "原因分析：なぜそれが起きているのか（構造・制度・価値観）",
-     "解決策・自説の根拠：誰が何をすべきか／なぜそう考えるか",
-     "結論：自分の立場を一文で"
-    ]
+    "question": "このニュースを手がかりに、人間にとって文化（言葉・歴史・芸術）が持つ意味について考えを述べよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
    },
    "generated_by": "template",
    "outside_window": false
@@ -149,10 +126,14 @@
    "published": "2026-09-24T16:03:32+00:00",
    "theme": "econ",
    "score": 11,
-   "notes": {
-    "summary_ja": "BoE deputy governor cites risks from energy prices, as US 30-year bond yields hits highest since 2004Newsflash: A Bank of England deputy governor is warning that interest rates will be raised, if necessary, to combat the risk of persistent inflationary pressures from higher oil prices.Clare Lombarde",
-    "background": "インフレ・金利・貿易摩擦は経済学部の長文で頻出。「需要と供給」「インセンティブ」「比較優位」で説明できるか意識しよう。",
-    "passage_angle": "「経済・市場」は評論・論説文として出やすい。筆者の主張と具体例を区別して読もう。",
+   "paper": {
+    "index_line": "UK interest rate rise ‘increasingly like",
+    "headline": "UK interest rate rise ‘increasingly likely’ with high energy prices; inflation fears hit bonds – as it happened",
+    "subhead": "経済・市場",
+    "lead": "BoE deputy governor cites risks from energy prices, as US 30-year bond yields hits highest since 2004Newsflash: A Bank of England deputy governor is warning that interest rates will be raised, if necessary, to combat the risk of persistent inflationary pressures from higher oil prices.Clare Lombarde",
+    "sources": "The Guardian Economics",
+    "what_happened": "",
+    "keio_angle": "インフレ・金利・貿易摩擦は経済学部の長文で頻出。「需要と供給」「インセンティブ」「比較優位」で説明できるか意識しよう。",
     "vocab": [
      {
       "en": "inflation",
@@ -174,49 +155,63 @@
       "en": "fiscal",
       "ja": "財政の"
      }
-    ]
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
    },
    "generated_by": "template",
    "outside_window": false
   },
   {
-   "title": "From human rights to mathematical research: how AI is being used for good",
-   "link": "https://www.npr.org/2026/09/27/nx-s1-5981063/from-human-rights-to-mathematical-research-how-ai-is-being-used-for-good",
-   "summary": "While many fear the potential dangers of AI, some experts across the cybersecurity and human rights communities want to wield it as a tool for good.",
-   "source": "NPR Technology",
-   "published": "2026-09-27T08:06:25-04:00",
-   "theme": "tech",
+   "title": "Biden-Era Migration Surge Boosts U.S. Economy, Study Finds",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LekVQRkdNZU9YZkRnV25vUEFDWGtGeGRuYjV6UnV5dHZmeEFiMWpva3VtOEVmS2F1bVZRVEhiVXZjTXd0NWh1d2x2N19pa0JiVU12WE8zNDE?oc=5",
+   "summary": "",
+   "source": "CubaHeadlines",
+   "published": "2026-09-30T01:01:02+00:00",
+   "theme": "society",
    "score": 8,
-   "notes": {
-    "summary_ja": "While many fear the potential dangers of AI, some experts across the cybersecurity and human rights communities want to wield it as a tool for good.",
-    "background": "AI・SNS・プライバシーは経済・商の両方で近年頻出。技術の「便益」と「副作用（格差・依存・監視）」の両面で書かれることが多い。",
-    "passage_angle": "「テクノロジーと社会」は評論・論説文として出やすい。筆者の主張と具体例を区別して読もう。",
+   "paper": {
+    "index_line": "Biden-Era Migration Surge Boosts U.S. Ec",
+    "headline": "Biden-Era Migration Surge Boosts U.S. Economy, Study Finds",
+    "subhead": "社会・心理・教育",
+    "lead": "",
+    "sources": "CubaHeadlines",
+    "what_happened": "",
+    "keio_angle": "心理学・行動科学の実験を紹介する英文は経済・商ともに多い。「実験の設定→結果→解釈」の流れを追う練習になる。",
     "vocab": [
      {
-      "en": "automation",
-      "ja": "自動化"
+      "en": "cognitive bias",
+      "ja": "認知バイアス"
      },
      {
-      "en": "surveillance",
-      "ja": "監視"
+      "en": "well-being",
+      "ja": "幸福"
      },
      {
-      "en": "privacy",
-      "ja": "プライバシー"
+      "en": "hypothesis",
+      "ja": "仮説"
      },
      {
-      "en": "algorithm",
-      "ja": "アルゴリズム"
+      "en": "demographic",
+      "ja": "人口統計の"
      },
      {
-      "en": "disrupt",
-      "ja": "（既存の秩序を）混乱・一新させる"
+      "en": "conformity",
+      "ja": "同調"
      }
-    ]
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
    },
    "generated_by": "template",
    "outside_window": false
   }
  ],
- "daily_message": "今日のメイン設問を「問題→原因→解決策」の3行でまとめてみよう ✍️"
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
 }
