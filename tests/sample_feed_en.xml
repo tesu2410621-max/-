@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Fictional sample items for tests (not real news) -->
+<rss version="2.0"><channel><title>Sample</title>
+<item><title>[Sample] Why consumers pay more for brands they trust, study finds</title><link>https://example.org/1</link><description>Researchers examined consumer behavior and brand loyalty in retail markets.</description></item>
+<item><title>[Sample] Central bank holds interest rate as inflation cools</title><link>https://example.org/2</link><description>Economists debate whether the economy can avoid recession.</description></item>
+<item><title>[Sample] Premier League match ends in dramatic draw</title><link>https://example.org/3</link><description>Football highlights.</description></item>
+<item><title>[Sample] Central bank keeps interest rate unchanged as inflation cools</title><link>https://example.org/4</link><description>Duplicate story from another outlet.</description></item>
+<item><title>[Sample] AI automation and the future of jobs</title><link>https://example.org/5</link><description>A report on technology, wages and inequality.</description></item>
+</channel></rss>

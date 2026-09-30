@@ -3,7 +3,8 @@
 import datetime
 from html import escape
 
-from .themes import THEME_BY_ID
+from .exam import banner
+from .themes import ENGLISH_THEME_BY_ID, FACULTY_BY_ID, THEME_BY_ID
 
 WEEKDAYS = "月火水木金土日"
 
@@ -55,6 +56,15 @@ background:var(--bg);color:var(--ink);font:inherit;resize:vertical}
 .archive a{display:block;padding:10px 0;border-bottom:1px solid var(--line);text-decoration:none;color:var(--ink)}
 .archive small{color:var(--sub)}
 footer{color:var(--sub);font-size:.8rem;margin-top:40px}
+.chip.fac{background:var(--ink);color:var(--bg)}
+.window{border-radius:10px;padding:10px 14px;margin:0 0 10px;font-size:.92rem;background:var(--pro-soft)}
+.window.review{background:var(--accent-soft)}
+.meta{color:var(--sub);font-size:.85rem;margin:6px 0 0}
+.from{font-size:.8rem;color:var(--gold);font-weight:600;margin:8px 0 0}
+table.vocab{border-collapse:collapse;width:100%;font-size:.9rem;margin-top:4px}
+table.vocab td{border-bottom:1px solid var(--line);padding:4px 6px;vertical-align:top}
+table.vocab td:first-child{font-weight:600;white-space:nowrap}
+.en h3{font-family:Georgia,"Times New Roman",serif}
 """
 
 SCRIPT = """
@@ -93,6 +103,8 @@ SCRIPT = """
 """
 
 
+
+
 def _head(title):
     return f"""<!doctype html>
 <html lang="ja"><head><meta charset="utf-8">
@@ -112,68 +124,128 @@ def _list(items):
     return "".join(f"<li>{escape(i)}</li>" for i in items)
 
 
-def _card(i, article, notes, is_main):
-    theme = THEME_BY_ID[article["theme"]]
-    concepts = "".join(f"<span>{escape(c)}</span>" for c in notes["concepts"])
-    outline = f'<ol class="outline">{_list(notes["outline"])}</ol>'
+def _chars(*texts):
+    return sum(len(t) for t in texts)
+
+
+def reading_minutes(entry):
+    """日本語は1分500字、英語は1分150語として、ページ全体を読む時間を見積もる。"""
+    ja = 0
+    for a in entry["essays"]:
+        n = a["notes"]
+        ja += _chars(a["title"], n["summary"], n["angle"], *n["pros"], *n["cons"], *n["concepts"])
+        if a["faculty"] == entry["main"]:
+            ja += _chars(n["question"], *n["outline"])
+    en_words = 0
+    for a in entry["english"]:
+        n = a["notes"]
+        ja += _chars(n["summary_ja"], n["background"], n["passage_angle"]) + 6 * len(n["vocab"])
+        en_words += len(a["title"].split()) + sum(len(v["en"].split()) for v in n["vocab"])
+    return max(1, round(ja / 500 + en_words / 150))
+
+
+def _from(a):
+    if a.get("from_date"):
+        return f'<p class="from">📅 {jp_date(a["from_date"])}のニュース（出題圏内）を復習</p>'
+    if a.get("outside_window"):
+        return '<p class="from">⚪ 出題圏外の新しいニュース：テーマ理解用として読もう</p>'
+    return ""
+
+
+def _read_box(key):
+    return f'<label class="done"><input type="checkbox" data-read="{key}"> 読んで要点を1つ言えるようになった</label>'
+
+
+def essay_card(a, is_main):
+    theme, fac, n = THEME_BY_ID[a["theme"]], FACULTY_BY_ID[a["faculty"]], a["notes"]
+    concepts = "".join(f"<span>{escape(c)}</span>" for c in n["concepts"])
+    outline = f'<ol class="outline">{_list(n["outline"])}</ol>'
     if is_main:
-        task = f"""<p class="label">✍️ 今日のメイン設問</p>
-<p class="q">{escape(notes["question"])}</p>
+        task = f"""<p class="label">✍️ 今日のメイン設問（{escape(fac['name'])}）</p>
+<p class="q">{escape(n["question"])}</p>
 <p class="label">🧭 構成メモ</p>{outline}
 <p class="label">📝 答案メモ（この端末に自動保存）</p>
-<textarea id="answer" placeholder="まずは構成メモを埋める → 余裕があれば400字で書いてみよう"></textarea>
+<textarea id="answer" placeholder="構成メモ4行を自分の言葉で埋める → 余裕があれば400字で"></textarea>
 <div class="count" id="count">0 字</div>"""
     else:
         task = f"""<details><summary>✍️ 設問と構成メモを見る</summary>
-<p class="q">{escape(notes["question"])}</p>{outline}</details>"""
+<p class="q">{escape(n["question"])}</p>{outline}</details>"""
     return f"""<article class="card{' main' if is_main else ''}">
-<span class="chip">{theme['emoji']} {escape(theme['name'])}</span>
-<h3><a href="{escape(article['link'])}" target="_blank" rel="noopener">{escape(article['title'])}</a></h3>
-<p class="src">{escape(article['source'])}</p>
-<p>{escape(notes['summary'])}</p>
-<p class="label">💡 小論文でのポイント</p><p>{escape(notes['why_it_matters'])}</p>
+<span class="chip fac">{fac['emoji']} {escape(fac['name'])}</span><span class="chip">{theme['emoji']} {escape(theme['name'])}</span>
+{_from(a)}
+<h3><a href="{escape(a['link'])}" target="_blank" rel="noopener">{escape(a['title'])}</a></h3>
+<p class="src">{escape(a['source'])}</p>
+<p>{escape(n['summary'])}</p>
+<p class="label">💡 {escape(fac['name'])}での使い方</p><p>{escape(n['angle'])}</p>
 <p class="label">⚖️ 論点</p>
-<div class="sides"><div class="side pro"><b>推進・賛成の論拠</b><ul>{_list(notes['pros'])}</ul></div>
-<div class="side con"><b>慎重・反対の論拠</b><ul>{_list(notes['cons'])}</ul></div></div>
+<div class="sides"><div class="side pro"><b>推進・賛成</b><ul>{_list(n['pros'])}</ul></div>
+<div class="side con"><b>慎重・反対</b><ul>{_list(n['cons'])}</ul></div></div>
 <p class="label">🔑 使える概念</p><div class="concepts">{concepts}</div>
 {task}
-<label class="done"><input type="checkbox" data-read="{i}"> 読んで論点を1つ言えるようになった</label>
+{_read_box(a['faculty'])}
 </article>"""
 
 
-def day_page(day, data, base=""):
-    articles, notes = data["articles"], data["notes"]
-    main_i = notes["main_index"]
-    cards_main = _card(main_i, articles[main_i], notes["articles"][main_i], True)
-    cards_rest = "".join(_card(i, a, notes["articles"][i], False)
-                         for i, a in enumerate(articles) if i != main_i)
-    by = "Claude による解説" if notes.get("generated_by") == "claude" else "テンプレート解説"
-    return f"""{_head(f"慶應小論文 朝ニュース {day}")}
+def english_card(i, a):
+    theme, n = ENGLISH_THEME_BY_ID[a["theme"]], a["notes"]
+    vocab = "".join(f"<tr><td>{escape(v['en'])}</td><td>{escape(v['ja'])}</td></tr>" for v in n["vocab"])
+    return f"""<article class="card en">
+<span class="chip fac">🇬🇧 経済・商 英語</span><span class="chip">{theme['emoji']} {escape(theme['name'])}</span>
+{_from(a)}
+<h3><a href="{escape(a['link'])}" target="_blank" rel="noopener">{escape(a['title'])}</a></h3>
+<p class="src">{escape(a['source'])}</p>
+<p>{escape(n['summary_ja'])}</p>
+<p class="label">🧠 長文のための背景知識</p><p>{escape(n['background'])}</p>
+<p class="label">📝 入試の英文ではこう出る</p><p>{escape(n['passage_angle'])}</p>
+<p class="label">🔤 押さえる語彙</p><table class="vocab">{vocab}</table>
+{_read_box(f"en{i}")}
+</article>"""
+
+
+def day_page(entry, base=""):
+    day = entry["date"]
+    kind, window_text = banner(datetime.date.fromisoformat(day))
+    main = next((a for a in entry["essays"] if a["faculty"] == entry["main"]), None)
+    rest = "".join(essay_card(a, False) for a in entry["essays"] if a is not main)
+    english = "".join(english_card(i, a) for i, a in enumerate(entry["english"]))
+    by = "Claude による解説" if any(a.get("generated_by") == "claude" for a in entry["essays"] + entry["english"]) \
+        else "テンプレート解説"
+    sections = ""
+    if main:
+        sections += f"<h2>🎯 今日のメイン設問</h2>{essay_card(main, True)}"
+    if rest:
+        sections += f"<h2>✍️ 小論文ネタ（文・法・環境情報・総合政策）</h2>{rest}"
+    if english:
+        sections += f"<h2>🇬🇧 英語長文の背景知識（経済・商）</h2>{english}"
+    return f"""{_head(f"慶應 朝の入試ニュース {day}")}
 <body data-day="{day}"><main>
-<header><h1>📰 慶應小論文 朝のニュース</h1>
-<p class="date">{jp_date(day)}　総合政策学部・併願対策</p>
-<p class="msg">{escape(notes['daily_message'])}</p>
+<header><h1>📰 慶應 朝の入試ニュース</h1>
+<p class="date">{jp_date(day)}　⏱ 約{reading_minutes(entry)}分で読めます</p>
+<p class="window {kind}">{escape(window_text)}</p>
+<p class="msg">{escape(entry['daily_message'])}</p>
 <div class="stats"><div class="stat"><b id="streak">0</b><span>🔥 連続日数</span></div>
 <div class="stat"><b id="total">0</b><span>📚 読んだ記事</span></div></div>
 <nav class="nav"><a href="{base}index.html">今日</a><a href="{base}archive.html">過去のニュース</a></nav></header>
-<h2>🎯 今日じっくり考える1本</h2>{cards_main}
-<h2>📚 そのほかの注目ニュース</h2>{cards_rest}
-<section class="card routine"><b>⏱ 朝のルーティン（10分）</b><ol>
-<li>全記事の見出しと「論点」だけ読む（3分）</li>
-<li>メイン設問の構成メモ4行を埋める（5分）</li>
-<li>「使える概念」から1つ選び、自分の言葉で説明できるか確認（2分）</li>
-</ol>週末はメイン設問から1本選び、時間を計って800字で書こう 💪</section>
+{sections}
+<section class="card routine"><b>⏱ 朝の10分ルーティン</b><ol>
+<li>小論文ネタ4本の「要点」と「論点」だけ読む（4分）</li>
+<li>英語2本の背景知識と語彙を確認。語彙は声に出して1回（3分）</li>
+<li>メイン設問の構成メモ4行を自分の言葉で埋める（3分）</li>
+</ol>日曜の復習日に、その週のメイン設問から1本を時間を計って書こう 💪
+<p class="meta">入試問題は本番の数か月前に作られるため、出題に反映されうるのはおおむね11月までのニュースです。
+英語長文も数年前までに出版された本や記事から採られることが多いので、個々のニュースより「背景にあるテーマ」を押さえるのが目的です。</p></section>
 <footer>記事の見出し・概要は各配信元のRSSより。本文は必ずリンク先で確認してください。解説：{by}</footer>
 </main><script>{SCRIPT}</script></body></html>"""
 
 
 def archive_page(entries):
     rows = []
-    for day, data in entries:
-        themes = " ".join(THEME_BY_ID[a["theme"]]["emoji"] for a in data["articles"])
-        main = data["articles"][data["notes"]["main_index"]]["title"]
-        rows.append(f'<a href="days/{day}.html"><b>{jp_date(day)}</b> {themes}<br><small>{escape(main)}</small></a>')
-    return f"""{_head("慶應小論文 朝ニュース アーカイブ")}
+    for day, e in entries:
+        icons = " ".join(FACULTY_BY_ID[a["faculty"]]["emoji"] for a in e["essays"]) + " 🇬🇧" * len(e["english"])
+        main = next((a["title"] for a in e["essays"] if a["faculty"] == e["main"]), "")
+        tag = "（復習）" if e.get("mode") == "review" else ""
+        rows.append(f'<a href="days/{day}.html"><b>{jp_date(day)}</b>{tag} {icons}<br><small>{escape(main)}</small></a>')
+    return f"""{_head("慶應 朝の入試ニュース アーカイブ")}
 <body><main><header><h1>📚 過去のニュース</h1>
 <nav class="nav"><a href="index.html">今日のニュースへ</a></nav></header>
 <section class="card archive">{''.join(rows) or '<p>まだありません</p>'}</section>

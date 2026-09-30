@@ -1,4 +1,4 @@
-name: 朝の小論文ニュース
+name: 朝の入試ニュース
 
 on:
   schedule:
@@ -38,7 +38,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs
-          git diff --cached --quiet || git commit -m "朝の小論文ニュース $(TZ=Asia/Tokyo date +%F)"
+          git diff --cached --quiet || git commit -m "朝の入試ニュース $(TZ=Asia/Tokyo date +%F)"
           git push
 
       - name: Discord に通知（任意）
@@ -47,5 +47,5 @@ jobs:
         if: env.DISCORD_WEBHOOK_URL != ''
         run: |
           curl -fsS -H "Content-Type: application/json" \
-            -d "{\"content\": \"📰 今朝の小論文ニュースが届きました！ 10分で論点をチェックしよう → ${PAGE_URL}\"}" \
+            -d "{\"content\": \"📰 今朝の入試ニュースが届きました！ 10分でチェックしよう → ${PAGE_URL}\"}" \
             "$DISCORD_WEBHOOK_URL"

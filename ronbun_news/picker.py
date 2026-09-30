@@ -1,45 +1,51 @@
-"""記事を「小論文の素材としての価値」で採点し、テーマが偏らないように選ぶ。"""
+"""記事を「入試の素材としての価値」で採点し、学部・分野が偏らないように選ぶ。"""
 
 import re
 
-from .themes import NOISE_WORDS, POLICY_WORDS, THEMES
+from .themes import (ENGLISH_NOISE_WORDS, ENGLISH_POLICY_WORDS, ENGLISH_THEMES, FACULTIES,
+                     NOISE_WORDS, POLICY_WORDS, THEME_BY_ID, THEMES)
+
+ESSAY = (THEMES, POLICY_WORDS, NOISE_WORDS)
+ENGLISH = (ENGLISH_THEMES, ENGLISH_POLICY_WORDS, ENGLISH_NOISE_WORDS)
 
 
 def _count(text, word):
-    # 英字の短い語（AI 等）は単語境界で数え、"MAIL" などへの誤反応を防ぐ
+    # 英字の語（AI 等）は単語境界で数え、"MAIL" などへの誤反応を防ぐ
     if word.isascii():
         return len(re.findall(rf"(?<![A-Za-z]){re.escape(word)}(?![A-Za-z])", text))
     return text.count(word)
 
 
-def classify(article):
-    """記事のテーマ別スコアを返す。タイトルでの一致を本文より重く見る。"""
+def theme_scores(article, kind=ESSAY):
+    """テーマごとの得点（キーワード一致＋政策語ボーナス−ノイズ減点）。タイトルの一致を重く見る。"""
+    themes, policy, noise = kind
+    english = kind is ENGLISH
     title, summary = article["title"], article.get("summary", "")
+    if english:
+        title, summary = title.lower(), summary.lower()
+    text = title + " " + summary
+    bonus = 2 * sum(1 for w in policy if _count(text, w)) - 6 * sum(1 for w in noise if _count(text, w))
     scores = {}
-    for theme in THEMES:
+    for theme in themes:
         s = sum(3 * _count(title, kw) + _count(summary, kw) for kw in theme["keywords"])
         if s:
-            scores[theme["id"]] = s
+            scores[theme["id"]] = s + bonus
     return scores
 
 
-def score(article):
-    text = article["title"] + " " + article.get("summary", "")
-    theme_scores = classify(article)
-    if not theme_scores:
+def score(article, kind=ESSAY):
+    scores = theme_scores(article, kind)
+    if not scores:
         return 0, None
-    best = max(theme_scores, key=theme_scores.get)
-    total = theme_scores[best] + 0.5 * (sum(theme_scores.values()) - theme_scores[best])
-    total += 2 * sum(1 for w in POLICY_WORDS if w in text)
-    total -= 6 * sum(1 for w in NOISE_WORDS if w in text)
-    return total, best
+    best = max(scores, key=scores.get)
+    return scores[best], best
 
 
 def _norm(title):
-    return re.sub(r"[\s　「」『』【】（）()、。・:：!！?？\-－]", "", title)[:40]
+    return re.sub(r"[\s　「」『』【】（）()、。・:：!！?？\-－'\"‘’“”]", "", title.lower())[:40]
 
 
-def _similar(a, b):
+def similar(a, b):
     """タイトルの文字bigramの重なりで同一ニュースの別配信を見分ける。"""
     grams = lambda s: {s[i:i + 2] for i in range(len(s) - 1)}
     ga, gb = grams(_norm(a)), grams(_norm(b))
@@ -48,33 +54,58 @@ def _similar(a, b):
     return len(ga & gb) / min(len(ga), len(gb)) > 0.6
 
 
-def pick(articles, n=5, exclude_titles=(), min_score=4):
-    """上位からテーマが重ならないよう n 本選び、足りなければ重複テーマで補う。"""
-    ranked = []
+def _candidates(articles, kind, exclude_titles, min_score):
+    """重複と直近に出した記事を除き、(記事, テーマ別得点) を最高点の順に返す。"""
+    scored = []
     for a in articles:
-        s, theme = score(a)
-        if theme and s >= min_score:
-            ranked.append({**a, "score": s, "theme": theme})
-    ranked.sort(key=lambda a: a["score"], reverse=True)
-
+        scores = {t: s for t, s in theme_scores(a, kind).items() if s >= min_score}
+        if scores:
+            scored.append((a, scores))
+    scored.sort(key=lambda x: max(x[1].values()), reverse=True)
     unique = []
-    for a in ranked:
-        if any(_similar(a["title"], t) for t in exclude_titles):
+    for a, scores in scored:
+        if any(similar(a["title"], t) for t in exclude_titles):
             continue
-        if any(_similar(a["title"], u["title"]) for u in unique):
+        if any(similar(a["title"], u["title"]) for u, _ in unique):
             continue
-        unique.append(a)
+        unique.append((a, scores))
+    return unique
 
+
+def pick_essays(articles, faculties=None, exclude_titles=(), min_score=4):
+    """学部ごとに1本ずつ選ぶ。候補の少ない学部（文→法→環境情報→総合政策）から順に割り当てる。"""
+    faculties = faculties or [f["id"] for f in FACULTIES]
+    cands = _candidates(articles, ESSAY, exclude_titles, min_score)
+    chosen, used = {}, set()
+    for fac in faculties:
+        best = None
+        for i, (a, scores) in enumerate(cands):
+            if i in used:
+                continue
+            for theme, s in scores.items():
+                faculties_of_theme = THEME_BY_ID[theme]["faculties"]
+                if fac not in faculties_of_theme:
+                    continue
+                if faculties_of_theme[0] == fac:  # 本命の学部なら優先する
+                    s *= 1.5
+                if best is None or s > best[2]:
+                    best = (i, theme, s)
+        if best:
+            i, theme, s = best
+            used.add(i)
+            chosen[fac] = {**cands[i][0], "theme": theme, "score": s, "faculty": fac}
+    return chosen
+
+
+def pick_english(articles, n=2, exclude_titles=(), min_score=4):
+    """英語記事を分野が重ならないように n 本選ぶ。"""
     chosen, used = [], set()
-    for a in unique:
-        if a["theme"] not in used:
-            chosen.append(a)
-            used.add(a["theme"])
-        if len(chosen) == n:
-            return chosen
-    for a in unique:
-        if a not in chosen:
-            chosen.append(a)
+    for a, scores in _candidates(articles, ENGLISH, exclude_titles, min_score):
+        theme = max(scores, key=scores.get)
+        if theme in used:
+            continue
+        chosen.append({**a, "theme": theme, "score": scores[theme]})
+        used.add(theme)
         if len(chosen) == n:
             break
     return chosen

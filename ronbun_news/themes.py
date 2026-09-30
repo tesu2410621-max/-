@@ -1,4 +1,4 @@
-"""慶應小論文（特に総合政策学部）で問われやすいテーマの定義。
+"""慶應の小論文（文・法・環境情報・総合政策）と英語長文（経済・商）で問われやすいテーマの定義。
 
 各テーマは、記事の振り分けに使うキーワードと、Claude が使えないときでも
 記事を「小論文の素材」として読めるようにするための論点・概念・設問を持つ。
@@ -7,6 +7,7 @@
 THEMES = [
     {
         "id": "ai",
+        "faculties": ["kankyo", "sogo", "hou"],
         "name": "AI・デジタル社会",
         "emoji": "🤖",
         "keywords": ["AI", "生成AI", "人工知能", "デジタル", "DX", "SNS", "データ", "個人情報",
@@ -18,6 +19,7 @@ THEMES = [
     },
     {
         "id": "population",
+        "faculties": ["sogo"],
         "name": "少子高齢化・人口減少",
         "emoji": "👶",
         "keywords": ["少子化", "出生", "出生率", "高齢", "人口減", "人口", "介護", "年金", "社会保障",
@@ -29,6 +31,7 @@ THEMES = [
     },
     {
         "id": "region",
+        "faculties": ["sogo", "kankyo"],
         "name": "地方創生・都市とまちづくり",
         "emoji": "🏘️",
         "keywords": ["地方", "過疎", "自治体", "地域", "移住", "空き家", "観光", "オーバーツーリズム",
@@ -40,6 +43,7 @@ THEMES = [
     },
     {
         "id": "environment",
+        "faculties": ["kankyo", "sogo"],
         "name": "環境・エネルギー",
         "emoji": "🌏",
         "keywords": ["気候", "温暖化", "脱炭素", "再生可能", "再エネ", "原発", "原子力", "エネルギー",
@@ -51,6 +55,7 @@ THEMES = [
     },
     {
         "id": "disaster",
+        "faculties": ["sogo", "kankyo"],
         "name": "防災・リスク社会",
         "emoji": "🌀",
         "keywords": ["地震", "豪雨", "台風", "防災", "避難", "災害", "津波", "洪水", "インフラ", "老朽化", "復興"],
@@ -61,6 +66,7 @@ THEMES = [
     },
     {
         "id": "global",
+        "faculties": ["hou", "sogo"],
         "name": "国際関係・安全保障",
         "emoji": "🕊️",
         "keywords": ["外交", "紛争", "戦争", "停戦", "ウクライナ", "ロシア", "中東", "ガザ", "イスラエル",
@@ -72,6 +78,7 @@ THEMES = [
     },
     {
         "id": "inequality",
+        "faculties": ["sogo", "hou"],
         "name": "格差・労働・働き方",
         "emoji": "⚖️",
         "keywords": ["格差", "貧困", "賃金", "賃上げ", "最低賃金", "非正規", "働き方", "人手不足",
@@ -83,6 +90,7 @@ THEMES = [
     },
     {
         "id": "diversity",
+        "faculties": ["hou", "bun", "sogo"],
         "name": "多様性・人権・共生",
         "emoji": "🌈",
         "keywords": ["ジェンダー", "女性", "LGBT", "同性婚", "多様性", "障害", "差別", "外国人", "共生",
@@ -94,6 +102,7 @@ THEMES = [
     },
     {
         "id": "education",
+        "faculties": ["sogo", "bun"],
         "name": "教育・学び",
         "emoji": "🎓",
         "keywords": ["教育", "学校", "大学", "入試", "不登校", "いじめ", "教員", "教師", "学力",
@@ -105,6 +114,7 @@ THEMES = [
     },
     {
         "id": "economy",
+        "faculties": ["sogo"],
         "name": "経済・市場・企業",
         "emoji": "💹",
         "keywords": ["物価", "インフレ", "円安", "円高", "金利", "日銀", "株価", "景気", "企業",
@@ -116,6 +126,7 @@ THEMES = [
     },
     {
         "id": "health",
+        "faculties": ["sogo", "kankyo", "hou"],
         "name": "医療・健康",
         "emoji": "🏥",
         "keywords": ["医療", "感染", "ワクチン", "病院", "医師", "看護", "健康", "薬", "がん",
@@ -127,6 +138,7 @@ THEMES = [
     },
     {
         "id": "politics",
+        "faculties": ["hou"],
         "name": "民主主義・政治・法",
         "emoji": "🏛️",
         "keywords": ["選挙", "国会", "政策", "憲法", "規制", "法律", "法案", "政府", "投票", "政党",
@@ -136,9 +148,115 @@ THEMES = [
         "concepts": ["代表制民主主義", "熟議民主主義", "法の支配", "政治的無関心", "説明責任（アカウンタビリティ）"],
         "question": "この政治・制度上の論点について、賛否両方の根拠を整理したうえで自分の立場を示せ。",
     },
+    {
+        "id": "culture",
+        "faculties": ["bun"],
+        "name": "文化・言語・歴史・メディア",
+        "emoji": "📖",
+        "keywords": ["文化", "言語", "言葉", "国語", "日本語", "翻訳", "歴史", "文化財", "世界遺産", "伝統", "芸術", "美術",
+                     "音楽", "文学", "小説", "読書", "書店", "図書館", "博物館", "宗教", "哲学", "記憶",
+                     "戦後", "報道", "メディア", "言論", "表現の自由", "漫画", "アニメ", "方言"],
+        "issues": ["伝統・固有性の継承 vs 変化・グローバル化への適応",
+                   "表現の自由 vs 他者の尊厳・社会的影響への配慮"],
+        "concepts": ["アイデンティティ", "集合的記憶", "文化相対主義", "他者理解", "近代化"],
+        "question": "このニュースを手がかりに、人間にとって文化（言葉・歴史・芸術）が持つ意味について考えを述べよ。",
+    },
+    {
+        "id": "science",
+        "faculties": ["kankyo"],
+        "name": "科学技術・生命・デザイン",
+        "emoji": "🔬",
+        "keywords": ["研究", "宇宙", "ロケット", "遺伝子", "ゲノム", "iPS", "再生医療", "量子",
+                     "脳", "生命", "ノーベル", "発見", "開発", "実験", "デザイン", "スマートシティ",
+                     "ドローン", "センサー", "3D"],
+        "issues": ["研究・技術開発の自由と恩恵 vs 倫理的限界・予期せぬリスク",
+                   "技術で解決する発想 vs 制度や人の行動を変える発想"],
+        "concepts": ["科学技術の倫理", "予防原則", "オープンイノベーション", "人間中心設計", "トレードオフ"],
+        "question": "この技術・研究成果を社会に実装するとしたら、どんな仕組みをデザインするか。課題とあわせて提案せよ。",
+    },
 ]
 
 THEME_BY_ID = {t["id"]: t for t in THEMES}
+
+# 学部ごとの小論文の傾向（毎日1本ずつ、学部ごとに記事を割り当てる）
+# 各テーマの faculties の先頭は、そのテーマが最も「本命」となる学部
+FACULTIES = [
+    {"id": "bun", "name": "文学部", "emoji": "📖",
+     "style": "課題文（評論）の要約と意見論述。言語・文化・歴史・人間など人文系の抽象的テーマが中心。"},
+    {"id": "hou", "name": "法学部", "emoji": "⚖️",
+     "style": "課題文を踏まえた論述。法・政治・人権・民主主義・国際社会について論理的な意見が求められる。"},
+    {"id": "kankyo", "name": "環境情報学部", "emoji": "💡",
+     "style": "テクノロジー・情報・生命・環境・デザイン。問題を発見し、アイデアや仕組みを構想・提案する力。"},
+    {"id": "sogo", "name": "総合政策学部", "emoji": "🏛️",
+     "style": "社会課題の発見と解決策の提案。資料・データの読み取りと政策的な思考が重視される。"},
+]
+FACULTY_BY_ID = {f["id"]: f for f in FACULTIES}
+
+# 慶應経済・商学部の英語長文に出やすい分野（経済・経営・社会科学・テクノロジー・環境など）
+ENGLISH_THEMES = [
+    {
+        "id": "econ", "name": "経済・市場", "emoji": "💹",
+        "keywords": ["economy", "economic", "economist", "inflation", "market", "trade", "tariff", "growth",
+                     "recession", "interest rate", "central bank", "gdp", "prices", "tax", "debt"],
+        "background": "インフレ・金利・貿易摩擦は経済学部の長文で頻出。「需要と供給」「インセンティブ」「比較優位」で説明できるか意識しよう。",
+        "vocab": [("inflation", "インフレ"), ("tariff", "関税"), ("incentive", "誘因"),
+                  ("comparative advantage", "比較優位"), ("fiscal", "財政の")],
+    },
+    {
+        "id": "business", "name": "ビジネス・経営・消費", "emoji": "🏢",
+        "keywords": ["company", "companies", "business", "brand", "consumer", "consumers", "marketing",
+                     "advertising", "startup", "retail", "ceo", "supply chain", "corporate", "shoppers"],
+        "background": "商学部の長文ではマーケティング・消費者行動・企業戦略が定番。「なぜ人は買うのか」という行動経済学の視点が効く。",
+        "vocab": [("consumer behavior", "消費者行動"), ("revenue", "収益"), ("brand loyalty", "ブランドへの愛着"),
+                  ("competitor", "競合他社"), ("stakeholder", "利害関係者")],
+    },
+    {
+        "id": "work", "name": "労働・格差", "emoji": "⚖️",
+        "keywords": ["labor", "labour", "workers", "wage", "wages", "jobs", "employment", "inequality",
+                     "poverty", "remote work", "union", "minimum wage", "productivity"],
+        "background": "賃金格差・働き方・生産性は経済学部の定番テーマ。「市場の効率 vs 公平」という対立軸で読むと速い。",
+        "vocab": [("inequality", "不平等"), ("productivity", "生産性"), ("wage gap", "賃金格差"),
+                  ("labor shortage", "人手不足"), ("welfare", "福祉")],
+    },
+    {
+        "id": "tech", "name": "テクノロジーと社会", "emoji": "🤖",
+        "keywords": ["ai", "artificial intelligence", "technology", "algorithm", "data", "privacy",
+                     "social media", "robot", "automation", "chip", "chatbot", "internet", "smartphone"],
+        "background": "AI・SNS・プライバシーは経済・商の両方で近年頻出。技術の「便益」と「副作用（格差・依存・監視）」の両面で書かれることが多い。",
+        "vocab": [("automation", "自動化"), ("surveillance", "監視"), ("privacy", "プライバシー"),
+                  ("algorithm", "アルゴリズム"), ("disrupt", "（既存の秩序を）混乱・一新させる")],
+    },
+    {
+        "id": "environment", "name": "環境・エネルギー", "emoji": "🌏",
+        "keywords": ["climate", "carbon", "emissions", "renewable", "energy", "sustainability",
+                     "sustainable", "biodiversity", "pollution", "fossil fuel", "heatwave", "solar"],
+        "background": "気候変動は「外部性」「共有地の悲劇」など経済学の概念と結びつけて出題されやすい。",
+        "vocab": [("emissions", "排出（量）"), ("externality", "外部性"), ("sustainable", "持続可能な"),
+                  ("fossil fuel", "化石燃料"), ("mitigate", "緩和する")],
+    },
+    {
+        "id": "society", "name": "社会・心理・教育", "emoji": "🧠",
+        "keywords": ["psychology", "behavior", "behaviour", "happiness", "education", "students", "population",
+                     "ageing", "aging", "migration", "loneliness", "wellbeing", "study finds", "researchers"],
+        "background": "心理学・行動科学の実験を紹介する英文は経済・商ともに多い。「実験の設定→結果→解釈」の流れを追う練習になる。",
+        "vocab": [("cognitive bias", "認知バイアス"), ("well-being", "幸福"), ("hypothesis", "仮説"),
+                  ("demographic", "人口統計の"), ("conformity", "同調")],
+    },
+    {
+        "id": "politics", "name": "民主主義・グローバル化", "emoji": "🗳️",
+        "keywords": ["democracy", "election", "globalization", "globalisation", "government", "policy",
+                     "regulation", "populism", "sanctions", "immigration", "diplomacy"],
+        "background": "経済学部の長文は政治哲学・民主主義・グローバル化の評論も定番。筆者の立場（賛成か懐疑か）を早めにつかもう。",
+        "vocab": [("populism", "ポピュリズム"), ("sovereignty", "主権"), ("regulation", "規制"),
+                  ("polarization", "分断・二極化"), ("legitimacy", "正統性")],
+    },
+]
+ENGLISH_THEME_BY_ID = {t["id"]: t for t in ENGLISH_THEMES}
+
+ENGLISH_POLICY_WORDS = ["policy", "study", "research", "report", "survey", "economists", "analysis",
+                        "debate", "experts", "data show"]
+ENGLISH_NOISE_WORDS = ["football", "soccer", "cricket", "tennis", "celebrity", "murder", "arrested",
+                       "sentenced", "royal", "premier league", "match", "world cup", "strictly", "recipe"]
 
 # 政策的な議論を含む記事ほど小論文の素材として価値が高い
 POLICY_WORDS = ["政策", "制度", "課題", "対策", "議論", "導入", "検討", "規制", "支援",

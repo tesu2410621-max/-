@@ -9,8 +9,10 @@ import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 
 
-def _google_news(query):
+def _google_news(query, lang="ja"):
     q = urllib.parse.quote(f"{query} when:1d")
+    if lang == "en":
+        return f"https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en"
     return f"https://news.google.com/rss/search?q={q}&hl=ja&gl=JP&ceid=JP:ja"
 
 
@@ -29,6 +31,22 @@ FEEDS = [
     ("Google ニュース", _google_news("政策 課題")),
     ("Google ニュース", _google_news("少子化 OR 人口減少 OR 地方創生")),
     ("Google ニュース", _google_news("生成AI 規制 OR 脱炭素 OR 多様性")),
+    ("Google ニュース", _google_news("文化 OR 歴史 OR 言語 OR 文学 OR 表現の自由")),
+    ("Google ニュース", _google_news("研究 OR 宇宙 OR 遺伝子 OR テクノロジー 社会")),
+    ("Google ニュース", _google_news("憲法 OR 裁判 OR 人権 OR 民主主義")),
+]
+
+# 英語長文（経済・商学部）の背景知識用。英語のまま読むことで語彙の予習も兼ねる
+ENGLISH_FEEDS = [
+    ("BBC Business", "https://feeds.bbci.co.uk/news/business/rss.xml"),
+    ("BBC Technology", "https://feeds.bbci.co.uk/news/technology/rss.xml"),
+    ("BBC Science & Environment", "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"),
+    ("NPR Business", "https://feeds.npr.org/1006/rss.xml"),
+    ("NPR Technology", "https://feeds.npr.org/1019/rss.xml"),
+    ("The Conversation", "https://theconversation.com/global/articles.atom"),
+    ("The Guardian Economics", "https://www.theguardian.com/business/economics/rss"),
+    ("Google News", _google_news("economy OR inequality OR consumers study", "en")),
+    ("Google News", _google_news("psychology study OR behavioral economics OR climate policy", "en")),
 ]
 
 USER_AGENT = "Mozilla/5.0 (compatible; ronbun-news/1.0)"
@@ -91,7 +109,9 @@ def fetch_all(feeds=FEEDS, timeout=20):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
             with urllib.request.urlopen(req, timeout=timeout) as resp:
-                articles.extend(parse_feed(resp.read(), source))
+                got = parse_feed(resp.read(), source)
+            articles.extend(got)
+            print(f"[info] {source}: {len(got)} 件", file=sys.stderr)
         except Exception as e:  # 1つの配信元の失敗で全体を止めない
             print(f"[warn] {source} の取得に失敗: {e}", file=sys.stderr)
     return articles
