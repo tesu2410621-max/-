@@ -25,6 +25,8 @@ def theme_scores(article, kind=ESSAY):
         title, summary = title.lower(), summary.lower()
     text = title + " " + summary
     bonus = 2 * sum(1 for w in policy if _count(text, w)) - 6 * sum(1 for w in noise if _count(text, w))
+    if not english and len(article["title"]) > 70:  # 長すぎる見出しは広報文であることが多い
+        bonus -= 6
     scores = {}
     for theme in themes:
         s = sum(3 * _count(title, kw) + _count(summary, kw) for kw in theme["keywords"])
@@ -54,6 +56,17 @@ def similar(a, b):
     return len(ga & gb) / min(len(ga), len(gb)) > 0.6
 
 
+def _trigrams(title):
+    title = re.sub(r"【[^】]*】", "", title)  # 【速報】などのラベルは話題ではない
+    words = re.findall(r"[一-龥々ァ-ヴー]{3,}", title)
+    return {w[i:i + 3] for w in words for i in range(len(w) - 2)}
+
+
+def same_topic(a, b):
+    """「消費税」「税法案」のような漢字・カタカナの3文字列を2つ以上共有していれば同じ話題とみなす。"""
+    return len(_trigrams(a) & _trigrams(b)) >= 2
+
+
 def _candidates(articles, kind, exclude_titles, min_score):
     """重複と直近に出した記事を除き、(記事, テーマ別得点) を最高点の順に返す。"""
     scored = []
@@ -80,7 +93,7 @@ def pick_essays(articles, faculties=None, exclude_titles=(), min_score=4):
     for fac in faculties:
         best = None
         for i, (a, scores) in enumerate(cands):
-            if i in used:
+            if i in used or any(same_topic(a["title"], c["title"]) for c in chosen.values()):
                 continue
             for theme, s in scores.items():
                 faculties_of_theme = THEME_BY_ID[theme]["faculties"]

@@ -116,3 +116,26 @@ class BuildTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class RealWorldRegressionTest(unittest.TestCase):
+    """初回の本番実行（2026-09-30）で見つかった選び方の問題。"""
+
+    ARTICLES = [
+        {"title": "【岡山大学】岡山大学と奈良先端科学技術大学院大学が包括連携協定を締結-地域中核・特色ある研究大学強化促進事業（J-PEAKS）採択大学間で次世代セキュアデータ基盤を共創、研究DX・社会実装を加速-",
+         "link": "https://example.com/r1", "summary": "", "source": "山陽新聞"},
+        {"title": "政府・与党 臨時国会で消費税法案成立を 野党は論戦の構え", "link": "https://example.com/r2",
+         "summary": "", "source": "NHK 政治"},
+        {"title": "木原官房長官 自民・小野寺氏“消費税減税法案に野党協力を”", "link": "https://example.com/r3",
+         "summary": "", "source": "NHK 政治"},
+        {"title": "物価高で家計の負担増 賃上げは追いつかず", "link": "https://example.com/r4",
+         "summary": "", "source": "NHK 経済"},
+    ]
+
+    def test_press_release_is_not_picked(self):
+        chosen = pick_essays(self.ARTICLES)
+        self.assertFalse(any("岡山大学" in a["title"] for a in chosen.values()))
+
+    def test_same_topic_is_not_picked_twice(self):
+        chosen = pick_essays(self.ARTICLES)
+        self.assertEqual(sum("消費税" in a["title"] for a in chosen.values()), 1)
