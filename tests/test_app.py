@@ -114,9 +114,6 @@ class BuildTest(unittest.TestCase):
             self.assertLess(archive.index("2026-10-01"), archive.index("2026-09-30"))
 
 
-if __name__ == "__main__":
-    unittest.main()
-
 
 class RealWorldRegressionTest(unittest.TestCase):
     """初回の本番実行（2026-09-30）で見つかった選び方の問題。"""
@@ -127,6 +124,8 @@ class RealWorldRegressionTest(unittest.TestCase):
         {"title": "政府・与党 臨時国会で消費税法案成立を 野党は論戦の構え", "link": "https://example.com/r2",
          "summary": "", "source": "NHK 政治"},
         {"title": "木原官房長官 自民・小野寺氏“消費税減税法案に野党協力を”", "link": "https://example.com/r3",
+         "summary": "", "source": "NHK 政治"},
+        {"title": "政府 食料品の消費税減税の準備を支援へ 予備費支出も", "link": "https://example.com/r5",
          "summary": "", "source": "NHK 政治"},
         {"title": "物価高で家計の負担増 賃上げは追いつかず", "link": "https://example.com/r4",
          "summary": "", "source": "NHK 経済"},
@@ -139,3 +138,12 @@ class RealWorldRegressionTest(unittest.TestCase):
     def test_same_topic_is_not_picked_twice(self):
         chosen = pick_essays(self.ARTICLES)
         self.assertEqual(sum("消費税" in a["title"] for a in chosen.values()), 1)
+
+    def test_common_office_names_do_not_merge_topics(self):
+        from ronbun_news.picker import same_topic
+        self.assertFalse(same_topic("官房長官 少子化対策を説明", "官房長官 原発再稼働に言及"))
+        self.assertTrue(same_topic("臨時国会で消費税法案成立を", "食料品の消費税減税の準備を支援へ"))
+
+
+if __name__ == "__main__":
+    unittest.main()

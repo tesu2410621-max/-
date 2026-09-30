@@ -62,9 +62,15 @@ def _trigrams(title):
     return {w[i:i + 3] for w in words for i in range(len(w) - 2)}
 
 
+# 役職・機関名など、話題が違っても見出しによく出る3文字列
+COMMON_TRIGRAMS = {"官房長", "房長官", "臨時国", "時国会", "通常国", "常国会", "自民党", "立憲民", "衆議院", "参議院",
+                   "大統領", "首相官", "委員会", "研究所", "文部科", "部科学", "科学省", "厚生労", "生労働", "労働省",
+                   "経済産", "済産業", "産業省", "国土交", "土交通", "交通省", "総務省", "外務省", "財務省", "警察庁"}
+
+
 def same_topic(a, b):
-    """「消費税」「税法案」のような漢字・カタカナの3文字列を2つ以上共有していれば同じ話題とみなす。"""
-    return len(_trigrams(a) & _trigrams(b)) >= 2
+    """「消費税」のような話題を表す漢字・カタカナの3文字列を共有していれば同じ話題とみなす。"""
+    return bool((_trigrams(a) & _trigrams(b)) - COMMON_TRIGRAMS)
 
 
 def _candidates(articles, kind, exclude_titles, min_score):
