@@ -1,0 +1,218 @@
+{
+ "date": "2026-10-01",
+ "mode": "live",
+ "issue": 2,
+ "theme": "AI・デジタル社会",
+ "essays": [
+  {
+   "title": "AIの安全対策でトランプ大統領と業界が合意 企業内管理導入へ | NHKニュース | 生成AI・人工知能、トランプ大統領、IT・ネット",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44MXBBMlA4dnB1Q3gtWFZVWEZhRm5McS1icktDbXNpY0FQYzIwRDMzdWpTUXhKMzUyX3JqRGpDaTRLSkllN3dBSlU5MXZVLWVyV2E5c3dhY3ZzTlNvMHNn?oc=5",
+   "summary": "",
+   "source": "news.web.nhk",
+   "published": "2026-09-30T02:22:27+00:00",
+   "theme": "ai",
+   "score": 28.5,
+   "faculty": "kankyo",
+   "faculties": [
+    "kankyo",
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "AIの安全対策でトランプ大統領と業界が合意 企業内管理導入へ | NHKニュース | 生成AI・人工知能、トランプ大統領、IT・ネット",
+    "headline": "AIの安全対策でトランプ大統領と業界が合意 企業内管理導入へ | NHKニュース | 生成AI・人工知能、トランプ大統領、IT・ネット",
+    "subhead": "AI・デジタル社会の具体例として読む",
+    "lead": "",
+    "sources": "news.web.nhk",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "技術革新による効率化・新産業創出か、雇用の置き換え・格差拡大か",
+    "pros": [
+     "技術革新による効率化・新産業創出"
+    ],
+    "cons": [
+     "雇用の置き換え・格差拡大"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "技術的失業",
+      "definition": ""
+     },
+     {
+      "term": "デジタル・デバイド",
+      "definition": ""
+     },
+     {
+      "term": "アルゴリズムの透明性",
+      "definition": ""
+     },
+     {
+      "term": "プラットフォーム規制",
+      "definition": ""
+     }
+    ],
+    "question": "この技術が社会に広がるとき、誰が得をし誰が損をするのかを整理し、望ましいルールのあり方を提案せよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "政府 食料品の消費税減税の準備を支援へ 予備費支出も",
+   "link": "https://news.web.nhk/newsweb/na/nd-20260925de52513",
+   "summary": "来年4月からの食料品の消費税減税に向けて、政府はレジシステムの改修などの準備作業を支援する方針で、必要な費用には今年度予算の予備費もあてる方向で調整しています。",
+   "source": "NHK 政治",
+   "published": "2026-09-26T05:39:00+09:00",
+   "theme": "economy",
+   "score": 30.0,
+   "faculty": "sogo",
+   "faculties": [
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "政府 食料品の消費税減税の準備を支援へ 予備費支出も",
+    "headline": "政府 食料品の消費税減税の準備を支援へ 予備費支出も",
+    "subhead": "経済・市場・企業の具体例として読む",
+    "lead": "来年4月からの食料品の消費税減税に向けて、政府はレジシステムの改修などの準備作業を支援する方針で、必要な費用には今年度予算の予備費もあてる方向で調整しています。",
+    "sources": "NHK 政治",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "市場メカニズムに委ねるか、政府が介入して是正するか",
+    "pros": [
+     "市場メカニズムに委ねる"
+    ],
+    "cons": [
+     "政府が介入して是正する"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "市場の失敗",
+      "definition": ""
+     },
+     {
+      "term": "インセンティブ",
+      "definition": ""
+     },
+     {
+      "term": "トレードオフ",
+      "definition": ""
+     },
+     {
+      "term": "財政の持続可能性",
+      "definition": ""
+     }
+    ],
+    "question": "この経済ニュースが家計・企業・政府にどう影響するかを整理し、望ましい政策対応を論じよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "UK income growth revised upwards as markets hail ‘resilient’ economy",
+   "link": "https://www.theguardian.com/business/2026/sep/30/uk-income-growth-john-healey-budget-gdp-ons",
+   "summary": "Boost for John Healey before budget as GDP figure shows UK economy grew faster than first estimated in second quarterBusiness live – latest updatesUK household income grew at a stronger pace than previously estimated during the first six months of the year, according to revisions of official data.Th",
+   "source": "The Guardian Economics",
+   "published": "2026-09-30T14:13:55+00:00",
+   "theme": "econ",
+   "score": 8,
+   "paper": {
+    "index_line": "UK income growth revised upwards as markets hail ‘resilient’ economy",
+    "headline": "UK income growth revised upwards as markets hail ‘resilient’ economy",
+    "subhead": "経済・市場",
+    "lead": "Boost for John Healey before budget as GDP figure shows UK economy grew faster than first estimated in second quarterBusiness live – latest updatesUK household income grew at a stronger pace than previously estimated during the first six months of the year, according to revisions of official data.Th",
+    "sources": "The Guardian Economics",
+    "what_happened": "",
+    "keio_angle": "インフレ・金利・貿易摩擦は経済学部の長文で頻出。「需要と供給」「インセンティブ」「比較優位」で説明できるか意識しよう。",
+    "vocab": [
+     {
+      "en": "inflation",
+      "ja": "インフレ"
+     },
+     {
+      "en": "tariff",
+      "ja": "関税"
+     },
+     {
+      "en": "incentive",
+      "ja": "誘因"
+     },
+     {
+      "en": "comparative advantage",
+      "ja": "比較優位"
+     },
+     {
+      "en": "fiscal",
+      "ja": "財政の"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "Trump administration to slash clean car rules aimed at cutting climate emissions",
+   "link": "https://www.theguardian.com/us-news/2026/sep/28/trump-administration-slashes-clean-car-rules",
+   "summary": "Environmentalists decry move that relaxes requirements on automakers to control pollution from gas-powered carsThe Trump administration on Monday announced it was slashing clean car rules that had been aimed at reducing planet-heating emissions and boosting electric vehicles.The move, which was crit",
+   "source": "The Guardian Environment",
+   "published": "2026-09-28T15:56:32+00:00",
+   "theme": "environment",
+   "score": 8,
+   "paper": {
+    "index_line": "Trump administration to slash clean car rules aimed at cutting climate emissions",
+    "headline": "Trump administration to slash clean car rules aimed at cutting climate emissions",
+    "subhead": "環境・エネルギー",
+    "lead": "Environmentalists decry move that relaxes requirements on automakers to control pollution from gas-powered carsThe Trump administration on Monday announced it was slashing clean car rules that had been aimed at reducing planet-heating emissions and boosting electric vehicles.The move, which was crit",
+    "sources": "The Guardian Environment",
+    "what_happened": "",
+    "keio_angle": "気候変動は「外部性」「共有地の悲劇」など経済学の概念と結びつけて出題されやすい。",
+    "vocab": [
+     {
+      "en": "emissions",
+      "ja": "排出（量）"
+     },
+     {
+      "en": "externality",
+      "ja": "外部性"
+     },
+     {
+      "en": "sustainable",
+      "ja": "持続可能な"
+     },
+     {
+      "en": "fossil fuel",
+      "ja": "化石燃料"
+     },
+     {
+      "en": "mitigate",
+      "ja": "緩和する"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
