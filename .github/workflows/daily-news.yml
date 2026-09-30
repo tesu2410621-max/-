@@ -1,0 +1,51 @@
+name: 朝の小論文ニュース
+
+on:
+  schedule:
+    - cron: "0 21 * * *"   # 毎日 06:00 JST（GitHub の混雑で数十分遅れることがあります）
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-news
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      # ステップの if から参照するためジョブ単位で定義する
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 依存関係をインストール
+        run: pip install -r requirements.txt
+
+      - name: ニュースを集めてページを生成
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m ronbun_news --out docs
+
+      - name: 生成したページをコミット
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet || git commit -m "朝の小論文ニュース $(TZ=Asia/Tokyo date +%F)"
+          git push
+
+      - name: Discord に通知（任意）
+        env:
+          PAGE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        if: env.DISCORD_WEBHOOK_URL != ''
+        run: |
+          curl -fsS -H "Content-Type: application/json" \
+            -d "{\"content\": \"📰 今朝の小論文ニュースが届きました！ 10分で論点をチェックしよう → ${PAGE_URL}\"}" \
+            "$DISCORD_WEBHOOK_URL"

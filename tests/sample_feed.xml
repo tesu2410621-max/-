@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- テスト用の架空の記事（実在のニュースではありません） -->
+<rss version="2.0"><channel><title>サンプル</title>
+<item><title>【サンプル】政府、生成AIの利用ルールを議論する有識者会議を設置へ</title><link>https://example.com/1</link><description>生成AIの普及を受け、偽情報対策や著作権の扱いについて規制の在り方を検討する。</description><pubDate>Wed, 30 Sep 2026 06:00:00 +0900</pubDate></item>
+<item><title>【サンプル】出生数が過去最少に　少子化対策の見直し論議</title><link>https://example.com/2</link><description>子育て支援の給付拡充と働き方改革のどちらを優先すべきか議論が続く。</description></item>
+<item><title>【サンプル】地方の路線バス、運転手不足で減便相次ぐ</title><link>https://example.com/3</link><description>過疎地域の交通を維持するため自治体が対策を検討。</description></item>
+<item><title>【サンプル】再生可能エネルギーの導入目標、脱炭素へ上積み検討</title><link>https://example.com/4</link><description>電気料金への影響も課題に。</description></item>
+<item><title>【サンプル】外国人労働者の受け入れ拡大、共生の課題も</title><link>https://example.com/5</link><description>人手不足を背景に制度改正。多文化共生の支援体制が問われる。</description></item>
+<item><title>【サンプル】プロ野球、首位攻防戦で逆転勝ち</title><link>https://example.com/6</link><description>スポーツの話題。</description></item>
+<item><title>【サンプル】強盗容疑で男を逮捕</title><link>https://example.com/7</link><description>事件。</description></item>
+<item><title>【サンプル】生成AIの利用ルール、政府が有識者会議を設置</title><link>https://example.com/8</link><description>同じニュースの別配信。</description></item>
+<item><title>【サンプル】教員不足が深刻化、学校の働き方改革が課題に</title><link>https://example.com/9</link><description>教育の質の維持に向けた制度見直し。</description></item>
+</channel></rss>
