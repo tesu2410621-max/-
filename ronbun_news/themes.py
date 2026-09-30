@@ -271,7 +271,8 @@ ENGLISH_THEME_BY_ID = {t["id"]: t for t in ENGLISH_THEMES}
 ENGLISH_POLICY_WORDS = ["policy", "study", "research", "report", "survey", "economists", "analysis",
                         "debate", "experts", "data show"]
 ENGLISH_NOISE_WORDS = ["football", "soccer", "cricket", "tennis", "celebrity", "murder", "arrested",
-                       "sentenced", "royal", "premier league", "match", "world cup", "strictly", "recipe"]
+                       "sentenced", "royal", "premier league", "match", "world cup", "strictly", "recipe",
+                       "as it happened", "live updates", "live:", "quiz"]
 
 # 政策的な議論を含む記事ほど小論文の素材として価値が高い
 POLICY_WORDS = ["政策", "制度", "課題", "対策", "議論", "導入", "検討", "規制", "支援",
@@ -287,4 +288,6 @@ NOISE_WORDS = ["逮捕", "容疑", "殺人", "強盗", "詐欺事件", "送検",
                "大谷", "Jリーグ", "プロ野球", "相撲", "ゴルフ", "芸能", "俳優", "歌手", "結婚発表",
                "競馬", "天気", "占い",
                # 企業・大学の広報（プレスリリース）は論点が薄い
-               "締結", "採択", "包括連携", "プレスリリース", "発売", "キャンペーン", "セール", "開催のお知らせ"]
+               "締結", "採択", "包括連携", "プレスリリース", "発売", "キャンペーン", "セール", "開催のお知らせ",
+               # 速報のまとめページや皇室の公務など、論点の立たない記事
+               "随時更新", "の動き）", "両陛下", "ご出席", "ご臨席"]

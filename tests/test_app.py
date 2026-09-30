@@ -230,6 +230,16 @@ class NotTooDomesticPoliticsTest(unittest.TestCase):
         self.assertFalse(any("与党" in t or "官房長官" in t for t in titles))
         self.assertTrue(all(a.get("lang") == "en" for a in chosen.values()))
 
+    def test_live_blogs_and_ceremonial_news_are_skipped(self):
+        ja = [{"title": "【随時更新】ロシア ウクライナに軍事侵攻（9月30日の動き）", "link": "https://example.com/l1",
+               "summary": "", "source": "NHK 国際"},
+              {"title": "天皇皇后両陛下 国民文化祭と全国障害者芸術・文化祭で高知へ", "link": "https://example.com/l2",
+               "summary": "", "source": "NHK 社会"}]
+        en = [{"title": "UK interest rate rise likely with high energy prices – as it happened",
+               "link": "https://example.org/l3", "summary": "inflation fears hit bonds", "source": "The Guardian"}]
+        self.assertEqual(pick_essays(ja, ["hou", "bun"]), {})
+        self.assertEqual(pick_english(en), [])
+
     def test_english_section_does_not_reuse_essay_articles(self):
         entry = build(D(2026, 10, 1), [], lambda: self.JA, lambda: self.EN)
         essay_links = {a["link"] for a in entry["essays"]}
