@@ -31,6 +31,8 @@ def theme_scores(article, kind=ESSAY):
     bonus = 2 * sum(1 for w in policy if _count(text, w)) - 6 * sum(1 for w in noise if _count(text, w))
     if not english and len(article["title"]) > 70:  # 長すぎる見出しは広報文であることが多い
         bonus -= 6
+    if any(ord(c) > 0xFFFF for c in article["title"]):  # 絵文字入りの見出しは告知・宣伝であることが多い
+        bonus -= 8
     scores = {}
     for theme in themes:
         s = sum(3 * _count(title, kw) + _count(summary, kw) for kw in theme.get(key, []))

@@ -234,7 +234,9 @@ class NotTooDomesticPoliticsTest(unittest.TestCase):
         ja = [{"title": "【随時更新】ロシア ウクライナに軍事侵攻（9月30日の動き）", "link": "https://example.com/l1",
                "summary": "", "source": "NHK 国際"},
               {"title": "天皇皇后両陛下 国民文化祭と全国障害者芸術・文化祭で高知へ", "link": "https://example.com/l2",
-               "summary": "", "source": "NHK 社会"}]
+               "summary": "", "source": "NHK 社会"},
+              {"title": "ふくおか県芸術文化祭🌿🦢【音楽】歌と出会い、 心がひとつになる 秋の音楽時間を楽しもう",
+               "link": "https://example.com/l4", "summary": "", "source": "ふくおかナビ"}]
         en = [{"title": "UK interest rate rise likely with high energy prices – as it happened",
                "link": "https://example.org/l3", "summary": "inflation fears hit bonds", "source": "The Guardian"}]
         self.assertEqual(pick_essays(ja, ["hou", "bun"]), {})

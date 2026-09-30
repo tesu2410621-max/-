@@ -50,6 +50,7 @@ ENGLISH_FEEDS = [
     ("The Guardian Global development", "https://www.theguardian.com/global-development/rss"),
     ("The Guardian Environment", "https://www.theguardian.com/environment/rss"),
     ("The Guardian Law", "https://www.theguardian.com/law/rss"),
+    ("The Guardian Books", "https://www.theguardian.com/books/rss"),  # 文学部（言語・文学・歴史）向け
     ("Google News", _google_news("economy OR inequality OR consumers study", "en")),
     ("Google News", _google_news("psychology study OR behavioral economics OR climate policy", "en")),
 ]
