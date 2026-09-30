@@ -154,7 +154,7 @@ def template_essay(article):
     theme = THEME_BY_ID[article["theme"]]
     pro, con = theme["issues"][0].split(" vs ")
     return {
-        "index_line": article["title"][:40],
+        "index_line": article["title"],
         "headline": article["title"],
         "subhead": f"{theme['name']}の具体例として読む",
         "lead": article.get("summary") or "",
@@ -172,7 +172,7 @@ def template_essay(article):
 def template_english(article):
     theme = ENGLISH_THEME_BY_ID[article["theme"]]
     return {
-        "index_line": article["title"][:40],
+        "index_line": article["title"],
         "headline": article["title"],
         "subhead": theme["name"],
         "lead": article.get("summary") or "",
