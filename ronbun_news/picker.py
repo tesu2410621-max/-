@@ -2,11 +2,16 @@
 
 import re
 
-from .themes import (ENGLISH_NOISE_WORDS, ENGLISH_POLICY_WORDS, ENGLISH_THEMES, FACULTIES,
-                     NOISE_WORDS, POLICY_WORDS, THEME_BY_ID, THEMES)
+from .themes import (DOMESTIC_POLITICS_WORDS, ENGLISH_NOISE_WORDS, ENGLISH_POLICY_WORDS, ENGLISH_THEMES,
+                     FACULTIES, NOISE_WORDS, POLICY_WORDS, THEME_BY_ID, THEMES)
 
-ESSAY = (THEMES, POLICY_WORDS, NOISE_WORDS)
-ENGLISH = (ENGLISH_THEMES, ENGLISH_POLICY_WORDS, ENGLISH_NOISE_WORDS)
+# (テーマ, 政策語, 減点語, キーワードの項目名, 英文か)
+ESSAY = (THEMES, POLICY_WORDS, NOISE_WORDS + DOMESTIC_POLITICS_WORDS, "keywords", False)
+ESSAY_EN = (THEMES, ENGLISH_POLICY_WORDS, ENGLISH_NOISE_WORDS, "keywords_en", True)  # 海外の英文記事を小論文面に
+ENGLISH = (ENGLISH_THEMES, ENGLISH_POLICY_WORDS, ENGLISH_NOISE_WORDS, "keywords", True)
+
+# 国内の話題に偏らないよう、海外のニュースを優先する
+INTERNATIONAL_BONUS = 4
 
 
 def _count(text, word):
@@ -18,8 +23,7 @@ def _count(text, word):
 
 def theme_scores(article, kind=ESSAY):
     """テーマごとの得点（キーワード一致＋政策語ボーナス−ノイズ減点）。タイトルの一致を重く見る。"""
-    themes, policy, noise = kind
-    english = kind is ENGLISH
+    themes, policy, noise, key, english = kind
     title, summary = article["title"], article.get("summary", "")
     if english:
         title, summary = title.lower(), summary.lower()
@@ -29,7 +33,7 @@ def theme_scores(article, kind=ESSAY):
         bonus -= 6
     scores = {}
     for theme in themes:
-        s = sum(3 * _count(title, kw) + _count(summary, kw) for kw in theme["keywords"])
+        s = sum(3 * _count(title, kw) + _count(summary, kw) for kw in theme.get(key, []))
         if s:
             scores[theme["id"]] = s + bonus
     return scores
@@ -91,15 +95,29 @@ def _candidates(articles, kind, exclude_titles, min_score):
     return unique
 
 
-def pick_essays(articles, faculties=None, exclude_titles=(), min_score=4):
-    """学部ごとに1本ずつ選ぶ。候補の少ない学部（文→法→環境情報→総合政策）から順に割り当てる。"""
+def _international(article, scores):
+    return {t: v + INTERNATIONAL_BONUS for t, v in scores.items()}
+
+
+def essay_candidates(articles, en_articles=(), exclude_titles=(), min_score=4):
+    """日本語記事と海外の英文記事を合わせた小論文の候補。海外（英文・国際面）の記事は加点する。"""
+    cands = [(a, _international(a, sc) if "国際" in a["source"] else sc)
+             for a, sc in _candidates(articles, ESSAY, exclude_titles, min_score)]
+    cands += [({**a, "lang": "en"}, _international(a, sc))
+              for a, sc in _candidates(en_articles, ESSAY_EN, exclude_titles, min_score)]
+    return sorted(cands, key=lambda x: max(x[1].values()), reverse=True)
+
+
+def pick_essays(articles, faculties=None, exclude_titles=(), min_score=4, en_articles=()):
+    """学部ごとに1本ずつ選ぶ。与えられた学部の順に、話題が重ならないよう割り当てる。"""
     faculties = faculties or [f["id"] for f in FACULTIES]
-    cands = _candidates(articles, ESSAY, exclude_titles, min_score)
+    cands = essay_candidates(articles, en_articles, exclude_titles, min_score)
     chosen, used = {}, set()
     for fac in faculties:
         best = None
         for i, (a, scores) in enumerate(cands):
-            if i in used or any(same_topic(a["title"], c["title"]) for c in chosen.values()):
+            if i in used or any(same_topic(a["title"], c["title"]) or similar(a["title"], c["title"])
+                                for c in chosen.values()):
                 continue
             for theme, s in scores.items():
                 faculties_of_theme = THEME_BY_ID[theme]["faculties"]

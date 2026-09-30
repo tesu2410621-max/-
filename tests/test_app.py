@@ -204,5 +204,37 @@ class RealWorldRegressionTest(unittest.TestCase):
         self.assertTrue(same_topic("臨時国会で消費税法案成立を", "食料品の消費税減税の準備を支援へ"))
 
 
+class NotTooDomesticPoliticsTest(unittest.TestCase):
+    """「日本の政治すぎる」への対応：政局記事より、海外・社会の記事を小論文面に選ぶ。"""
+
+    JA = [
+        {"title": "政府・与党 臨時国会で消費税法案成立を 野党は論戦の構え", "link": "https://example.com/p1",
+         "summary": "政府・与党は法案の成立に向けて野党との協力を模索。", "source": "NHK 政治"},
+        {"title": "官房長官 自民・小野寺氏“減税法案に野党協力を”", "link": "https://example.com/p2",
+         "summary": "", "source": "NHK 政治"},
+    ]
+    EN = [
+        {"title": "Malaysia begins deporting Myanmar refugees despite UN concerns", "link": "https://example.org/m1",
+         "summary": "Human rights groups say asylum seekers face danger; the court case continues.", "source": "BBC World"},
+        {"title": "Former coal plant site becomes giant battery as renewable energy grows",
+         "link": "https://example.org/m2", "summary": "The battery will help the grid absorb solar and wind power.",
+         "source": "The Guardian Environment"},
+        {"title": "Central bank raises interest rate as inflation persists", "link": "https://example.org/m3",
+         "summary": "Economists debate the policy.", "source": "BBC Business"},
+    ]
+
+    def test_law_slot_prefers_international_rights_story(self):
+        chosen = pick_essays(self.JA, ["hou", "sogo"], en_articles=self.EN)
+        titles = [a["title"] for a in chosen.values()]
+        self.assertIn("refugees", chosen["hou"]["title"])
+        self.assertFalse(any("与党" in t or "官房長官" in t for t in titles))
+        self.assertTrue(all(a.get("lang") == "en" for a in chosen.values()))
+
+    def test_english_section_does_not_reuse_essay_articles(self):
+        entry = build(D(2026, 10, 1), [], lambda: self.JA, lambda: self.EN)
+        essay_links = {a["link"] for a in entry["essays"]}
+        self.assertFalse(essay_links & {a["link"] for a in entry["english"]})
+
+
 if __name__ == "__main__":
     unittest.main()

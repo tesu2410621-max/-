@@ -81,8 +81,12 @@ def build(day, history, ja_articles, en_articles):
 
     # 生の記事を使うのは、出題圏内の時期か、復習用のストックが足りないときだけ
     missing = [f for f in slots if f not in essays]
-    fresh_essays = pick_essays(ja_articles(), missing, recent_titles) if missing else {}
-    fresh_english = pick_english(en_articles(), 2 - len(english), recent_titles) if len(english) < 2 else []
+    en_raw = en_articles() if missing or len(english) < 2 else []
+    fresh_essays = pick_essays(ja_articles(), missing, recent_titles, en_articles=en_raw) if missing else {}
+    # 小論文面に使った英文記事は、英語長文面では使わない
+    used_links = {a["link"] for a in fresh_essays.values()}
+    en_rest = [a for a in en_raw if a["link"] not in used_links]
+    fresh_english = pick_english(en_rest, 2 - len(english), recent_titles) if len(english) < 2 else []
     order = list(fresh_essays)
     papers_e, papers_en, theme, history_window, by = enrich(
         [_with_faculties(fresh_essays[f]) for f in order], fresh_english)

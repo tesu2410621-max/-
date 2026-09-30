@@ -28,7 +28,7 @@ FEEDS = [
     ("Yahoo! 経済", "https://news.yahoo.co.jp/rss/topics/business.xml"),
     ("Yahoo! IT", "https://news.yahoo.co.jp/rss/topics/it.xml"),
     ("Yahoo! 科学", "https://news.yahoo.co.jp/rss/topics/science.xml"),
-    ("Google ニュース", _google_news("政策 課題")),
+    ("Google ニュース", _google_news("国連 OR 難民 OR 人権 OR 国際協力")),
     ("Google ニュース", _google_news("少子化 OR 人口減少 OR 地方創生")),
     ("Google ニュース", _google_news("生成AI 規制 OR 脱炭素 OR 多様性")),
     ("Google ニュース", _google_news("文化 OR 歴史 OR 言語 OR 文学 OR 表現の自由")),
@@ -36,7 +36,7 @@ FEEDS = [
     ("Google ニュース", _google_news("憲法 OR 裁判 OR 人権 OR 民主主義")),
 ]
 
-# 英語長文（経済・商学部）の背景知識用。英語のまま読むことで語彙の予習も兼ねる
+# 英語長文（経済・商学部）の背景知識用。小論文面の海外ニュースの候補にもする
 ENGLISH_FEEDS = [
     ("BBC Business", "https://feeds.bbci.co.uk/news/business/rss.xml"),
     ("BBC Technology", "https://feeds.bbci.co.uk/news/technology/rss.xml"),
@@ -45,6 +45,11 @@ ENGLISH_FEEDS = [
     ("NPR Technology", "https://feeds.npr.org/1019/rss.xml"),
     ("The Conversation", "https://theconversation.com/global/articles.atom"),
     ("The Guardian Economics", "https://www.theguardian.com/business/economics/rss"),
+    # 小論文面の海外ニュース用（国際・環境・人権・法）
+    ("BBC World", "https://feeds.bbci.co.uk/news/world/rss.xml"),
+    ("The Guardian Global development", "https://www.theguardian.com/global-development/rss"),
+    ("The Guardian Environment", "https://www.theguardian.com/environment/rss"),
+    ("The Guardian Law", "https://www.theguardian.com/law/rss"),
     ("Google News", _google_news("economy OR inequality OR consumers study", "en")),
     ("Google News", _google_news("psychology study OR behavioral economics OR climate policy", "en")),
 ]
