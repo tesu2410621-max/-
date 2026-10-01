@@ -1,0 +1,218 @@
+{
+ "date": "2026-10-02",
+ "mode": "live",
+ "issue": 3,
+ "theme": "文化・言語・歴史・メディア",
+ "essays": [
+  {
+   "title": "豪華絢爛な昭和モダン ─ 東京都指定有形文化財「百段階段」 文化財建築特別公開",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9NODg3RU12bTc3Mm1Sd191NHI1RXYwNFVnOGNyRkJaYkg4cmZjaXpMN0k4R0Ytc0c4VldYMmVzbzlOTU01TmFWSlc4cVc?oc=5",
+   "summary": "",
+   "source": "アイエム［インターネットミュージアム］",
+   "published": "2026-10-01T13:32:52+00:00",
+   "theme": "culture",
+   "score": 18.0,
+   "faculty": "bun",
+   "faculties": [
+    "bun"
+   ],
+   "paper": {
+    "index_line": "豪華絢爛な昭和モダン ─ 東京都指定有形文化財「百段階段」 文化財建築特別公開",
+    "headline": "豪華絢爛な昭和モダン ─ 東京都指定有形文化財「百段階段」 文化財建築特別公開",
+    "subhead": "文化・言語・歴史・メディアの具体例として読む",
+    "lead": "",
+    "sources": "アイエム［インターネットミュージアム］",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "伝統・固有性の継承か、変化・グローバル化への適応か",
+    "pros": [
+     "伝統・固有性の継承"
+    ],
+    "cons": [
+     "変化・グローバル化への適応"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "アイデンティティ",
+      "definition": ""
+     },
+     {
+      "term": "集合的記憶",
+      "definition": ""
+     },
+     {
+      "term": "文化相対主義",
+      "definition": ""
+     },
+     {
+      "term": "他者理解",
+      "definition": ""
+     }
+    ],
+    "question": "このニュースを手がかりに、人間にとって文化（言葉・歴史・芸術）が持つ意味について考えを述べよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "ロシア 飛び地めぐりNATOに警告文書「核兵器使用も辞さない」",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261002de53773",
+   "summary": "ロシアは飛び地のカリーニングラード州をめぐりNATO＝北大西洋条約機構に対して核兵器の使用も辞さないと警告する文書が、ロシアからNATOに送られていたことが明らかになりました。 NATO側はロシアに核…",
+   "source": "NHK 国際",
+   "published": "2026-10-02T05:30:30+09:00",
+   "theme": "global",
+   "score": 22.5,
+   "faculty": "hou",
+   "faculties": [
+    "hou",
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "ロシア 飛び地めぐりNATOに警告文書「核兵器使用も辞さない」",
+    "headline": "ロシア 飛び地めぐりNATOに警告文書「核兵器使用も辞さない」",
+    "subhead": "国際関係・安全保障の具体例として読む",
+    "lead": "ロシアは飛び地のカリーニングラード州をめぐりNATO＝北大西洋条約機構に対して核兵器の使用も辞さないと警告する文書が、ロシアからNATOに送られていたことが明らかになりました。 NATO側はロシアに核…",
+    "sources": "NHK 国際",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "国益の追求か、国際協調・人道か",
+    "pros": [
+     "国益の追求"
+    ],
+    "cons": [
+     "国際協調・人道"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "安全保障のジレンマ",
+      "definition": ""
+     },
+     {
+      "term": "ソフトパワー",
+      "definition": ""
+     },
+     {
+      "term": "経済安全保障",
+      "definition": ""
+     },
+     {
+      "term": "グローバル・ガバナンス",
+      "definition": ""
+     }
+    ],
+    "question": "この国際問題に対し、日本はどのような立場・行動をとるべきか。複数の立場を比較して論じよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "Google launches Project Suncatcher, a step towards AI data centers in space",
+   "link": "https://www.npr.org/2026/10/01/nx-s1-5983697/project-suncatcher-google-ai-data-center-space",
+   "summary": "The fridge-size satellite with AI chips on board is part of Project Suncatcher, the company's moonshot effort to put AI data centers in space and harness solar energy.",
+   "source": "NPR Business",
+   "published": "2026-10-01T14:41:07-04:00",
+   "theme": "tech",
+   "score": 9,
+   "paper": {
+    "index_line": "Google launches Project Suncatcher, a step towards AI data centers in space",
+    "headline": "Google launches Project Suncatcher, a step towards AI data centers in space",
+    "subhead": "テクノロジーと社会",
+    "lead": "The fridge-size satellite with AI chips on board is part of Project Suncatcher, the company's moonshot effort to put AI data centers in space and harness solar energy.",
+    "sources": "NPR Business",
+    "what_happened": "",
+    "keio_angle": "AI・SNS・プライバシーは経済・商の両方で近年頻出。技術の「便益」と「副作用（格差・依存・監視）」の両面で書かれることが多い。",
+    "vocab": [
+     {
+      "en": "automation",
+      "ja": "自動化"
+     },
+     {
+      "en": "surveillance",
+      "ja": "監視"
+     },
+     {
+      "en": "privacy",
+      "ja": "プライバシー"
+     },
+     {
+      "en": "algorithm",
+      "ja": "アルゴリズム"
+     },
+     {
+      "en": "disrupt",
+      "ja": "（既存の秩序を）混乱・一新させる"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "Madhya Pradesh Economic Survey 2025-26: GSDP Growth at 11%, Boost in Per Capita Income & Industrial Investment",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNclJTbkRlRkx2V2pEanlWdlRjbDlNWnN0YjkzSkM5ZFNCVm9YdlNCM1ZPQVZldFlDeFNaR0xHMTIzVGFWaml3WmJlRnkxV2x2UXBrck5abURnN0c3V2JwOTgtdHZNWFdlcnlUTHF1MXJsSEl0VUhoUWVyMGFCSVVSaUt3clhOZ2UxaU54VFFaN0E2UDQxazMxSkMzdk1yZVY1dm1WMEt2UGZsZlFfUzJ4UC1pWG05ejEzcF9YaV94d3VCVnhYM3VPQXZIX3NzSXpNUUxBcFYzNDQ?oc=5",
+   "summary": "",
+   "source": "Goodreturns",
+   "published": "2026-10-01T17:01:17+00:00",
+   "theme": "econ",
+   "score": 8,
+   "paper": {
+    "index_line": "Madhya Pradesh Economic Survey 2025-26: GSDP Growth at 11%, Boost in Per Capita Income & Industrial Investment",
+    "headline": "Madhya Pradesh Economic Survey 2025-26: GSDP Growth at 11%, Boost in Per Capita Income & Industrial Investment",
+    "subhead": "経済・市場",
+    "lead": "",
+    "sources": "Goodreturns",
+    "what_happened": "",
+    "keio_angle": "インフレ・金利・貿易摩擦は経済学部の長文で頻出。「需要と供給」「インセンティブ」「比較優位」で説明できるか意識しよう。",
+    "vocab": [
+     {
+      "en": "inflation",
+      "ja": "インフレ"
+     },
+     {
+      "en": "tariff",
+      "ja": "関税"
+     },
+     {
+      "en": "incentive",
+      "ja": "誘因"
+     },
+     {
+      "en": "comparative advantage",
+      "ja": "比較優位"
+     },
+     {
+      "en": "fiscal",
+      "ja": "財政の"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
