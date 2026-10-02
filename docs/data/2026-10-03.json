@@ -1,0 +1,217 @@
+{
+ "date": "2026-10-03",
+ "mode": "live",
+ "issue": 4,
+ "theme": "経済・市場・企業",
+ "essays": [
+  {
+   "title": "自民 宮沢前税調会長“消費税減税しない方が正しい”",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261002de53989",
+   "summary": "食料品の消費税減税について、自民党の宮沢・前税制調査会長は「社会保障費が増えていく中、減税しない方が正しい」と指摘するとともに、補助金や租税特別措置の見直しで財源を確保するのは難しいという認識を示しま…",
+   "source": "NHK 政治",
+   "published": "2026-10-02T22:52:47+09:00",
+   "theme": "economy",
+   "score": 31.5,
+   "faculty": "sogo",
+   "faculties": [
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "自民 宮沢前税調会長“消費税減税しない方が正しい”",
+    "headline": "自民 宮沢前税調会長“消費税減税しない方が正しい”",
+    "subhead": "経済・市場・企業の具体例として読む",
+    "lead": "食料品の消費税減税について、自民党の宮沢・前税制調査会長は「社会保障費が増えていく中、減税しない方が正しい」と指摘するとともに、補助金や租税特別措置の見直しで財源を確保するのは難しいという認識を示しま…",
+    "sources": "NHK 政治",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "市場メカニズムに委ねるか、政府が介入して是正するか",
+    "pros": [
+     "市場メカニズムに委ねる"
+    ],
+    "cons": [
+     "政府が介入して是正する"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "市場の失敗",
+      "definition": ""
+     },
+     {
+      "term": "インセンティブ",
+      "definition": ""
+     },
+     {
+      "term": "トレードオフ",
+      "definition": ""
+     },
+     {
+      "term": "財政の持続可能性",
+      "definition": ""
+     }
+    ],
+    "question": "この経済ニュースが家計・企業・政府にどう影響するかを整理し、望ましい政策対応を論じよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "ノーベル賞の研究成果を新たな治療法開発に 阪大が拠点設置へ",
+   "link": "https://news.web.nhk/newsweb/na/nd-20260928de52895",
+   "summary": "大阪大学は、2025年にノーベル賞を受賞した坂口志文さんをセンター長とする研究拠点を設置する方針を固めたことがわかりました。坂口さんが発見した過剰な免疫反応を抑える細胞を患者に投与する臨床研究などを行…",
+   "source": "NHK 科学・医療",
+   "published": "2026-09-28T18:40:02+09:00",
+   "theme": "science",
+   "score": 22.5,
+   "faculty": "kankyo",
+   "faculties": [
+    "kankyo"
+   ],
+   "paper": {
+    "index_line": "ノーベル賞の研究成果を新たな治療法開発に 阪大が拠点設置へ",
+    "headline": "ノーベル賞の研究成果を新たな治療法開発に 阪大が拠点設置へ",
+    "subhead": "科学技術・生命・デザインの具体例として読む",
+    "lead": "大阪大学は、2025年にノーベル賞を受賞した坂口志文さんをセンター長とする研究拠点を設置する方針を固めたことがわかりました。坂口さんが発見した過剰な免疫反応を抑える細胞を患者に投与する臨床研究などを行…",
+    "sources": "NHK 科学・医療",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "研究・技術開発の自由と恩恵か、倫理的限界・予期せぬリスクか",
+    "pros": [
+     "研究・技術開発の自由と恩恵"
+    ],
+    "cons": [
+     "倫理的限界・予期せぬリスク"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "科学技術の倫理",
+      "definition": ""
+     },
+     {
+      "term": "予防原則",
+      "definition": ""
+     },
+     {
+      "term": "オープンイノベーション",
+      "definition": ""
+     },
+     {
+      "term": "人間中心設計",
+      "definition": ""
+     }
+    ],
+    "question": "この技術・研究成果を社会に実装するとしたら、どんな仕組みをデザインするか。課題とあわせて提案せよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "Increased air pollution linked to more night-time coughing, UK-led study finds",
+   "link": "https://www.theguardian.com/environment/2026/oct/02/increased-air-pollution-link-night-time-coughing-uk-study-cambridge",
+   "summary": "‘Day-to-day’ symptom of harmful emissions, which in turn can disrupt sleep, can be overlooked, say researchersNew research has found that increased air pollution is associated with more night-time coughing, leading to disturbed sleep.Most air pollution research looks at symptoms that are severe enou",
+   "source": "The Guardian Environment",
+   "published": "2026-10-02T05:00:11+00:00",
+   "theme": "environment",
+   "score": 10,
+   "paper": {
+    "index_line": "Increased air pollution linked to more night-time coughing, UK-led study finds",
+    "headline": "Increased air pollution linked to more night-time coughing, UK-led study finds",
+    "subhead": "環境・エネルギー",
+    "lead": "‘Day-to-day’ symptom of harmful emissions, which in turn can disrupt sleep, can be overlooked, say researchersNew research has found that increased air pollution is associated with more night-time coughing, leading to disturbed sleep.Most air pollution research looks at symptoms that are severe enou",
+    "sources": "The Guardian Environment",
+    "what_happened": "",
+    "keio_angle": "気候変動は「外部性」「共有地の悲劇」など経済学の概念と結びつけて出題されやすい。",
+    "vocab": [
+     {
+      "en": "emissions",
+      "ja": "排出（量）"
+     },
+     {
+      "en": "externality",
+      "ja": "外部性"
+     },
+     {
+      "en": "sustainable",
+      "ja": "持続可能な"
+     },
+     {
+      "en": "fossil fuel",
+      "ja": "化石燃料"
+     },
+     {
+      "en": "mitigate",
+      "ja": "緩和する"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "US added just 29,000 jobs in September in sharp drop from last month’s gains",
+   "link": "https://www.theguardian.com/business/2026/oct/02/september-jobs-report",
+   "summary": "Final jobs report before the midterm elections also shows the US unemployment rate rose slightly to 4.2%US employers added just 29,000 jobs in September, a sharp drop from last month’s gains, and unemployment rose slightly to 4.2%, a sign of a cooling labor market in the final jobs report before the",
+   "source": "The Guardian Economics",
+   "published": "2026-10-02T14:04:29+00:00",
+   "theme": "work",
+   "score": 9,
+   "paper": {
+    "index_line": "US added just 29,000 jobs in September in sharp drop from last month’s gains",
+    "headline": "US added just 29,000 jobs in September in sharp drop from last month’s gains",
+    "subhead": "労働・格差",
+    "lead": "Final jobs report before the midterm elections also shows the US unemployment rate rose slightly to 4.2%US employers added just 29,000 jobs in September, a sharp drop from last month’s gains, and unemployment rose slightly to 4.2%, a sign of a cooling labor market in the final jobs report before the",
+    "sources": "The Guardian Economics",
+    "what_happened": "",
+    "keio_angle": "賃金格差・働き方・生産性は経済学部の定番テーマ。「市場の効率 vs 公平」という対立軸で読むと速い。",
+    "vocab": [
+     {
+      "en": "inequality",
+      "ja": "不平等"
+     },
+     {
+      "en": "productivity",
+      "ja": "生産性"
+     },
+     {
+      "en": "wage gap",
+      "ja": "賃金格差"
+     },
+     {
+      "en": "labor shortage",
+      "ja": "人手不足"
+     },
+     {
+      "en": "welfare",
+      "ja": "福祉"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
