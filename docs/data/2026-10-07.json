@@ -1,0 +1,219 @@
+{
+ "date": "2026-10-07",
+ "mode": "live",
+ "issue": 7,
+ "theme": "防災・リスク社会",
+ "essays": [
+  {
+   "title": "ネパール土石流 専門家「経済復興と災害リスク軽減が課題」",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261005de54910",
+   "summary": "ことし8月にネパールと中国の国境付近で発生した大規模な土石流について、現地で調査した日本の専門家が報告会を開き、再び災害が起こるリスクを見据えたインフラの復旧が課題だと指摘しました。",
+   "source": "NHK 国際",
+   "published": "2026-10-05T23:44:28+09:00",
+   "theme": "disaster",
+   "score": 24.0,
+   "faculty": "sogo",
+   "faculties": [
+    "sogo",
+    "kankyo"
+   ],
+   "paper": {
+    "index_line": "ネパール土石流 専門家「経済復興と災害リスク軽減が課題」",
+    "headline": "ネパール土石流 専門家「経済復興と災害リスク軽減が課題」",
+    "subhead": "防災・リスク社会の具体例として読む",
+    "lead": "ことし8月にネパールと中国の国境付近で発生した大規模な土石流について、現地で調査した日本の専門家が報告会を開き、再び災害が起こるリスクを見据えたインフラの復旧が課題だと指摘しました。",
+    "sources": "NHK 国際",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "事前防災への投資か、限られた財源の他分野への配分か",
+    "pros": [
+     "事前防災への投資"
+    ],
+    "cons": [
+     "限られた財源の他分野への配分"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "自助・共助・公助",
+      "definition": ""
+     },
+     {
+      "term": "レジリエンス",
+      "definition": ""
+     },
+     {
+      "term": "費用便益分析",
+      "definition": ""
+     },
+     {
+      "term": "正常性バイアス",
+      "definition": ""
+     }
+    ],
+    "question": "災害リスクに社会全体でどう備えるべきか。行政・地域・個人の役割に分けて提案せよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "韓国 金融機関で個人情報漏えい相次ぐ AI悪用のサイバー攻撃か",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261006de55577",
+   "summary": "韓国で金融機関のシステムが不正にアクセスされ、顧客の個人情報が漏えいする被害が相次いでいます。イ・ジェミョン（李在明）大統領はAIを悪用したサイバー攻撃の可能性があるとしてセキュリティー対策の強化を指…",
+   "source": "NHK 国際",
+   "published": "2026-10-06T23:53:00+09:00",
+   "theme": "ai",
+   "score": 27.0,
+   "faculty": "kankyo",
+   "faculties": [
+    "kankyo",
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "韓国 金融機関で個人情報漏えい相次ぐ AI悪用のサイバー攻撃か",
+    "headline": "韓国 金融機関で個人情報漏えい相次ぐ AI悪用のサイバー攻撃か",
+    "subhead": "AI・デジタル社会の具体例として読む",
+    "lead": "韓国で金融機関のシステムが不正にアクセスされ、顧客の個人情報が漏えいする被害が相次いでいます。イ・ジェミョン（李在明）大統領はAIを悪用したサイバー攻撃の可能性があるとしてセキュリティー対策の強化を指…",
+    "sources": "NHK 国際",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "技術革新による効率化・新産業創出か、雇用の置き換え・格差拡大か",
+    "pros": [
+     "技術革新による効率化・新産業創出"
+    ],
+    "cons": [
+     "雇用の置き換え・格差拡大"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "技術的失業",
+      "definition": ""
+     },
+     {
+      "term": "デジタル・デバイド",
+      "definition": ""
+     },
+     {
+      "term": "アルゴリズムの透明性",
+      "definition": ""
+     },
+     {
+      "term": "プラットフォーム規制",
+      "definition": ""
+     }
+    ],
+    "question": "この技術が社会に広がるとき、誰が得をし誰が損をするのかを整理し、望ましいルールのあり方を提案せよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "New report exposes modern poverty and inequality in one of Britain's 'most affluent cities'",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVW1XVEZFRUdoV1NkaklpZlNoZlJPR3pSTVhINHNzbEw2WDg3OVpjcnhiMHR4WHEzbGhsRXA4MHphQVppMmlIMndnTVQwLXJoS0oxZDI4N01FUXg5RG1nZ0RiczJVSlNubDF3OU44SUNMZG5WMnpnZWRpN3Q2UmVURXZR?oc=5",
+   "summary": "",
+   "source": "Phys.org",
+   "published": "2026-10-06T12:40:04+00:00",
+   "theme": "work",
+   "score": 8,
+   "paper": {
+    "index_line": "New report exposes modern poverty and inequality in one of Britain's 'most affluent cities'",
+    "headline": "New report exposes modern poverty and inequality in one of Britain's 'most affluent cities'",
+    "subhead": "労働・格差",
+    "lead": "",
+    "sources": "Phys.org",
+    "what_happened": "",
+    "keio_angle": "賃金格差・働き方・生産性は経済学部の定番テーマ。「市場の効率 vs 公平」という対立軸で読むと速い。",
+    "vocab": [
+     {
+      "en": "inequality",
+      "ja": "不平等"
+     },
+     {
+      "en": "productivity",
+      "ja": "生産性"
+     },
+     {
+      "en": "wage gap",
+      "ja": "賃金格差"
+     },
+     {
+      "en": "labor shortage",
+      "ja": "人手不足"
+     },
+     {
+      "en": "welfare",
+      "ja": "福祉"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "Après le Déluge, a case study: France’s debt crisis is exposing deeper cracks in the global economy",
+   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOUF8tdEl2TnYyUThuNUIwQ3MzVnhOOTNfZEozQUZ3Ui1GWjVzWDltV2o5Yk1iOF9tVFFKdW9NWWQyTDNvcU1hMGhCTE5fa29XSjlHZzV0b3pDa0VSSEVXbEdIbk9JVVBNS0xQYnZKZHIzYnVHQk5BQlRhSnpCZmJOYmVTMjF6b3BZVzFMQ0dLZElmd0RDWmpVLVVXNGFTYlE5c2pDc1ZkSFdjQXBjNVJ4cDhQTHBrUlUzVDFXRWlmVEY0YmJFSUh2VnNsX0VSY3RhMGVTbTlIa21OYVJrd08xWjcxRXlhekZ5ODJlVkpmSXdFcTRTdnQ5VXFRNlU0V3fSAYQCQVVfeXFMUGxUY1dmZGZKQnRreVhNRXBMdkREQVBBOFlhc2xvckptRmdPMl9fSl9aNUU0NHRaOTV6UUN2LXNCQnI4OEVmWVdjc2VnbzR6QkxVZ3dzYzVidGN6NFo1SXhOZHBrdWpwcVBhNzRHOGpaT0M1ZTl3b2RTbjY3WjF1RUU2UkdVQXJ2UzMteldlZW1EV3ZPOGxlX1dtRW5yeElIM1lPZVgzSFFUbGJ6aExGVUl4Vkx1UEIyWHB2cEg3YkVITDVvYUlLVE4xaGozTkMwZG1PcjJfb1NqUGo1STlobl9hQUQyYllBWDNrWmxLRmFKUG9UOS1UOFJacmFZSmxsdHAyZXc?oc=5",
+   "summary": "",
+   "source": "The Economic Times",
+   "published": "2026-10-06T17:34:04+00:00",
+   "theme": "econ",
+   "score": 8,
+   "paper": {
+    "index_line": "Après le Déluge, a case study: France’s debt crisis is exposing deeper cracks in the global economy",
+    "headline": "Après le Déluge, a case study: France’s debt crisis is exposing deeper cracks in the global economy",
+    "subhead": "経済・市場",
+    "lead": "",
+    "sources": "The Economic Times",
+    "what_happened": "",
+    "keio_angle": "インフレ・金利・貿易摩擦は経済学部の長文で頻出。「需要と供給」「インセンティブ」「比較優位」で説明できるか意識しよう。",
+    "vocab": [
+     {
+      "en": "inflation",
+      "ja": "インフレ"
+     },
+     {
+      "en": "tariff",
+      "ja": "関税"
+     },
+     {
+      "en": "incentive",
+      "ja": "誘因"
+     },
+     {
+      "en": "comparative advantage",
+      "ja": "比較優位"
+     },
+     {
+      "en": "fiscal",
+      "ja": "財政の"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
