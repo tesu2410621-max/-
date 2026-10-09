@@ -1,0 +1,218 @@
+{
+ "date": "2026-10-10",
+ "mode": "live",
+ "issue": 10,
+ "theme": "文化・言語・歴史・メディア",
+ "essays": [
+  {
+   "title": "令和8年熊本地震｜被災文化財へのご支援を（八代市・大津町・熊本市）（文化財保護・芸術研究助成財団 2026/08/28 公開）",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11T3FBUU5KR3dZUDVrRGVNWjlRN0tfZ0hXVDlobEVRTjJWWnhFamhPZEdjdUE1OTZFNHpMVU13N3M1OHJfWmQ0LWhQVkROMi1neHZ4Wm5aNHQ2dw?oc=5",
+   "summary": "",
+   "source": "クラウドファンディング - READYFOR",
+   "published": "2026-10-09T08:23:29+00:00",
+   "theme": "culture",
+   "score": 25.5,
+   "faculty": "bun",
+   "faculties": [
+    "bun"
+   ],
+   "paper": {
+    "index_line": "令和8年熊本地震｜被災文化財へのご支援を（八代市・大津町・熊本市）（文化財保護・芸術研究助成財団 2026/08/28 公開）",
+    "headline": "令和8年熊本地震｜被災文化財へのご支援を（八代市・大津町・熊本市）（文化財保護・芸術研究助成財団 2026/08/28 公開）",
+    "subhead": "文化・言語・歴史・メディアの具体例として読む",
+    "lead": "",
+    "sources": "クラウドファンディング - READYFOR",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "伝統・固有性の継承か、変化・グローバル化への適応か",
+    "pros": [
+     "伝統・固有性の継承"
+    ],
+    "cons": [
+     "変化・グローバル化への適応"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "アイデンティティ",
+      "definition": ""
+     },
+     {
+      "term": "集合的記憶",
+      "definition": ""
+     },
+     {
+      "term": "文化相対主義",
+      "definition": ""
+     },
+     {
+      "term": "他者理解",
+      "definition": ""
+     }
+    ],
+    "question": "このニュースを手がかりに、人間にとって文化（言葉・歴史・芸術）が持つ意味について考えを述べよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "【詳しく】ガザ停戦1年 イスラエル軍攻撃続く 厳しい人道状況",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261010de57532",
+   "summary": "パレスチナのガザ地区でイスラエルとイスラム組織ハマスの停戦合意が発効して1年ですが、イスラエル軍は断続的に攻撃を行っています。この1年間の死者は1400人以上と発表され厳しい人道状況が続いています。",
+   "source": "NHK 国際",
+   "published": "2026-10-10T05:20:56+09:00",
+   "theme": "global",
+   "score": 25.5,
+   "faculty": "hou",
+   "faculties": [
+    "hou",
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "【詳しく】ガザ停戦1年 イスラエル軍攻撃続く 厳しい人道状況",
+    "headline": "【詳しく】ガザ停戦1年 イスラエル軍攻撃続く 厳しい人道状況",
+    "subhead": "国際関係・安全保障の具体例として読む",
+    "lead": "パレスチナのガザ地区でイスラエルとイスラム組織ハマスの停戦合意が発効して1年ですが、イスラエル軍は断続的に攻撃を行っています。この1年間の死者は1400人以上と発表され厳しい人道状況が続いています。",
+    "sources": "NHK 国際",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "国益の追求か、国際協調・人道か",
+    "pros": [
+     "国益の追求"
+    ],
+    "cons": [
+     "国際協調・人道"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "安全保障のジレンマ",
+      "definition": ""
+     },
+     {
+      "term": "ソフトパワー",
+      "definition": ""
+     },
+     {
+      "term": "経済安全保障",
+      "definition": ""
+     },
+     {
+      "term": "グローバル・ガバナンス",
+      "definition": ""
+     }
+    ],
+    "question": "この国際問題に対し、日本はどのような立場・行動をとるべきか。複数の立場を比較して論じよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "Send us your questions for economist Isabella Weber on inflation and affordability",
+   "link": "https://www.theguardian.com/business/2026/oct/09/send-us-your-questions-for-economist-isabella-weber-on-inflation-and-affordability",
+   "summary": "First Edition newsletter will be hosting a reader Q&A with economist Isabella Weber, a leading voice on inflation, affordability and cost of living and now’s your chance to put your questions to her Isabella Weber is one of the most sought-after and influential economists of her generation, and has ",
+   "source": "The Guardian Economics",
+   "published": "2026-10-09T11:08:55+00:00",
+   "theme": "econ",
+   "score": 10,
+   "paper": {
+    "index_line": "Send us your questions for economist Isabella Weber on inflation and affordability",
+    "headline": "Send us your questions for economist Isabella Weber on inflation and affordability",
+    "subhead": "経済・市場",
+    "lead": "First Edition newsletter will be hosting a reader Q&A with economist Isabella Weber, a leading voice on inflation, affordability and cost of living and now’s your chance to put your questions to her Isabella Weber is one of the most sought-after and influential economists of her generation, and has ",
+    "sources": "The Guardian Economics",
+    "what_happened": "",
+    "keio_angle": "インフレ・金利・貿易摩擦は経済学部の長文で頻出。「需要と供給」「インセンティブ」「比較優位」で説明できるか意識しよう。",
+    "vocab": [
+     {
+      "en": "inflation",
+      "ja": "インフレ"
+     },
+     {
+      "en": "tariff",
+      "ja": "関税"
+     },
+     {
+      "en": "incentive",
+      "ja": "誘因"
+     },
+     {
+      "en": "comparative advantage",
+      "ja": "比較優位"
+     },
+     {
+      "en": "fiscal",
+      "ja": "財政の"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "Despite the controversy, data centers could be attractive to struggling rural towns",
+   "link": "https://www.npr.org/2026/10/09/nx-s1-5966615/despite-the-controversy-data-centers-could-be-attractive-to-struggling-rural-towns",
+   "summary": "There's lots of debate over data centers and where they should be located. In a struggling rural town data center development can look a lot more attractive.",
+   "source": "NPR Business",
+   "published": "2026-10-09T16:03:15-04:00",
+   "theme": "tech",
+   "score": 7,
+   "paper": {
+    "index_line": "Despite the controversy, data centers could be attractive to struggling rural towns",
+    "headline": "Despite the controversy, data centers could be attractive to struggling rural towns",
+    "subhead": "テクノロジーと社会",
+    "lead": "There's lots of debate over data centers and where they should be located. In a struggling rural town data center development can look a lot more attractive.",
+    "sources": "NPR Business",
+    "what_happened": "",
+    "keio_angle": "AI・SNS・プライバシーは経済・商の両方で近年頻出。技術の「便益」と「副作用（格差・依存・監視）」の両面で書かれることが多い。",
+    "vocab": [
+     {
+      "en": "automation",
+      "ja": "自動化"
+     },
+     {
+      "en": "surveillance",
+      "ja": "監視"
+     },
+     {
+      "en": "privacy",
+      "ja": "プライバシー"
+     },
+     {
+      "en": "algorithm",
+      "ja": "アルゴリズム"
+     },
+     {
+      "en": "disrupt",
+      "ja": "（既存の秩序を）混乱・一新させる"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
