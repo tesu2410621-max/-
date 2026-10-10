@@ -1,0 +1,218 @@
+{
+ "date": "2026-10-11",
+ "mode": "live",
+ "issue": 11,
+ "theme": "経済・市場・企業",
+ "essays": [
+  {
+   "title": "食料品の消費税減税の課題 財源確保や消費者への影響は",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261009de57014",
+   "summary": "食料品の消費税率1％への引き下げにあたっては、財源をどう確保するかが大きな課題として残されています。 また税率の引き下げで、食料品の販売価格が実際にどの程度下がるのかも論点となっています。",
+   "source": "NHK 政治",
+   "published": "2026-10-09T12:49:49+09:00",
+   "theme": "economy",
+   "score": 30.0,
+   "faculty": "sogo",
+   "faculties": [
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "食料品の消費税減税の課題 財源確保や消費者への影響は",
+    "headline": "食料品の消費税減税の課題 財源確保や消費者への影響は",
+    "subhead": "経済・市場・企業の具体例として読む",
+    "lead": "食料品の消費税率1％への引き下げにあたっては、財源をどう確保するかが大きな課題として残されています。 また税率の引き下げで、食料品の販売価格が実際にどの程度下がるのかも論点となっています。",
+    "sources": "NHK 政治",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "市場メカニズムに委ねるか、政府が介入して是正するか",
+    "pros": [
+     "市場メカニズムに委ねる"
+    ],
+    "cons": [
+     "政府が介入して是正する"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "市場の失敗",
+      "definition": ""
+     },
+     {
+      "term": "インセンティブ",
+      "definition": ""
+     },
+     {
+      "term": "トレードオフ",
+      "definition": ""
+     },
+     {
+      "term": "財政の持続可能性",
+      "definition": ""
+     }
+    ],
+    "question": "この経済ニュースが家計・企業・政府にどう影響するかを整理し、望ましい政策対応を論じよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "生成AIを活用したキャリア支援の導入状況 - 国立大15校、AI就活支援 検討含め2割、活用講座も - 写真・画像(1/2)",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5wLTRPbzVXMDhYVVE0RHUydllGN2doVURhejRtSk9sSWxCbmxIM0dhVFl2WnpvbFU5dmZsQWJaUjN4NDRtSXlKQ3N5bnJvbEN6YWtyZUhhYw?oc=5",
+   "summary": "",
+   "source": "西日本新聞me",
+   "published": "2026-10-10T12:50:27+00:00",
+   "theme": "ai",
+   "score": 22.5,
+   "faculty": "kankyo",
+   "faculties": [
+    "kankyo",
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "生成AIを活用したキャリア支援の導入状況 - 国立大15校、AI就活支援 検討含め2割、活用講座も - 写真・画像(1/2)",
+    "headline": "生成AIを活用したキャリア支援の導入状況 - 国立大15校、AI就活支援 検討含め2割、活用講座も - 写真・画像(1/2)",
+    "subhead": "AI・デジタル社会の具体例として読む",
+    "lead": "",
+    "sources": "西日本新聞me",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "技術革新による効率化・新産業創出か、雇用の置き換え・格差拡大か",
+    "pros": [
+     "技術革新による効率化・新産業創出"
+    ],
+    "cons": [
+     "雇用の置き換え・格差拡大"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "技術的失業",
+      "definition": ""
+     },
+     {
+      "term": "デジタル・デバイド",
+      "definition": ""
+     },
+     {
+      "term": "アルゴリズムの透明性",
+      "definition": ""
+     },
+     {
+      "term": "プラットフォーム規制",
+      "definition": ""
+     }
+    ],
+    "question": "この技術が社会に広がるとき、誰が得をし誰が損をするのかを整理し、望ましいルールのあり方を提案せよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "New study ranks how well AI tools help shoppers hunt for deals | Action on AI",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPS1oyZEtWQWpUZm9Yd0xqaHJGRjg5SGlTQkNlSlRfTmp4dXZjaXo2dzg3ZjdrSU9QcnJ2YVZSR2Fnbk9wZjdvQ1NzUlVCOWJrVmVPbEc2elVpYlVaUGZ4eUpXRGNndElZU25wNGpDcTR4TmRuYUNLaFB1ZWtDVlpPLU13OW4yYzV4UWtaYU0wVG5DTnVzRTBF0gGcAUFVX3lxTE0ydldBQ003eEpYNmF6U2pnQVNhVWpSXzFYc2RQMElvWUJTSmRxSFZRZEJ1Zy1YbFJxRG5uMV9pbTBic2ZmaTNBMU93QlpUX2FtOWRUa1VMeGhRRVMxSWxZVlhabHhmQmVBeGZLcjYwMnE4MGh6QzYyeHhNN0dIUFprbTdiaGx5alJESmpYUDJmLWZUaUpNYVc3LTVraA?oc=5",
+   "summary": "",
+   "source": "6abc Philadelphia",
+   "published": "2026-10-09T21:25:02+00:00",
+   "theme": "tech",
+   "score": 8,
+   "paper": {
+    "index_line": "New study ranks how well AI tools help shoppers hunt for deals | Action on AI",
+    "headline": "New study ranks how well AI tools help shoppers hunt for deals | Action on AI",
+    "subhead": "テクノロジーと社会",
+    "lead": "",
+    "sources": "6abc Philadelphia",
+    "what_happened": "",
+    "keio_angle": "AI・SNS・プライバシーは経済・商の両方で近年頻出。技術の「便益」と「副作用（格差・依存・監視）」の両面で書かれることが多い。",
+    "vocab": [
+     {
+      "en": "automation",
+      "ja": "自動化"
+     },
+     {
+      "en": "surveillance",
+      "ja": "監視"
+     },
+     {
+      "en": "privacy",
+      "ja": "プライバシー"
+     },
+     {
+      "en": "algorithm",
+      "ja": "アルゴリズム"
+     },
+     {
+      "en": "disrupt",
+      "ja": "（既存の秩序を）混乱・一新させる"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "9 In 10 Shoppers Research Extensively, Yet 70% Buy On Impulse: Google Unpacks India’s ‘Two-Speed’ Festive Consumer.",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQQzZuS3V1WkpHbUVWejFqN2ZzWXNqbXhtT01yQlBqcWt2VEQzMHZ5TlBmZkhWU3pXdTBNQTMzOEEzT212VTljNVNZdEdzOEJqREdyal9QNnRMNU9Ub3VnNEQzUDBqOU5yc0hSNTVfTWRScTI1bHI2Y2JRWlVEQ3JQWFFKU2UxSHhNTzlScWU0QmNsbWNyNWx1dXhBV05EbjliYVQyTS1xdVEtM2JXRGRzVmpDSnN1MW52VlNvamlGNmdyOUZCQmY5dFVlbmxKQWt1cS1uelBOQ1E?oc=5",
+   "summary": "",
+   "source": "TRIPURA STAR NEWS",
+   "published": "2026-10-10T07:40:51+00:00",
+   "theme": "business",
+   "score": 8,
+   "paper": {
+    "index_line": "9 In 10 Shoppers Research Extensively, Yet 70% Buy On Impulse: Google Unpacks India’s ‘Two-Speed’ Festive Consumer.",
+    "headline": "9 In 10 Shoppers Research Extensively, Yet 70% Buy On Impulse: Google Unpacks India’s ‘Two-Speed’ Festive Consumer.",
+    "subhead": "ビジネス・経営・消費",
+    "lead": "",
+    "sources": "TRIPURA STAR NEWS",
+    "what_happened": "",
+    "keio_angle": "商学部の長文ではマーケティング・消費者行動・企業戦略が定番。「なぜ人は買うのか」という行動経済学の視点が効く。",
+    "vocab": [
+     {
+      "en": "consumer behavior",
+      "ja": "消費者行動"
+     },
+     {
+      "en": "revenue",
+      "ja": "収益"
+     },
+     {
+      "en": "brand loyalty",
+      "ja": "ブランドへの愛着"
+     },
+     {
+      "en": "competitor",
+      "ja": "競合他社"
+     },
+     {
+      "en": "stakeholder",
+      "ja": "利害関係者"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
