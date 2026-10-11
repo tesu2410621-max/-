@@ -1,0 +1,218 @@
+{
+ "date": "2026-10-12",
+ "mode": "live",
+ "issue": 12,
+ "theme": "国際関係・安全保障",
+ "essays": [
+  {
+   "title": "“ガザ停戦”から１年経過 イスラエル軍の攻撃で死者相次ぐ",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261011de58041",
+   "summary": "パレスチナのガザ地区ではイスラエル軍の無人機による攻撃で1人が死亡したほかイスラエル軍の発砲で妊婦を含む8人がけがをしたと伝えられ、イスラエルとイスラム組織ハマスの停戦合意の発効から1年がたったあとも…",
+   "source": "NHK 国際",
+   "published": "2026-10-12T04:50:03+09:00",
+   "theme": "global",
+   "score": 27.0,
+   "faculty": "hou",
+   "faculties": [
+    "hou",
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "“ガザ停戦”から１年経過 イスラエル軍の攻撃で死者相次ぐ",
+    "headline": "“ガザ停戦”から１年経過 イスラエル軍の攻撃で死者相次ぐ",
+    "subhead": "国際関係・安全保障の具体例として読む",
+    "lead": "パレスチナのガザ地区ではイスラエル軍の無人機による攻撃で1人が死亡したほかイスラエル軍の発砲で妊婦を含む8人がけがをしたと伝えられ、イスラエルとイスラム組織ハマスの停戦合意の発効から1年がたったあとも…",
+    "sources": "NHK 国際",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "国益の追求か、国際協調・人道か",
+    "pros": [
+     "国益の追求"
+    ],
+    "cons": [
+     "国際協調・人道"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "安全保障のジレンマ",
+      "definition": ""
+     },
+     {
+      "term": "ソフトパワー",
+      "definition": ""
+     },
+     {
+      "term": "経済安全保障",
+      "definition": ""
+     },
+     {
+      "term": "グローバル・ガバナンス",
+      "definition": ""
+     }
+    ],
+    "question": "この国際問題に対し、日本はどのような立場・行動をとるべきか。複数の立場を比較して論じよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "アメリカと中国が核関連施設の相互訪問協議か 米メディア報道",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261007de55632",
+   "summary": "中国が軍事力を急速に強化させるなか、アメリカのトランプ政権が、中国との間で核関連施設を相互に訪問することについて協議しているとアメリカメディアが報じました。",
+   "source": "NHK 国際",
+   "published": "2026-10-07T07:34:00+09:00",
+   "theme": "culture",
+   "score": 16.5,
+   "faculty": "bun",
+   "faculties": [
+    "bun"
+   ],
+   "paper": {
+    "index_line": "アメリカと中国が核関連施設の相互訪問協議か 米メディア報道",
+    "headline": "アメリカと中国が核関連施設の相互訪問協議か 米メディア報道",
+    "subhead": "文化・言語・歴史・メディアの具体例として読む",
+    "lead": "中国が軍事力を急速に強化させるなか、アメリカのトランプ政権が、中国との間で核関連施設を相互に訪問することについて協議しているとアメリカメディアが報じました。",
+    "sources": "NHK 国際",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "伝統・固有性の継承か、変化・グローバル化への適応か",
+    "pros": [
+     "伝統・固有性の継承"
+    ],
+    "cons": [
+     "変化・グローバル化への適応"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "アイデンティティ",
+      "definition": ""
+     },
+     {
+      "term": "集合的記憶",
+      "definition": ""
+     },
+     {
+      "term": "文化相対主義",
+      "definition": ""
+     },
+     {
+      "term": "他者理解",
+      "definition": ""
+     }
+    ],
+    "question": "このニュースを手がかりに、人間にとって文化（言葉・歴史・芸術）が持つ意味について考えを述べよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy",
+   "link": "https://www.theguardian.com/business/2026/oct/11/trump-ai-economy-reagan",
+   "summary": "‘Even if AI supercharged the economy, its impact on the government’s finances would be muted’Back through political history to the age of Ronald Reagan, Republicans have repeatedly promised the US public that tax cuts would pay for themselves, firing up economic growth and filling the government’s c",
+   "source": "The Guardian Economics",
+   "published": "2026-10-11T11:00:25+00:00",
+   "theme": "econ",
+   "score": 10,
+   "paper": {
+    "index_line": "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy",
+    "headline": "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy",
+    "subhead": "経済・市場",
+    "lead": "‘Even if AI supercharged the economy, its impact on the government’s finances would be muted’Back through political history to the age of Ronald Reagan, Republicans have repeatedly promised the US public that tax cuts would pay for themselves, firing up economic growth and filling the government’s c",
+    "sources": "The Guardian Economics",
+    "what_happened": "",
+    "keio_angle": "インフレ・金利・貿易摩擦は経済学部の長文で頻出。「需要と供給」「インセンティブ」「比較優位」で説明できるか意識しよう。",
+    "vocab": [
+     {
+      "en": "inflation",
+      "ja": "インフレ"
+     },
+     {
+      "en": "tariff",
+      "ja": "関税"
+     },
+     {
+      "en": "incentive",
+      "ja": "誘因"
+     },
+     {
+      "en": "comparative advantage",
+      "ja": "比較優位"
+     },
+     {
+      "en": "fiscal",
+      "ja": "財政の"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "MIT Study Pushes Back On One Of The Biggest Solar Energy Myths",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMFN4NnZycldJdVUwa3lfRjFYS2tDa3ZFWGc3bEYwb2FxLU5PZEdaejVDd2JKcnJHQnRxR0k3cUxLaUhIQ3lIMFdpN0VIUTNzRk9ya0RqcWJQTE9EdHFoejlKOW1sZjF6RThfZlhkaHVMTUkxakhuQW9VRmh1bS1PUGFn?oc=5",
+   "summary": "",
+   "source": "SlashGear",
+   "published": "2026-10-11T15:15:00+00:00",
+   "theme": "environment",
+   "score": 8,
+   "paper": {
+    "index_line": "MIT Study Pushes Back On One Of The Biggest Solar Energy Myths",
+    "headline": "MIT Study Pushes Back On One Of The Biggest Solar Energy Myths",
+    "subhead": "環境・エネルギー",
+    "lead": "",
+    "sources": "SlashGear",
+    "what_happened": "",
+    "keio_angle": "気候変動は「外部性」「共有地の悲劇」など経済学の概念と結びつけて出題されやすい。",
+    "vocab": [
+     {
+      "en": "emissions",
+      "ja": "排出（量）"
+     },
+     {
+      "en": "externality",
+      "ja": "外部性"
+     },
+     {
+      "en": "sustainable",
+      "ja": "持続可能な"
+     },
+     {
+      "en": "fossil fuel",
+      "ja": "化石燃料"
+     },
+     {
+      "en": "mitigate",
+      "ja": "緩和する"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
