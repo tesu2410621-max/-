@@ -1,0 +1,217 @@
+{
+ "date": "2026-10-13",
+ "mode": "live",
+ "issue": 13,
+ "theme": "科学技術・生命・デザイン",
+ "essays": [
+  {
+   "title": "防衛省 宇宙への輸送能力強化に向けた調査研究開始へ",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261008de56901",
+   "summary": "防衛省は人工衛星を使った情報収集などを安定的に行えるよう、宇宙への輸送能力を強化するための調査研究を始める方針を固めました。近く民間から提案を募り国内の宇宙産業の発展にもつなげたい考えです。",
+   "source": "NHK 政治",
+   "published": "2026-10-09T06:09:00+09:00",
+   "theme": "science",
+   "score": 19.5,
+   "faculty": "kankyo",
+   "faculties": [
+    "kankyo"
+   ],
+   "paper": {
+    "index_line": "防衛省 宇宙への輸送能力強化に向けた調査研究開始へ",
+    "headline": "防衛省 宇宙への輸送能力強化に向けた調査研究開始へ",
+    "subhead": "科学技術・生命・デザインの具体例として読む",
+    "lead": "防衛省は人工衛星を使った情報収集などを安定的に行えるよう、宇宙への輸送能力を強化するための調査研究を始める方針を固めました。近く民間から提案を募り国内の宇宙産業の発展にもつなげたい考えです。",
+    "sources": "NHK 政治",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "研究・技術開発の自由と恩恵か、倫理的限界・予期せぬリスクか",
+    "pros": [
+     "研究・技術開発の自由と恩恵"
+    ],
+    "cons": [
+     "倫理的限界・予期せぬリスク"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "科学技術の倫理",
+      "definition": ""
+     },
+     {
+      "term": "予防原則",
+      "definition": ""
+     },
+     {
+      "term": "オープンイノベーション",
+      "definition": ""
+     },
+     {
+      "term": "人間中心設計",
+      "definition": ""
+     }
+    ],
+    "question": "この技術・研究成果を社会に実装するとしたら、どんな仕組みをデザインするか。課題とあわせて提案せよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "立民 消費税減税めぐり\"今年度中に迅速給付を\" 考え方まとめる",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261007de56110",
+   "summary": "食料品の消費税減税をめぐり、立憲民主党は、2027年4月から2年間、1％に引き下げるとした政府案では物価高対策としての効果が薄いとして、2026年度中に住民税非課税世帯などへの給付を速やかに講じるべき…",
+   "source": "NHK 政治",
+   "published": "2026-10-07T20:31:49+09:00",
+   "theme": "economy",
+   "score": 22.5,
+   "faculty": "sogo",
+   "faculties": [
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "立民 消費税減税めぐり\"今年度中に迅速給付を\" 考え方まとめる",
+    "headline": "立民 消費税減税めぐり\"今年度中に迅速給付を\" 考え方まとめる",
+    "subhead": "経済・市場・企業の具体例として読む",
+    "lead": "食料品の消費税減税をめぐり、立憲民主党は、2027年4月から2年間、1％に引き下げるとした政府案では物価高対策としての効果が薄いとして、2026年度中に住民税非課税世帯などへの給付を速やかに講じるべき…",
+    "sources": "NHK 政治",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "市場メカニズムに委ねるか、政府が介入して是正するか",
+    "pros": [
+     "市場メカニズムに委ねる"
+    ],
+    "cons": [
+     "政府が介入して是正する"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "市場の失敗",
+      "definition": ""
+     },
+     {
+      "term": "インセンティブ",
+      "definition": ""
+     },
+     {
+      "term": "トレードオフ",
+      "definition": ""
+     },
+     {
+      "term": "財政の持続可能性",
+      "definition": ""
+     }
+    ],
+    "question": "この経済ニュースが家計・企業・政府にどう影響するかを整理し、望ましい政策対応を論じよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "Nvidia-backed data centre firm scraps IPO as AI valuation concerns deepen",
+   "link": "https://www.bbc.co.uk/news/articles/ck9dzpw4ll8po?at_medium=RSS&at_campaign=rss",
+   "summary": "Firmus said it had made the decision due to \"recent market volatility and prevailing market conditions\".",
+   "source": "BBC Technology",
+   "published": "2026-10-09T07:14:30+00:00",
+   "theme": "tech",
+   "score": 6,
+   "paper": {
+    "index_line": "Nvidia-backed data centre firm scraps IPO as AI valuation concerns deepen",
+    "headline": "Nvidia-backed data centre firm scraps IPO as AI valuation concerns deepen",
+    "subhead": "テクノロジーと社会",
+    "lead": "Firmus said it had made the decision due to \"recent market volatility and prevailing market conditions\".",
+    "sources": "BBC Technology",
+    "what_happened": "",
+    "keio_angle": "AI・SNS・プライバシーは経済・商の両方で近年頻出。技術の「便益」と「副作用（格差・依存・監視）」の両面で書かれることが多い。",
+    "vocab": [
+     {
+      "en": "automation",
+      "ja": "自動化"
+     },
+     {
+      "en": "surveillance",
+      "ja": "監視"
+     },
+     {
+      "en": "privacy",
+      "ja": "プライバシー"
+     },
+     {
+      "en": "algorithm",
+      "ja": "アルゴリズム"
+     },
+     {
+      "en": "disrupt",
+      "ja": "（既存の秩序を）混乱・一新させる"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "Trump’s deal with Putin will have little impact on US diesel prices, experts say",
+   "link": "https://www.theguardian.com/us-news/2026/oct/11/trump-russia-diesel-deal-putin-little-impact-prices",
+   "summary": "Analysts say fuel will take weeks to ship and quantity is too small to affect prices, while full deal is unlikely to be met given damage to Russian refineriesTrump announces partial ceasefire but Zelenskyy says deal is ‘news to me’Donald Trump’s deal with Vladimir Putin to temporarily lift sanctions",
+   "source": "The Guardian Economics",
+   "published": "2026-10-11T15:56:25+00:00",
+   "theme": "econ",
+   "score": 6,
+   "paper": {
+    "index_line": "Trump’s deal with Putin will have little impact on US diesel prices, experts say",
+    "headline": "Trump’s deal with Putin will have little impact on US diesel prices, experts say",
+    "subhead": "経済・市場",
+    "lead": "Analysts say fuel will take weeks to ship and quantity is too small to affect prices, while full deal is unlikely to be met given damage to Russian refineriesTrump announces partial ceasefire but Zelenskyy says deal is ‘news to me’Donald Trump’s deal with Vladimir Putin to temporarily lift sanctions",
+    "sources": "The Guardian Economics",
+    "what_happened": "",
+    "keio_angle": "インフレ・金利・貿易摩擦は経済学部の長文で頻出。「需要と供給」「インセンティブ」「比較優位」で説明できるか意識しよう。",
+    "vocab": [
+     {
+      "en": "inflation",
+      "ja": "インフレ"
+     },
+     {
+      "en": "tariff",
+      "ja": "関税"
+     },
+     {
+      "en": "incentive",
+      "ja": "誘因"
+     },
+     {
+      "en": "comparative advantage",
+      "ja": "比較優位"
+     },
+     {
+      "en": "fiscal",
+      "ja": "財政の"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
