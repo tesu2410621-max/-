@@ -1,0 +1,218 @@
+{
+ "date": "2026-10-14",
+ "mode": "live",
+ "issue": 14,
+ "theme": "文化・言語・歴史・メディア",
+ "essays": [
+  {
+   "title": "エジプト「日本式」学校で日本語の授業始まる",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261012de58283",
+   "summary": "エジプトで教育改革の一環として、日本の学校をモデルに生徒による掃除や学級会などを取り入れている学校で新たに日本語の授業が始まり、その様子がメディアに公開されました。",
+   "source": "NHK 国際",
+   "published": "2026-10-13T05:04:45+09:00",
+   "theme": "culture",
+   "score": 16.5,
+   "faculty": "bun",
+   "faculties": [
+    "bun"
+   ],
+   "paper": {
+    "index_line": "エジプト「日本式」学校で日本語の授業始まる",
+    "headline": "エジプト「日本式」学校で日本語の授業始まる",
+    "subhead": "文化・言語・歴史・メディアの具体例として読む",
+    "lead": "エジプトで教育改革の一環として、日本の学校をモデルに生徒による掃除や学級会などを取り入れている学校で新たに日本語の授業が始まり、その様子がメディアに公開されました。",
+    "sources": "NHK 国際",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "伝統・固有性の継承か、変化・グローバル化への適応か",
+    "pros": [
+     "伝統・固有性の継承"
+    ],
+    "cons": [
+     "変化・グローバル化への適応"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "アイデンティティ",
+      "definition": ""
+     },
+     {
+      "term": "集合的記憶",
+      "definition": ""
+     },
+     {
+      "term": "文化相対主義",
+      "definition": ""
+     },
+     {
+      "term": "他者理解",
+      "definition": ""
+     }
+    ],
+    "question": "このニュースを手がかりに、人間にとって文化（言葉・歴史・芸術）が持つ意味について考えを述べよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "ロシア外交評論家 ウクライナへの軍事攻撃は一段と激化の見方",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261010de57618",
+   "summary": "ロシアの著名な外交評論家、フョードル・ルキヤノフ氏はNHKとのインタビューで、ロシアは今後、ウクライナへの軍事攻撃を一段と激化させ、ウクライナ東部のドンバス地域を制圧するまで譲歩しないという見通しを示…",
+   "source": "NHK 国際",
+   "published": "2026-10-10T13:54:26+09:00",
+   "theme": "global",
+   "score": 27.0,
+   "faculty": "hou",
+   "faculties": [
+    "hou",
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "ロシア外交評論家 ウクライナへの軍事攻撃は一段と激化の見方",
+    "headline": "ロシア外交評論家 ウクライナへの軍事攻撃は一段と激化の見方",
+    "subhead": "国際関係・安全保障の具体例として読む",
+    "lead": "ロシアの著名な外交評論家、フョードル・ルキヤノフ氏はNHKとのインタビューで、ロシアは今後、ウクライナへの軍事攻撃を一段と激化させ、ウクライナ東部のドンバス地域を制圧するまで譲歩しないという見通しを示…",
+    "sources": "NHK 国際",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "国益の追求か、国際協調・人道か",
+    "pros": [
+     "国益の追求"
+    ],
+    "cons": [
+     "国際協調・人道"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "安全保障のジレンマ",
+      "definition": ""
+     },
+     {
+      "term": "ソフトパワー",
+      "definition": ""
+     },
+     {
+      "term": "経済安全保障",
+      "definition": ""
+     },
+     {
+      "term": "グローバル・ガバナンス",
+      "definition": ""
+     }
+    ],
+    "question": "この国際問題に対し、日本はどのような立場・行動をとるべきか。複数の立場を比較して論じよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "UK growth forecast upgraded but higher energy prices to hit economy next year",
+   "link": "https://www.bbc.co.uk/news/articles/cmglw0r21zexo?at_medium=RSS&at_campaign=rss",
+   "summary": "The prediction from the IMF comes as final preparations are being made for the first Budget under Prime Minister Andy Burnham.",
+   "source": "BBC Business",
+   "published": "2026-10-13T09:38:54+00:00",
+   "theme": "econ",
+   "score": 9,
+   "paper": {
+    "index_line": "UK growth forecast upgraded but higher energy prices to hit economy next year",
+    "headline": "UK growth forecast upgraded but higher energy prices to hit economy next year",
+    "subhead": "経済・市場",
+    "lead": "The prediction from the IMF comes as final preparations are being made for the first Budget under Prime Minister Andy Burnham.",
+    "sources": "BBC Business",
+    "what_happened": "",
+    "keio_angle": "インフレ・金利・貿易摩擦は経済学部の長文で頻出。「需要と供給」「インセンティブ」「比較優位」で説明できるか意識しよう。",
+    "vocab": [
+     {
+      "en": "inflation",
+      "ja": "インフレ"
+     },
+     {
+      "en": "tariff",
+      "ja": "関税"
+     },
+     {
+      "en": "incentive",
+      "ja": "誘因"
+     },
+     {
+      "en": "comparative advantage",
+      "ja": "比較優位"
+     },
+     {
+      "en": "fiscal",
+      "ja": "財政の"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "96% of UK Consumers Open to Brand Loyalty, Study Finds",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQUpwNG9wZHBJTDBUUHZBS2hpb0Zjay15N1JneTBHNzkwQ0QzbGYyVEw3SzdGbGpKRV9aQjIzcXhtZWs5Ymd4NzR0Q3ozQlQ1bFByN2FmWkhBWVpuUlh2cEgzRXl5YmROWHBjcW4zNTR1dnNpM1QtOUFEYU1HN2N1TTJKb3huTmNf?oc=5",
+   "summary": "",
+   "source": "MarTech Cube",
+   "published": "2026-10-13T10:06:46+00:00",
+   "theme": "business",
+   "score": 8,
+   "paper": {
+    "index_line": "96% of UK Consumers Open to Brand Loyalty, Study Finds",
+    "headline": "96% of UK Consumers Open to Brand Loyalty, Study Finds",
+    "subhead": "ビジネス・経営・消費",
+    "lead": "",
+    "sources": "MarTech Cube",
+    "what_happened": "",
+    "keio_angle": "商学部の長文ではマーケティング・消費者行動・企業戦略が定番。「なぜ人は買うのか」という行動経済学の視点が効く。",
+    "vocab": [
+     {
+      "en": "consumer behavior",
+      "ja": "消費者行動"
+     },
+     {
+      "en": "revenue",
+      "ja": "収益"
+     },
+     {
+      "en": "brand loyalty",
+      "ja": "ブランドへの愛着"
+     },
+     {
+      "en": "competitor",
+      "ja": "競合他社"
+     },
+     {
+      "en": "stakeholder",
+      "ja": "利害関係者"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
