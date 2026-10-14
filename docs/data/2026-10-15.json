@@ -1,0 +1,217 @@
+{
+ "date": "2026-10-15",
+ "mode": "live",
+ "issue": 15,
+ "theme": "少子高齢化・人口減少",
+ "essays": [
+  {
+   "title": "訪問介護の介護報酬の枠組み 抜本的見直しで検討 厚生労働省",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261015de59521",
+   "summary": "介護が必要な高齢者が地域で暮らす際に欠かせない訪問介護サービスでは、利用者が分散している場合、ヘルパーの移動に時間がかかるなどして効率的なサービスの提供が難しく、事業者の経営を圧迫する要因となっていま…",
+   "source": "NHK 社会",
+   "published": "2026-10-15T05:39:46+09:00",
+   "theme": "population",
+   "score": 19.5,
+   "faculty": "sogo",
+   "faculties": [
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "訪問介護の介護報酬の枠組み 抜本的見直しで検討 厚生労働省",
+    "headline": "訪問介護の介護報酬の枠組み 抜本的見直しで検討 厚生労働省",
+    "subhead": "少子高齢化・人口減少の具体例として読む",
+    "lead": "介護が必要な高齢者が地域で暮らす際に欠かせない訪問介護サービスでは、利用者が分散している場合、ヘルパーの移動に時間がかかるなどして効率的なサービスの提供が難しく、事業者の経営を圧迫する要因となっていま…",
+    "sources": "NHK 社会",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "現役世代への負担集中か、高齢者の生活保障か",
+    "pros": [
+     "現役世代への負担集中"
+    ],
+    "cons": [
+     "高齢者の生活保障"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "世代間公平",
+      "definition": ""
+     },
+     {
+      "term": "賦課方式と積立方式",
+      "definition": ""
+     },
+     {
+      "term": "機会費用",
+      "definition": ""
+     },
+     {
+      "term": "持続可能性",
+      "definition": ""
+     }
+    ],
+    "question": "人口減少を前提とした社会設計として、この問題にどのような政策で対応すべきか。根拠とともに述べよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "【玉川大学脳科学研究所】『教養としての心』を10月に刊行～脳科学の研究者が「心」の謎に多角的な視点から迫る",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ISm5lNG5YLTFxbkxnbHhVNGtfdU5UT21tQW9ZN0VWR3pOU3NQSk91QmwweFlPR2NBenU5WDJENGRmUmpYdDgzcS0xSzZkSjJXbHItU2RB?oc=5",
+   "summary": "",
+   "source": "大学プレスセンター",
+   "published": "2026-10-14T05:00:00+00:00",
+   "theme": "science",
+   "score": 18.0,
+   "faculty": "kankyo",
+   "faculties": [
+    "kankyo"
+   ],
+   "paper": {
+    "index_line": "【玉川大学脳科学研究所】『教養としての心』を10月に刊行～脳科学の研究者が「心」の謎に多角的な視点から迫る",
+    "headline": "【玉川大学脳科学研究所】『教養としての心』を10月に刊行～脳科学の研究者が「心」の謎に多角的な視点から迫る",
+    "subhead": "科学技術・生命・デザインの具体例として読む",
+    "lead": "",
+    "sources": "大学プレスセンター",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "研究・技術開発の自由と恩恵か、倫理的限界・予期せぬリスクか",
+    "pros": [
+     "研究・技術開発の自由と恩恵"
+    ],
+    "cons": [
+     "倫理的限界・予期せぬリスク"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "科学技術の倫理",
+      "definition": ""
+     },
+     {
+      "term": "予防原則",
+      "definition": ""
+     },
+     {
+      "term": "オープンイノベーション",
+      "definition": ""
+     },
+     {
+      "term": "人間中心設計",
+      "definition": ""
+     }
+    ],
+    "question": "この技術・研究成果を社会に実装するとしたら、どんな仕組みをデザインするか。課題とあわせて提案せよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "IMF raises UK growth forecast as economist says Healey should ‘stay the course’",
+   "link": "https://www.theguardian.com/business/2026/oct/13/john-healey-uk-finances-imf-gdp-growth-forecast-2026",
+   "summary": "Fund upgrades UK’s GDP growth forecast for 2026 to 1.3%, but says it is likely to edge down next yearIMF warns global economy ‘could soon test the limits of resilience’John Healey should “stay the course” and continue repairing the UK’s public finances, the International Monetary Fund’s top economis",
+   "source": "The Guardian Economics",
+   "published": "2026-10-13T07:58:56+00:00",
+   "theme": "econ",
+   "score": 9,
+   "paper": {
+    "index_line": "IMF raises UK growth forecast as economist says Healey should ‘stay the course’",
+    "headline": "IMF raises UK growth forecast as economist says Healey should ‘stay the course’",
+    "subhead": "経済・市場",
+    "lead": "Fund upgrades UK’s GDP growth forecast for 2026 to 1.3%, but says it is likely to edge down next yearIMF warns global economy ‘could soon test the limits of resilience’John Healey should “stay the course” and continue repairing the UK’s public finances, the International Monetary Fund’s top economis",
+    "sources": "The Guardian Economics",
+    "what_happened": "",
+    "keio_angle": "インフレ・金利・貿易摩擦は経済学部の長文で頻出。「需要と供給」「インセンティブ」「比較優位」で説明できるか意識しよう。",
+    "vocab": [
+     {
+      "en": "inflation",
+      "ja": "インフレ"
+     },
+     {
+      "en": "tariff",
+      "ja": "関税"
+     },
+     {
+      "en": "incentive",
+      "ja": "誘因"
+     },
+     {
+      "en": "comparative advantage",
+      "ja": "比較優位"
+     },
+     {
+      "en": "fiscal",
+      "ja": "財政の"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "Is it really ‘madness’ to account for emissions from fossil fuels burned overseas? The Coalition sure thinks so | Temperature Check",
+   "link": "https://www.theguardian.com/environment/2026/oct/14/is-it-really-madness-to-account-for-emissions-from-fossil-fuels-burned-overseas-the-coalition-sure-thinks-so",
+   "summary": "The emissions might occur elsewhere, but they generate global harm that scientists can now quantifySign up for climate and environment editor Adam Morton’s free Clear Air newsletter hereThe Coalition has come up with the perfect solution to deal with the climate pollution from when Australian fossil",
+   "source": "The Guardian Environment",
+   "published": "2026-10-14T14:14:43+00:00",
+   "theme": "environment",
+   "score": 7,
+   "paper": {
+    "index_line": "Is it really ‘madness’ to account for emissions from fossil fuels burned overseas? The Coalition sure thinks so | Temperature Check",
+    "headline": "Is it really ‘madness’ to account for emissions from fossil fuels burned overseas? The Coalition sure thinks so | Temperature Check",
+    "subhead": "環境・エネルギー",
+    "lead": "The emissions might occur elsewhere, but they generate global harm that scientists can now quantifySign up for climate and environment editor Adam Morton’s free Clear Air newsletter hereThe Coalition has come up with the perfect solution to deal with the climate pollution from when Australian fossil",
+    "sources": "The Guardian Environment",
+    "what_happened": "",
+    "keio_angle": "気候変動は「外部性」「共有地の悲劇」など経済学の概念と結びつけて出題されやすい。",
+    "vocab": [
+     {
+      "en": "emissions",
+      "ja": "排出（量）"
+     },
+     {
+      "en": "externality",
+      "ja": "外部性"
+     },
+     {
+      "en": "sustainable",
+      "ja": "持続可能な"
+     },
+     {
+      "en": "fossil fuel",
+      "ja": "化石燃料"
+     },
+     {
+      "en": "mitigate",
+      "ja": "緩和する"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
