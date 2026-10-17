@@ -1,0 +1,217 @@
+{
+ "date": "2026-10-18",
+ "mode": "live",
+ "issue": 18,
+ "theme": "文化・言語・歴史・メディア",
+ "essays": [
+  {
+   "title": "北朝鮮メディア AI搭載の新型魚雷の発射実験を実施と報道",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261017de60903",
+   "summary": "北朝鮮のメディアは、15日、AI＝人工知能が導入された新型の魚雷の発射実験が行われ、性能が立証されたと伝えました。",
+   "source": "NHK 国際",
+   "published": "2026-10-17T16:21:00+09:00",
+   "theme": "culture",
+   "score": 19.5,
+   "faculty": "bun",
+   "faculties": [
+    "bun"
+   ],
+   "paper": {
+    "index_line": "北朝鮮メディア AI搭載の新型魚雷の発射実験を実施と報道",
+    "headline": "北朝鮮メディア AI搭載の新型魚雷の発射実験を実施と報道",
+    "subhead": "文化・言語・歴史・メディアの具体例として読む",
+    "lead": "北朝鮮のメディアは、15日、AI＝人工知能が導入された新型の魚雷の発射実験が行われ、性能が立証されたと伝えました。",
+    "sources": "NHK 国際",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "伝統・固有性の継承か、変化・グローバル化への適応か",
+    "pros": [
+     "伝統・固有性の継承"
+    ],
+    "cons": [
+     "変化・グローバル化への適応"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "アイデンティティ",
+      "definition": ""
+     },
+     {
+      "term": "集合的記憶",
+      "definition": ""
+     },
+     {
+      "term": "文化相対主義",
+      "definition": ""
+     },
+     {
+      "term": "他者理解",
+      "definition": ""
+     }
+    ],
+    "question": "このニュースを手がかりに、人間にとって文化（言葉・歴史・芸術）が持つ意味について考えを述べよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "福島 猪苗代湖 3人死傷のボート事故 きょう最高裁判決",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261015de60117",
+   "summary": "6年前、福島県の猪苗代湖で親子など3人にボートで衝突して死傷させたとして業務上過失致死傷の罪に問われ、2審で無罪判決を受けた元会社役員の裁判で、最高裁判所が16日、判決を言い渡します。 最高裁で判断…",
+   "source": "NHK 社会",
+   "published": "2026-10-16T05:08:39+09:00",
+   "theme": "politics",
+   "score": 22.5,
+   "faculty": "hou",
+   "faculties": [
+    "hou"
+   ],
+   "paper": {
+    "index_line": "福島 猪苗代湖 3人死傷のボート事故 きょう最高裁判決",
+    "headline": "福島 猪苗代湖 3人死傷のボート事故 きょう最高裁判決",
+    "subhead": "民主主義・政治・法の具体例として読む",
+    "lead": "6年前、福島県の猪苗代湖で親子など3人にボートで衝突して死傷させたとして業務上過失致死傷の罪に問われ、2審で無罪判決を受けた元会社役員の裁判で、最高裁判所が16日、判決を言い渡します。 最高裁で判断…",
+    "sources": "NHK 社会",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "迅速な意思決定か、熟議・手続きの正当性か",
+    "pros": [
+     "迅速な意思決定"
+    ],
+    "cons": [
+     "熟議・手続きの正当性"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "代表制民主主義",
+      "definition": ""
+     },
+     {
+      "term": "熟議民主主義",
+      "definition": ""
+     },
+     {
+      "term": "法の支配",
+      "definition": ""
+     },
+     {
+      "term": "政治的無関心",
+      "definition": ""
+     }
+    ],
+    "question": "この政治・制度上の論点について、賛否両方の根拠を整理したうえで自分の立場を示せ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "Honeybees are barging aside wild pollinators in hunt for pollen and nectar, study finds",
+   "link": "https://www.theguardian.com/environment/2026/oct/17/honeybees-are-barging-aside-wild-pollinators-in-hunt-for-pollen-and-nectar-study-finds",
+   "summary": "As a surge in beekeepers has led to increased numbers of honeybees, researchers record them pushing bumblebees and other rival species away from flowersHoneybees are outcompeting wild pollinators for resources by aggressively bumping into them and chasing them away from flowers, research has shown.T",
+   "source": "The Guardian Environment",
+   "published": "2026-10-17T09:00:27+00:00",
+   "theme": "society",
+   "score": 8,
+   "paper": {
+    "index_line": "Honeybees are barging aside wild pollinators in hunt for pollen and nectar, study finds",
+    "headline": "Honeybees are barging aside wild pollinators in hunt for pollen and nectar, study finds",
+    "subhead": "社会・心理・教育",
+    "lead": "As a surge in beekeepers has led to increased numbers of honeybees, researchers record them pushing bumblebees and other rival species away from flowersHoneybees are outcompeting wild pollinators for resources by aggressively bumping into them and chasing them away from flowers, research has shown.T",
+    "sources": "The Guardian Environment",
+    "what_happened": "",
+    "keio_angle": "心理学・行動科学の実験を紹介する英文は経済・商ともに多い。「実験の設定→結果→解釈」の流れを追う練習になる。",
+    "vocab": [
+     {
+      "en": "cognitive bias",
+      "ja": "認知バイアス"
+     },
+     {
+      "en": "well-being",
+      "ja": "幸福"
+     },
+     {
+      "en": "hypothesis",
+      "ja": "仮説"
+     },
+     {
+      "en": "demographic",
+      "ja": "人口統計の"
+     },
+     {
+      "en": "conformity",
+      "ja": "同調"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "Even neighborhood cafes buy renewable energy… Lowering the barrier to entry through \"subscriptions\" [Net Zero Case Study]",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5aaGgxLWVVb2szaldEMnNQeHZyekcyLWt0ZUxKNTRzM3RhRzZoWTZuakFTZnBCd2ZkWTRrT3M2bmVtNi1FV1N2VWRzWUc3VDJ2WGZUMFhtZEZBaWg2RURKU0Rhc3d0SDQ1Q1VTUTFwMTQ?oc=5",
+   "summary": "",
+   "source": "머니투데이",
+   "published": "2026-10-17T00:20:00+00:00",
+   "theme": "environment",
+   "score": 8,
+   "paper": {
+    "index_line": "Even neighborhood cafes buy renewable energy… Lowering the barrier to entry through \"subscriptions\" [Net Zero Case Study]",
+    "headline": "Even neighborhood cafes buy renewable energy… Lowering the barrier to entry through \"subscriptions\" [Net Zero Case Study]",
+    "subhead": "環境・エネルギー",
+    "lead": "",
+    "sources": "머니투데이",
+    "what_happened": "",
+    "keio_angle": "気候変動は「外部性」「共有地の悲劇」など経済学の概念と結びつけて出題されやすい。",
+    "vocab": [
+     {
+      "en": "emissions",
+      "ja": "排出（量）"
+     },
+     {
+      "en": "externality",
+      "ja": "外部性"
+     },
+     {
+      "en": "sustainable",
+      "ja": "持続可能な"
+     },
+     {
+      "en": "fossil fuel",
+      "ja": "化石燃料"
+     },
+     {
+      "en": "mitigate",
+      "ja": "緩和する"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
