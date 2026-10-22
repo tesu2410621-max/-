@@ -1,0 +1,218 @@
+{
+ "date": "2026-10-23",
+ "mode": "live",
+ "issue": 23,
+ "theme": "経済・市場・企業",
+ "essays": [
+  {
+   "title": "国民 消費税減税法案の対案提出 住民税減税などで負担軽減図る",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261020de61991",
+   "summary": "食料品の消費税減税関連法案をめぐり、国民民主党は、対案となる法案を国会に提出しました。住民税の減税や給付を組み合わせ、就業者1人あたり最大で年間5万円程度の負担軽減を図るとしています。",
+   "source": "NHK 政治",
+   "published": "2026-10-20T11:58:21+09:00",
+   "theme": "economy",
+   "score": 33.0,
+   "faculty": "sogo",
+   "faculties": [
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "国民 消費税減税法案の対案提出 住民税減税などで負担軽減図る",
+    "headline": "国民 消費税減税法案の対案提出 住民税減税などで負担軽減図る",
+    "subhead": "経済・市場・企業の具体例として読む",
+    "lead": "食料品の消費税減税関連法案をめぐり、国民民主党は、対案となる法案を国会に提出しました。住民税の減税や給付を組み合わせ、就業者1人あたり最大で年間5万円程度の負担軽減を図るとしています。",
+    "sources": "NHK 政治",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "市場メカニズムに委ねるか、政府が介入して是正するか",
+    "pros": [
+     "市場メカニズムに委ねる"
+    ],
+    "cons": [
+     "政府が介入して是正する"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "市場の失敗",
+      "definition": ""
+     },
+     {
+      "term": "インセンティブ",
+      "definition": ""
+     },
+     {
+      "term": "トレードオフ",
+      "definition": ""
+     },
+     {
+      "term": "財政の持続可能性",
+      "definition": ""
+     }
+    ],
+    "question": "この経済ニュースが家計・企業・政府にどう影響するかを整理し、望ましい政策対応を論じよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "政府 人手不足の現場でAI活用加速 規制・制度の見直しも",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261021de63106",
+   "summary": "医療・介護や建設など人手不足が深刻な現場でAIの活用を加速させようと、政府の担当者らによる会議が21日に開かれました。今後、活用の具体例を検討するとともに、見直しが必要な規制や制度の洗い出しなども進め…",
+   "source": "NHK 経済",
+   "published": "2026-10-21T20:43:22+09:00",
+   "theme": "ai",
+   "score": 18.0,
+   "faculty": "kankyo",
+   "faculties": [
+    "kankyo",
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "政府 人手不足の現場でAI活用加速 規制・制度の見直しも",
+    "headline": "政府 人手不足の現場でAI活用加速 規制・制度の見直しも",
+    "subhead": "AI・デジタル社会の具体例として読む",
+    "lead": "医療・介護や建設など人手不足が深刻な現場でAIの活用を加速させようと、政府の担当者らによる会議が21日に開かれました。今後、活用の具体例を検討するとともに、見直しが必要な規制や制度の洗い出しなども進め…",
+    "sources": "NHK 経済",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "技術革新による効率化・新産業創出か、雇用の置き換え・格差拡大か",
+    "pros": [
+     "技術革新による効率化・新産業創出"
+    ],
+    "cons": [
+     "雇用の置き換え・格差拡大"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "技術的失業",
+      "definition": ""
+     },
+     {
+      "term": "デジタル・デバイド",
+      "definition": ""
+     },
+     {
+      "term": "アルゴリズムの透明性",
+      "definition": ""
+     },
+     {
+      "term": "プラットフォーム規制",
+      "definition": ""
+     }
+    ],
+    "question": "この技術が社会に広がるとき、誰が得をし誰が損をするのかを整理し、望ましいルールのあり方を提案せよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "Study: U.S. recommerce market increases 7.9% as economic concerns rise",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRmQxT0pSamZ5R21UcVNmeUlndjE5SF93Nk84QktPYUd5NnR3bEN1NVRSbjZVeVZBdmQ1T3NRZTNCZ2xQTlFZZU1qMjNXRGNwaGJNY3ZwQTFKY213V04yWldqdXFNRzJwOGdjN2loeWpxOGJpXzBnRTBXcV9ISnBNQWxqaFpobEV4NlJGTkw0eG9UZw?oc=5",
+   "summary": "",
+   "source": "Chain Store Age",
+   "published": "2026-10-22T16:57:31+00:00",
+   "theme": "econ",
+   "score": 8,
+   "paper": {
+    "index_line": "Study: U.S. recommerce market increases 7.9% as economic concerns rise",
+    "headline": "Study: U.S. recommerce market increases 7.9% as economic concerns rise",
+    "subhead": "経済・市場",
+    "lead": "",
+    "sources": "Chain Store Age",
+    "what_happened": "",
+    "keio_angle": "インフレ・金利・貿易摩擦は経済学部の長文で頻出。「需要と供給」「インセンティブ」「比較優位」で説明できるか意識しよう。",
+    "vocab": [
+     {
+      "en": "inflation",
+      "ja": "インフレ"
+     },
+     {
+      "en": "tariff",
+      "ja": "関税"
+     },
+     {
+      "en": "incentive",
+      "ja": "誘因"
+     },
+     {
+      "en": "comparative advantage",
+      "ja": "比較優位"
+     },
+     {
+      "en": "fiscal",
+      "ja": "財政の"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "Just Eat apologises for AI food mistakes after social media ridicule",
+   "link": "https://www.bbc.co.uk/news/articles/crz981p0klvgo?at_medium=RSS&at_campaign=rss",
+   "summary": "A spokesperson said it was removing inaccurate AI images and pausing the rollout of the tool.",
+   "source": "BBC Business",
+   "published": "2026-10-21T17:04:13+00:00",
+   "theme": "tech",
+   "score": 7,
+   "paper": {
+    "index_line": "Just Eat apologises for AI food mistakes after social media ridicule",
+    "headline": "Just Eat apologises for AI food mistakes after social media ridicule",
+    "subhead": "テクノロジーと社会",
+    "lead": "A spokesperson said it was removing inaccurate AI images and pausing the rollout of the tool.",
+    "sources": "BBC Business",
+    "what_happened": "",
+    "keio_angle": "AI・SNS・プライバシーは経済・商の両方で近年頻出。技術の「便益」と「副作用（格差・依存・監視）」の両面で書かれることが多い。",
+    "vocab": [
+     {
+      "en": "automation",
+      "ja": "自動化"
+     },
+     {
+      "en": "surveillance",
+      "ja": "監視"
+     },
+     {
+      "en": "privacy",
+      "ja": "プライバシー"
+     },
+     {
+      "en": "algorithm",
+      "ja": "アルゴリズム"
+     },
+     {
+      "en": "disrupt",
+      "ja": "（既存の秩序を）混乱・一新させる"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
