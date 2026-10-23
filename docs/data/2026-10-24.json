@@ -1,0 +1,218 @@
+{
+ "date": "2026-10-24",
+ "mode": "live",
+ "issue": 24,
+ "theme": "国際関係・安全保障",
+ "essays": [
+  {
+   "title": "高市首相 国連難民高等弁務官と会談 緊密連携で難民支援",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261020de62261",
+   "summary": "高市総理大臣は、日本を訪れているUNHCR＝国連難民高等弁務官事務所のサーレハ難民高等弁務官と会談し、緊密に連携しながら、難民支援に取り組んでいくことを確認しました。",
+   "source": "NHK 政治",
+   "published": "2026-10-20T16:59:00+09:00",
+   "theme": "global",
+   "score": 22.5,
+   "faculty": "hou",
+   "faculties": [
+    "hou",
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "高市首相 国連難民高等弁務官と会談 緊密連携で難民支援",
+    "headline": "高市首相 国連難民高等弁務官と会談 緊密連携で難民支援",
+    "subhead": "国際関係・安全保障の具体例として読む",
+    "lead": "高市総理大臣は、日本を訪れているUNHCR＝国連難民高等弁務官事務所のサーレハ難民高等弁務官と会談し、緊密に連携しながら、難民支援に取り組んでいくことを確認しました。",
+    "sources": "NHK 政治",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "国益の追求か、国際協調・人道か",
+    "pros": [
+     "国益の追求"
+    ],
+    "cons": [
+     "国際協調・人道"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "安全保障のジレンマ",
+      "definition": ""
+     },
+     {
+      "term": "ソフトパワー",
+      "definition": ""
+     },
+     {
+      "term": "経済安全保障",
+      "definition": ""
+     },
+     {
+      "term": "グローバル・ガバナンス",
+      "definition": ""
+     }
+    ],
+    "question": "この国際問題に対し、日本はどのような立場・行動をとるべきか。複数の立場を比較して論じよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "育成就労制度 約36%の機関が“日本語教員確保めど立たず”",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261023de64339",
+   "summary": "2027年4月から導入される「育成就労制度」をめぐり、外国人材の日本語教育を担う可能性がある機関を対象に国が実施した調査で、教員の確保のめどが立っていないと回答した割合は、およそ36％でした。",
+   "source": "NHK 社会",
+   "published": "2026-10-23T17:51:00+09:00",
+   "theme": "culture",
+   "score": 15.0,
+   "faculty": "bun",
+   "faculties": [
+    "bun"
+   ],
+   "paper": {
+    "index_line": "育成就労制度 約36%の機関が“日本語教員確保めど立たず”",
+    "headline": "育成就労制度 約36%の機関が“日本語教員確保めど立たず”",
+    "subhead": "文化・言語・歴史・メディアの具体例として読む",
+    "lead": "2027年4月から導入される「育成就労制度」をめぐり、外国人材の日本語教育を担う可能性がある機関を対象に国が実施した調査で、教員の確保のめどが立っていないと回答した割合は、およそ36％でした。",
+    "sources": "NHK 社会",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "伝統・固有性の継承か、変化・グローバル化への適応か",
+    "pros": [
+     "伝統・固有性の継承"
+    ],
+    "cons": [
+     "変化・グローバル化への適応"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "アイデンティティ",
+      "definition": ""
+     },
+     {
+      "term": "集合的記憶",
+      "definition": ""
+     },
+     {
+      "term": "文化相対主義",
+      "definition": ""
+     },
+     {
+      "term": "他者理解",
+      "definition": ""
+     }
+    ],
+    "question": "このニュースを手がかりに、人間にとって文化（言葉・歴史・芸術）が持つ意味について考えを述べよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "An AI chatbot files for bankruptcy. Is it a bad omen for the industry?",
+   "link": "https://www.npr.org/2026/10/21/nx-s1-6008078/an-ai-chatbot-files-for-bankruptcy-is-it-a-bad-omen-for-the-industry",
+   "summary": "Character.AI, which lets users create custom chatbots for immersive roleplaying, has filed for Chapter 11 bankruptcy following a string of legal challenges and the loss of top talent.",
+   "source": "NPR Technology",
+   "published": "2026-10-21T04:40:59-04:00",
+   "theme": "tech",
+   "score": 7,
+   "paper": {
+    "index_line": "An AI chatbot files for bankruptcy. Is it a bad omen for the industry?",
+    "headline": "An AI chatbot files for bankruptcy. Is it a bad omen for the industry?",
+    "subhead": "テクノロジーと社会",
+    "lead": "Character.AI, which lets users create custom chatbots for immersive roleplaying, has filed for Chapter 11 bankruptcy following a string of legal challenges and the loss of top talent.",
+    "sources": "NPR Technology",
+    "what_happened": "",
+    "keio_angle": "AI・SNS・プライバシーは経済・商の両方で近年頻出。技術の「便益」と「副作用（格差・依存・監視）」の両面で書かれることが多い。",
+    "vocab": [
+     {
+      "en": "automation",
+      "ja": "自動化"
+     },
+     {
+      "en": "surveillance",
+      "ja": "監視"
+     },
+     {
+      "en": "privacy",
+      "ja": "プライバシー"
+     },
+     {
+      "en": "algorithm",
+      "ja": "アルゴリズム"
+     },
+     {
+      "en": "disrupt",
+      "ja": "（既存の秩序を）混乱・一新させる"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "‘Africa hasn’t decolonised education enough’: how world’s youngest continent can unlock potential",
+   "link": "https://www.theguardian.com/global-development/2026/sep/25/africa-young-talent-decolonise-universities-public-health-expert-john-nkengasong-higher-education",
+   "summary": "Dr John Nkengasong, a former WHO adviser who worked with Biden administration on Aids policy, says innovation and investment are key to unlocking potential of continent’s graduatesAfrican governments need to shake off the legacy of colonialism and underfunding if their education systems are ever to ",
+   "source": "The Guardian Global development",
+   "published": "2026-09-25T09:00:46+00:00",
+   "theme": "society",
+   "score": 6,
+   "paper": {
+    "index_line": "‘Africa hasn’t decolonised education enough’: how world’s youngest continent can unlock potential",
+    "headline": "‘Africa hasn’t decolonised education enough’: how world’s youngest continent can unlock potential",
+    "subhead": "社会・心理・教育",
+    "lead": "Dr John Nkengasong, a former WHO adviser who worked with Biden administration on Aids policy, says innovation and investment are key to unlocking potential of continent’s graduatesAfrican governments need to shake off the legacy of colonialism and underfunding if their education systems are ever to ",
+    "sources": "The Guardian Global development",
+    "what_happened": "",
+    "keio_angle": "心理学・行動科学の実験を紹介する英文は経済・商ともに多い。「実験の設定→結果→解釈」の流れを追う練習になる。",
+    "vocab": [
+     {
+      "en": "cognitive bias",
+      "ja": "認知バイアス"
+     },
+     {
+      "en": "well-being",
+      "ja": "幸福"
+     },
+     {
+      "en": "hypothesis",
+      "ja": "仮説"
+     },
+     {
+      "en": "demographic",
+      "ja": "人口統計の"
+     },
+     {
+      "en": "conformity",
+      "ja": "同調"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
