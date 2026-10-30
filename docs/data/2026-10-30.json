@@ -1,0 +1,218 @@
+{
+ "date": "2026-10-30",
+ "mode": "live",
+ "issue": 30,
+ "theme": "文化・言語・歴史・メディア",
+ "essays": [
+  {
+   "title": "「世界に誇れる文化財守り伝える」京都銀行が定期預金総額に応じ寄付 京都市などと文化財保全協定",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5kb1pPcnI3OVBjQXliTkJWeWFQeGVIYzJpQlVsbU1ZakUtMXpvOVkyOWFPZWlSSFQtam01MktoVndPSjlaaGZVajYzMWk4alA1Z29VR0RMQk4?oc=5",
+   "summary": "",
+   "source": "京都新聞デジタル",
+   "published": "2026-10-29T21:00:00+00:00",
+   "theme": "culture",
+   "score": 18.0,
+   "faculty": "bun",
+   "faculties": [
+    "bun"
+   ],
+   "paper": {
+    "index_line": "「世界に誇れる文化財守り伝える」京都銀行が定期預金総額に応じ寄付 京都市などと文化財保全協定",
+    "headline": "「世界に誇れる文化財守り伝える」京都銀行が定期預金総額に応じ寄付 京都市などと文化財保全協定",
+    "subhead": "文化・言語・歴史・メディアの具体例として読む",
+    "lead": "",
+    "sources": "京都新聞デジタル",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "伝統・固有性の継承か、変化・グローバル化への適応か",
+    "pros": [
+     "伝統・固有性の継承"
+    ],
+    "cons": [
+     "変化・グローバル化への適応"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "アイデンティティ",
+      "definition": ""
+     },
+     {
+      "term": "集合的記憶",
+      "definition": ""
+     },
+     {
+      "term": "文化相対主義",
+      "definition": ""
+     },
+     {
+      "term": "他者理解",
+      "definition": ""
+     }
+    ],
+    "question": "このニュースを手がかりに、人間にとって文化（言葉・歴史・芸術）が持つ意味について考えを述べよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "ロシアとウクライナの局地停戦合意が発効",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261027de66240",
+   "summary": "アメリカが仲介した、ウクライナ南部の都市、オレシュキをめぐる、ロシアとウクライナによる局地的な停戦合意が27日発効し、人道状況の改善や住民の退避につながるかが焦点です。",
+   "source": "NHK 国際",
+   "published": "2026-10-27T12:38:00+09:00",
+   "theme": "global",
+   "score": 25.5,
+   "faculty": "hou",
+   "faculties": [
+    "hou",
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "ロシアとウクライナの局地停戦合意が発効",
+    "headline": "ロシアとウクライナの局地停戦合意が発効",
+    "subhead": "国際関係・安全保障の具体例として読む",
+    "lead": "アメリカが仲介した、ウクライナ南部の都市、オレシュキをめぐる、ロシアとウクライナによる局地的な停戦合意が27日発効し、人道状況の改善や住民の退避につながるかが焦点です。",
+    "sources": "NHK 国際",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "国益の追求か、国際協調・人道か",
+    "pros": [
+     "国益の追求"
+    ],
+    "cons": [
+     "国際協調・人道"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "安全保障のジレンマ",
+      "definition": ""
+     },
+     {
+      "term": "ソフトパワー",
+      "definition": ""
+     },
+     {
+      "term": "経済安全保障",
+      "definition": ""
+     },
+     {
+      "term": "グローバル・ガバナンス",
+      "definition": ""
+     }
+    ],
+    "question": "この国際問題に対し、日本はどのような立場・行動をとるべきか。複数の立場を比較して論じよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "Minimum wage increase accepted by minister",
+   "link": "https://www.bbc.co.uk/news/articles/cq77pm5ykrpzo?at_medium=RSS&at_campaign=rss",
+   "summary": "A recommendation to increase the minimum wage by 2.8% is agreed by Senator Elaine Millar.",
+   "source": "BBC Business",
+   "published": "2026-10-29T13:27:44+00:00",
+   "theme": "work",
+   "score": 8,
+   "paper": {
+    "index_line": "Minimum wage increase accepted by minister",
+    "headline": "Minimum wage increase accepted by minister",
+    "subhead": "労働・格差",
+    "lead": "A recommendation to increase the minimum wage by 2.8% is agreed by Senator Elaine Millar.",
+    "sources": "BBC Business",
+    "what_happened": "",
+    "keio_angle": "賃金格差・働き方・生産性は経済学部の定番テーマ。「市場の効率 vs 公平」という対立軸で読むと速い。",
+    "vocab": [
+     {
+      "en": "inequality",
+      "ja": "不平等"
+     },
+     {
+      "en": "productivity",
+      "ja": "生産性"
+     },
+     {
+      "en": "wage gap",
+      "ja": "賃金格差"
+     },
+     {
+      "en": "labor shortage",
+      "ja": "人手不足"
+     },
+     {
+      "en": "welfare",
+      "ja": "福祉"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "Who benefits when massive AI data centers come to town?",
+   "link": "https://www.npr.org/2026/10/29/nx-s1-6022096/who-benefits-when-massive-ai-data-centers-come-to-town",
+   "summary": "The battle over data centers is hitting the ballot box. Brookings scholar Darrell West talks about how the backlash against the AI boom, flock cameras and tech companies is crossing party lines.",
+   "source": "NPR Technology",
+   "published": "2026-10-29T11:41:59-04:00",
+   "theme": "tech",
+   "score": 8,
+   "paper": {
+    "index_line": "Who benefits when massive AI data centers come to town?",
+    "headline": "Who benefits when massive AI data centers come to town?",
+    "subhead": "テクノロジーと社会",
+    "lead": "The battle over data centers is hitting the ballot box. Brookings scholar Darrell West talks about how the backlash against the AI boom, flock cameras and tech companies is crossing party lines.",
+    "sources": "NPR Technology",
+    "what_happened": "",
+    "keio_angle": "AI・SNS・プライバシーは経済・商の両方で近年頻出。技術の「便益」と「副作用（格差・依存・監視）」の両面で書かれることが多い。",
+    "vocab": [
+     {
+      "en": "automation",
+      "ja": "自動化"
+     },
+     {
+      "en": "surveillance",
+      "ja": "監視"
+     },
+     {
+      "en": "privacy",
+      "ja": "プライバシー"
+     },
+     {
+      "en": "algorithm",
+      "ja": "アルゴリズム"
+     },
+     {
+      "en": "disrupt",
+      "ja": "（既存の秩序を）混乱・一新させる"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
