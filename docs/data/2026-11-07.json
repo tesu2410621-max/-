@@ -1,0 +1,218 @@
+{
+ "date": "2026-11-07",
+ "mode": "live",
+ "issue": 38,
+ "theme": "文化・言語・歴史・メディア",
+ "essays": [
+  {
+   "title": "【高槻市】音楽や伝統文化、アートを楽しもう！11月15日、高槻城公園芸術文化劇場で「こども文化祭」開催",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKRXg0WnRlamZWSlY2ajFocEl5ZlFmZnU5TjUtdUxmeDF0blpuX0ZkbnIzV0llU19udXVOaEFick43cFFjSG9JazJQQkl0elNHNjF6bFNobmFjYjN5YjRIMVRQTmd4M2Q4bUY3b0gzc0VRQQ?oc=5",
+   "summary": "",
+   "source": "号外NET 高槻市・島本町",
+   "published": "2026-11-06T23:14:43+00:00",
+   "theme": "culture",
+   "score": 18.0,
+   "faculty": "bun",
+   "faculties": [
+    "bun"
+   ],
+   "paper": {
+    "index_line": "【高槻市】音楽や伝統文化、アートを楽しもう！11月15日、高槻城公園芸術文化劇場で「こども文化祭」開催",
+    "headline": "【高槻市】音楽や伝統文化、アートを楽しもう！11月15日、高槻城公園芸術文化劇場で「こども文化祭」開催",
+    "subhead": "文化・言語・歴史・メディアの具体例として読む",
+    "lead": "",
+    "sources": "号外NET 高槻市・島本町",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "伝統・固有性の継承か、変化・グローバル化への適応か",
+    "pros": [
+     "伝統・固有性の継承"
+    ],
+    "cons": [
+     "変化・グローバル化への適応"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "アイデンティティ",
+      "definition": ""
+     },
+     {
+      "term": "集合的記憶",
+      "definition": ""
+     },
+     {
+      "term": "文化相対主義",
+      "definition": ""
+     },
+     {
+      "term": "他者理解",
+      "definition": ""
+     }
+    ],
+    "question": "このニュースを手がかりに、人間にとって文化（言葉・歴史・芸術）が持つ意味について考えを述べよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "メラニア夫人“ウクライナの局地的な停戦を永続的な平和へ”",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261106de71316",
+   "summary": "ロシアとウクライナの局地的な停戦を仲介したアメリカのトランプ大統領の夫人メラニア氏が、交渉に関わった両国の代表をホワイトハウスに招き、局地的な停戦の経験をきっかけに和平への機運が高まることに期待を示し…",
+   "source": "NHK 国際",
+   "published": "2026-11-06T10:19:22+09:00",
+   "theme": "global",
+   "score": 21.0,
+   "faculty": "hou",
+   "faculties": [
+    "hou",
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "メラニア夫人“ウクライナの局地的な停戦を永続的な平和へ”",
+    "headline": "メラニア夫人“ウクライナの局地的な停戦を永続的な平和へ”",
+    "subhead": "国際関係・安全保障の具体例として読む",
+    "lead": "ロシアとウクライナの局地的な停戦を仲介したアメリカのトランプ大統領の夫人メラニア氏が、交渉に関わった両国の代表をホワイトハウスに招き、局地的な停戦の経験をきっかけに和平への機運が高まることに期待を示し…",
+    "sources": "NHK 国際",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "国益の追求か、国際協調・人道か",
+    "pros": [
+     "国益の追求"
+    ],
+    "cons": [
+     "国際協調・人道"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "安全保障のジレンマ",
+      "definition": ""
+     },
+     {
+      "term": "ソフトパワー",
+      "definition": ""
+     },
+     {
+      "term": "経済安全保障",
+      "definition": ""
+     },
+     {
+      "term": "グローバル・ガバナンス",
+      "definition": ""
+     }
+    ],
+    "question": "この国際問題に対し、日本はどのような立場・行動をとるべきか。複数の立場を比較して論じよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "US job growth exceeds expectations in October despite economic uncertainty",
+   "link": "https://www.theguardian.com/business/2026/nov/06/us-job-growth-october",
+   "summary": "‘Low-hire, low-fire’ labor market shows sluggish growth but few layoffs, with an interest rate hike expected in DecemberThe US added 165,000 jobs to the economy in October, a sign of resilience in the labor market amid ongoing war in the Middle East and inflation, according to new data released on F",
+   "source": "The Guardian Economics",
+   "published": "2026-11-06T13:42:26+00:00",
+   "theme": "econ",
+   "score": 12,
+   "paper": {
+    "index_line": "US job growth exceeds expectations in October despite economic uncertainty",
+    "headline": "US job growth exceeds expectations in October despite economic uncertainty",
+    "subhead": "経済・市場",
+    "lead": "‘Low-hire, low-fire’ labor market shows sluggish growth but few layoffs, with an interest rate hike expected in DecemberThe US added 165,000 jobs to the economy in October, a sign of resilience in the labor market amid ongoing war in the Middle East and inflation, according to new data released on F",
+    "sources": "The Guardian Economics",
+    "what_happened": "",
+    "keio_angle": "インフレ・金利・貿易摩擦は経済学部の長文で頻出。「需要と供給」「インセンティブ」「比較優位」で説明できるか意識しよう。",
+    "vocab": [
+     {
+      "en": "inflation",
+      "ja": "インフレ"
+     },
+     {
+      "en": "tariff",
+      "ja": "関税"
+     },
+     {
+      "en": "incentive",
+      "ja": "誘因"
+     },
+     {
+      "en": "comparative advantage",
+      "ja": "比較優位"
+     },
+     {
+      "en": "fiscal",
+      "ja": "財政の"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "Who benefits when massive AI data centers come to town?",
+   "link": "https://www.npr.org/2026/10/29/nx-s1-6022096/who-benefits-when-massive-ai-data-centers-come-to-town",
+   "summary": "The battle over data centers is hitting the ballot box. Brookings scholar Darrell West talks about how the backlash against the AI boom, flock cameras and tech companies is crossing party lines.",
+   "source": "NPR Technology",
+   "published": "2026-10-29T11:41:59-04:00",
+   "theme": "tech",
+   "score": 8,
+   "paper": {
+    "index_line": "Who benefits when massive AI data centers come to town?",
+    "headline": "Who benefits when massive AI data centers come to town?",
+    "subhead": "テクノロジーと社会",
+    "lead": "The battle over data centers is hitting the ballot box. Brookings scholar Darrell West talks about how the backlash against the AI boom, flock cameras and tech companies is crossing party lines.",
+    "sources": "NPR Technology",
+    "what_happened": "",
+    "keio_angle": "AI・SNS・プライバシーは経済・商の両方で近年頻出。技術の「便益」と「副作用（格差・依存・監視）」の両面で書かれることが多い。",
+    "vocab": [
+     {
+      "en": "automation",
+      "ja": "自動化"
+     },
+     {
+      "en": "surveillance",
+      "ja": "監視"
+     },
+     {
+      "en": "privacy",
+      "ja": "プライバシー"
+     },
+     {
+      "en": "algorithm",
+      "ja": "アルゴリズム"
+     },
+     {
+      "en": "disrupt",
+      "ja": "（既存の秩序を）混乱・一新させる"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
