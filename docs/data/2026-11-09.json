@@ -1,0 +1,218 @@
+{
+ "date": "2026-11-09",
+ "mode": "live",
+ "issue": 40,
+ "theme": "国際関係・安全保障",
+ "essays": [
+  {
+   "title": "ウクライナ 人道支援拠点狙ったロシアの空爆 死者55人に",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261107de72225",
+   "summary": "ウクライナ南部にある人道支援物資の配給拠点を狙ったロシアの空爆では、がれきの中から次々と遺体が見つかり、ウクライナ当局はこれまでに55人の死亡が確認されたとロシアを非難しています。",
+   "source": "NHK 国際",
+   "published": "2026-11-08T05:57:04+09:00",
+   "theme": "global",
+   "score": 24.0,
+   "faculty": "hou",
+   "faculties": [
+    "hou",
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "ウクライナ 人道支援拠点狙ったロシアの空爆 死者55人に",
+    "headline": "ウクライナ 人道支援拠点狙ったロシアの空爆 死者55人に",
+    "subhead": "国際関係・安全保障の具体例として読む",
+    "lead": "ウクライナ南部にある人道支援物資の配給拠点を狙ったロシアの空爆では、がれきの中から次々と遺体が見つかり、ウクライナ当局はこれまでに55人の死亡が確認されたとロシアを非難しています。",
+    "sources": "NHK 国際",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "国益の追求か、国際協調・人道か",
+    "pros": [
+     "国益の追求"
+    ],
+    "cons": [
+     "国際協調・人道"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "安全保障のジレンマ",
+      "definition": ""
+     },
+     {
+      "term": "ソフトパワー",
+      "definition": ""
+     },
+     {
+      "term": "経済安全保障",
+      "definition": ""
+     },
+     {
+      "term": "グローバル・ガバナンス",
+      "definition": ""
+     }
+    ],
+    "question": "この国際問題に対し、日本はどのような立場・行動をとるべきか。複数の立場を比較して論じよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "アメリカ 中間選挙の大敗受け ルビオ国務長官の去就報道相次ぐ",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261105de71260",
+   "summary": "アメリカのメディア・ブルームバーグは、共和党が大敗した中間選挙の結果を受け、ルビオ国務長官がトランプ政権からの離脱を検討していると報じました。一方、有力紙ニューヨーク・タイムズは本人が辞任を否定したと…",
+   "source": "NHK 国際",
+   "published": "2026-11-06T19:39:00+09:00",
+   "theme": "culture",
+   "score": 15.0,
+   "faculty": "bun",
+   "faculties": [
+    "bun"
+   ],
+   "paper": {
+    "index_line": "アメリカ 中間選挙の大敗受け ルビオ国務長官の去就報道相次ぐ",
+    "headline": "アメリカ 中間選挙の大敗受け ルビオ国務長官の去就報道相次ぐ",
+    "subhead": "文化・言語・歴史・メディアの具体例として読む",
+    "lead": "アメリカのメディア・ブルームバーグは、共和党が大敗した中間選挙の結果を受け、ルビオ国務長官がトランプ政権からの離脱を検討していると報じました。一方、有力紙ニューヨーク・タイムズは本人が辞任を否定したと…",
+    "sources": "NHK 国際",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "伝統・固有性の継承か、変化・グローバル化への適応か",
+    "pros": [
+     "伝統・固有性の継承"
+    ],
+    "cons": [
+     "変化・グローバル化への適応"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "アイデンティティ",
+      "definition": ""
+     },
+     {
+      "term": "集合的記憶",
+      "definition": ""
+     },
+     {
+      "term": "文化相対主義",
+      "definition": ""
+     },
+     {
+      "term": "他者理解",
+      "definition": ""
+     }
+    ],
+    "question": "このニュースを手がかりに、人間にとって文化（言葉・歴史・芸術）が持つ意味について考えを述べよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "1-0 to humankind? US midterms vote puts AI, datacentres and the broligarchy back in their box | Heather Stewart",
+   "link": "https://www.theguardian.com/business/2026/nov/08/us-midterms-ai-datacentres-broligarchy-voter-backlash",
+   "summary": "Election results appear to have turbo-charged an already growing social, political and financial market rethink about AI‘AI clog’: UK battles onslaught of chatbot-generated complaintsEditorial: the AI backlash – Silicon Valley’s political power is crackingLast week’s midterms may not have cowed Dona",
+   "source": "The Guardian Economics",
+   "published": "2026-11-08T12:05:58+00:00",
+   "theme": "tech",
+   "score": 7,
+   "paper": {
+    "index_line": "1-0 to humankind? US midterms vote puts AI, datacentres and the broligarchy back in their box | Heather Stewart",
+    "headline": "1-0 to humankind? US midterms vote puts AI, datacentres and the broligarchy back in their box | Heather Stewart",
+    "subhead": "テクノロジーと社会",
+    "lead": "Election results appear to have turbo-charged an already growing social, political and financial market rethink about AI‘AI clog’: UK battles onslaught of chatbot-generated complaintsEditorial: the AI backlash – Silicon Valley’s political power is crackingLast week’s midterms may not have cowed Dona",
+    "sources": "The Guardian Economics",
+    "what_happened": "",
+    "keio_angle": "AI・SNS・プライバシーは経済・商の両方で近年頻出。技術の「便益」と「副作用（格差・依存・監視）」の両面で書かれることが多い。",
+    "vocab": [
+     {
+      "en": "automation",
+      "ja": "自動化"
+     },
+     {
+      "en": "surveillance",
+      "ja": "監視"
+     },
+     {
+      "en": "privacy",
+      "ja": "プライバシー"
+     },
+     {
+      "en": "algorithm",
+      "ja": "アルゴリズム"
+     },
+     {
+      "en": "disrupt",
+      "ja": "（既存の秩序を）混乱・一新させる"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "The Amazon’s canary in the coalmine: what a tropical fish can tell us about climate upheaval",
+   "link": "https://www.theguardian.com/global-development/2026/nov/03/the-amazons-canary-in-the-coalmine-what-a-tropical-fish-can-tell-us-about-climate-upheaval",
+   "summary": "Scientist Adalberto Luis Val’s pioneering research on the tambaqui fish is revealing the effect of climate disruption in Brazil, with global implications for biodiversity and food securityAs a boy in rural São Paulo, Adalberto Luis Val used to stare into the lake where his father took him fishing an",
+   "source": "The Guardian Global development",
+   "published": "2026-11-03T12:00:05+00:00",
+   "theme": "environment",
+   "score": 7,
+   "paper": {
+    "index_line": "The Amazon’s canary in the coalmine: what a tropical fish can tell us about climate upheaval",
+    "headline": "The Amazon’s canary in the coalmine: what a tropical fish can tell us about climate upheaval",
+    "subhead": "環境・エネルギー",
+    "lead": "Scientist Adalberto Luis Val’s pioneering research on the tambaqui fish is revealing the effect of climate disruption in Brazil, with global implications for biodiversity and food securityAs a boy in rural São Paulo, Adalberto Luis Val used to stare into the lake where his father took him fishing an",
+    "sources": "The Guardian Global development",
+    "what_happened": "",
+    "keio_angle": "気候変動は「外部性」「共有地の悲劇」など経済学の概念と結びつけて出題されやすい。",
+    "vocab": [
+     {
+      "en": "emissions",
+      "ja": "排出（量）"
+     },
+     {
+      "en": "externality",
+      "ja": "外部性"
+     },
+     {
+      "en": "sustainable",
+      "ja": "持続可能な"
+     },
+     {
+      "en": "fossil fuel",
+      "ja": "化石燃料"
+     },
+     {
+      "en": "mitigate",
+      "ja": "緩和する"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
