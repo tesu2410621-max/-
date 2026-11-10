@@ -1,0 +1,218 @@
+{
+ "date": "2026-11-10",
+ "mode": "live",
+ "issue": 41,
+ "theme": "AI・デジタル社会",
+ "essays": [
+  {
+   "title": "スペイン列車事故 AI導入し異常検知など再発防止策",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261104de70092",
+   "summary": "スペイン中部で高速鉄道の列車が別の列車に追突し、69人が死亡した事故で、スペイン政府は再発防止に向けて、運転指令センターと運転士のやりとりの監視や異常事態の検知のためAIを使った技術を導入する方針を示…",
+   "source": "NHK 国際",
+   "published": "2026-11-04T11:54:35+09:00",
+   "theme": "ai",
+   "score": 18.0,
+   "faculty": "kankyo",
+   "faculties": [
+    "kankyo",
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "スペイン列車事故 AI導入し異常検知など再発防止策",
+    "headline": "スペイン列車事故 AI導入し異常検知など再発防止策",
+    "subhead": "AI・デジタル社会の具体例として読む",
+    "lead": "スペイン中部で高速鉄道の列車が別の列車に追突し、69人が死亡した事故で、スペイン政府は再発防止に向けて、運転指令センターと運転士のやりとりの監視や異常事態の検知のためAIを使った技術を導入する方針を示…",
+    "sources": "NHK 国際",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "技術革新による効率化・新産業創出か、雇用の置き換え・格差拡大か",
+    "pros": [
+     "技術革新による効率化・新産業創出"
+    ],
+    "cons": [
+     "雇用の置き換え・格差拡大"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "技術的失業",
+      "definition": ""
+     },
+     {
+      "term": "デジタル・デバイド",
+      "definition": ""
+     },
+     {
+      "term": "アルゴリズムの透明性",
+      "definition": ""
+     },
+     {
+      "term": "プラットフォーム規制",
+      "definition": ""
+     }
+    ],
+    "question": "この技術が社会に広がるとき、誰が得をし誰が損をするのかを整理し、望ましいルールのあり方を提案せよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "訪問介護 厚生労働省が新たな支援方針 サービス維持への課題は",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261106de71869",
+   "summary": "自宅で介護を受けられる訪問介護。高齢化社会に欠かせない制度ですが、経営が厳しい事業者も出ています。 6日、厚生労働省は新たな支援策の案を示しました。訪問介護サービスは維持されるのでしょうか。",
+   "source": "NHK 社会",
+   "published": "2026-11-06T23:50:29+09:00",
+   "theme": "population",
+   "score": 22.5,
+   "faculty": "sogo",
+   "faculties": [
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "訪問介護 厚生労働省が新たな支援方針 サービス維持への課題は",
+    "headline": "訪問介護 厚生労働省が新たな支援方針 サービス維持への課題は",
+    "subhead": "少子高齢化・人口減少の具体例として読む",
+    "lead": "自宅で介護を受けられる訪問介護。高齢化社会に欠かせない制度ですが、経営が厳しい事業者も出ています。 6日、厚生労働省は新たな支援策の案を示しました。訪問介護サービスは維持されるのでしょうか。",
+    "sources": "NHK 社会",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "現役世代への負担集中か、高齢者の生活保障か",
+    "pros": [
+     "現役世代への負担集中"
+    ],
+    "cons": [
+     "高齢者の生活保障"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "世代間公平",
+      "definition": ""
+     },
+     {
+      "term": "賦課方式と積立方式",
+      "definition": ""
+     },
+     {
+      "term": "機会費用",
+      "definition": ""
+     },
+     {
+      "term": "持続可能性",
+      "definition": ""
+     }
+    ],
+    "question": "人口減少を前提とした社会設計として、この問題にどのような政策で対応すべきか。根拠とともに述べよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "Nvidia shares tumble as the company says it's investigating CEO Jensen Huang",
+   "link": "https://www.npr.org/2026/11/09/nx-s1-6034478/nvidia-shares-tumble-as-the-company-says-its-investigating-ceo-jensen-huang",
+   "summary": "Nvidia's share price falls after the company begins an investigation into CEO Jensen Huang's alleged relationship with a woman accused of being a Chinese spy.",
+   "source": "NPR Business",
+   "published": "2026-11-09T17:01:47-05:00",
+   "theme": "business",
+   "score": 8,
+   "paper": {
+    "index_line": "Nvidia shares tumble as the company says it's investigating CEO Jensen Huang",
+    "headline": "Nvidia shares tumble as the company says it's investigating CEO Jensen Huang",
+    "subhead": "ビジネス・経営・消費",
+    "lead": "Nvidia's share price falls after the company begins an investigation into CEO Jensen Huang's alleged relationship with a woman accused of being a Chinese spy.",
+    "sources": "NPR Business",
+    "what_happened": "",
+    "keio_angle": "商学部の長文ではマーケティング・消費者行動・企業戦略が定番。「なぜ人は買うのか」という行動経済学の視点が効く。",
+    "vocab": [
+     {
+      "en": "consumer behavior",
+      "ja": "消費者行動"
+     },
+     {
+      "en": "revenue",
+      "ja": "収益"
+     },
+     {
+      "en": "brand loyalty",
+      "ja": "ブランドへの愛着"
+     },
+     {
+      "en": "competitor",
+      "ja": "競合他社"
+     },
+     {
+      "en": "stakeholder",
+      "ja": "利害関係者"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "Slight fall in carbon emissions from fossil fuels as Iran war drives renewables push",
+   "link": "https://www.theguardian.com/environment/2026/nov/10/slight-fall-in-carbon-emissions-from-fossil-fuels-as-iran-war-drives-renewables-push",
+   "summary": "However, authors of a comprehensive assessment to be presented at Cop31 warn talk of a global turnaround prematureCop31 live – latest updatesSoaring oil and gas prices following the war in Iran have encouraged people to look beyond fossil fuels, leading to an easing of climate-damaging carbon emissi",
+   "source": "The Guardian Environment",
+   "published": "2026-11-10T01:00:23+00:00",
+   "theme": "environment",
+   "score": 8,
+   "paper": {
+    "index_line": "Slight fall in carbon emissions from fossil fuels as Iran war drives renewables push",
+    "headline": "Slight fall in carbon emissions from fossil fuels as Iran war drives renewables push",
+    "subhead": "環境・エネルギー",
+    "lead": "However, authors of a comprehensive assessment to be presented at Cop31 warn talk of a global turnaround prematureCop31 live – latest updatesSoaring oil and gas prices following the war in Iran have encouraged people to look beyond fossil fuels, leading to an easing of climate-damaging carbon emissi",
+    "sources": "The Guardian Environment",
+    "what_happened": "",
+    "keio_angle": "気候変動は「外部性」「共有地の悲劇」など経済学の概念と結びつけて出題されやすい。",
+    "vocab": [
+     {
+      "en": "emissions",
+      "ja": "排出（量）"
+     },
+     {
+      "en": "externality",
+      "ja": "外部性"
+     },
+     {
+      "en": "sustainable",
+      "ja": "持続可能な"
+     },
+     {
+      "en": "fossil fuel",
+      "ja": "化石燃料"
+     },
+     {
+      "en": "mitigate",
+      "ja": "緩和する"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
