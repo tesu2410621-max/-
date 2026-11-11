@@ -1,0 +1,219 @@
+{
+ "date": "2026-11-11",
+ "mode": "live",
+ "issue": 42,
+ "theme": "文化・言語・歴史・メディア",
+ "essays": [
+  {
+   "title": "Children’s books roundup – the best new picture books and novels",
+   "link": "https://www.theguardian.com/books/2026/aug/28/childrens-books-roundup-the-best-new-picture-books-and-novels",
+   "summary": "Poetry with wonder and wit; a heartwarming tale for horse lovers; a portal to the future; a brilliant YA wartime romance and more Small Monster, Big Monster by Allan Sanders, Phaidon, £7.95 Refrigerator is EMPTY. Monster is FULL (of pizza!). An eye-wateringly bright board book, featuring splendidly ",
+   "source": "The Guardian Books",
+   "published": "2026-08-28T11:00:55+00:00",
+   "lang": "en",
+   "theme": "culture",
+   "score": 15.0,
+   "faculty": "bun",
+   "faculties": [
+    "bun"
+   ],
+   "paper": {
+    "index_line": "Children’s books roundup – the best new picture books and novels",
+    "headline": "Children’s books roundup – the best new picture books and novels",
+    "subhead": "文化・言語・歴史・メディアの具体例として読む",
+    "lead": "Poetry with wonder and wit; a heartwarming tale for horse lovers; a portal to the future; a brilliant YA wartime romance and more Small Monster, Big Monster by Allan Sanders, Phaidon, £7.95 Refrigerator is EMPTY. Monster is FULL (of pizza!). An eye-wateringly bright board book, featuring splendidly ",
+    "sources": "The Guardian Books",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "伝統・固有性の継承か、変化・グローバル化への適応か",
+    "pros": [
+     "伝統・固有性の継承"
+    ],
+    "cons": [
+     "変化・グローバル化への適応"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "アイデンティティ",
+      "definition": ""
+     },
+     {
+      "term": "集合的記憶",
+      "definition": ""
+     },
+     {
+      "term": "文化相対主義",
+      "definition": ""
+     },
+     {
+      "term": "他者理解",
+      "definition": ""
+     }
+    ],
+    "question": "このニュースを手がかりに、人間にとって文化（言葉・歴史・芸術）が持つ意味について考えを述べよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "国連安保理 ウクライナ人道拠点攻撃に国際法違反の非難相次ぐ",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261110de73442",
+   "summary": "ウクライナで人道支援物資の配給拠点などをねらったロシアの空爆で多数の死者が出たことを受けて、国連の安全保障理事会で緊急会合が開かれ、各国からは民間施設への攻撃は国際法違反だと非難する声が相次ぎました。",
+   "source": "NHK 国際",
+   "published": "2026-11-10T14:06:33+09:00",
+   "theme": "global",
+   "score": 24.0,
+   "faculty": "hou",
+   "faculties": [
+    "hou",
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "国連安保理 ウクライナ人道拠点攻撃に国際法違反の非難相次ぐ",
+    "headline": "国連安保理 ウクライナ人道拠点攻撃に国際法違反の非難相次ぐ",
+    "subhead": "国際関係・安全保障の具体例として読む",
+    "lead": "ウクライナで人道支援物資の配給拠点などをねらったロシアの空爆で多数の死者が出たことを受けて、国連の安全保障理事会で緊急会合が開かれ、各国からは民間施設への攻撃は国際法違反だと非難する声が相次ぎました。",
+    "sources": "NHK 国際",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "国益の追求か、国際協調・人道か",
+    "pros": [
+     "国益の追求"
+    ],
+    "cons": [
+     "国際協調・人道"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "安全保障のジレンマ",
+      "definition": ""
+     },
+     {
+      "term": "ソフトパワー",
+      "definition": ""
+     },
+     {
+      "term": "経済安全保障",
+      "definition": ""
+     },
+     {
+      "term": "グローバル・ガバナンス",
+      "definition": ""
+     }
+    ],
+    "question": "この国際問題に対し、日本はどのような立場・行動をとるべきか。複数の立場を比較して論じよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
+   "link": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
+   "summary": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78, which is lower than what was expected.",
+   "source": "BBC Business",
+   "published": "2026-11-10T17:56:12+00:00",
+   "theme": "tech",
+   "score": 8,
+   "paper": {
+    "index_line": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
+    "headline": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
+    "subhead": "テクノロジーと社会",
+    "lead": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78, which is lower than what was expected.",
+    "sources": "BBC Business",
+    "what_happened": "",
+    "keio_angle": "AI・SNS・プライバシーは経済・商の両方で近年頻出。技術の「便益」と「副作用（格差・依存・監視）」の両面で書かれることが多い。",
+    "vocab": [
+     {
+      "en": "automation",
+      "ja": "自動化"
+     },
+     {
+      "en": "surveillance",
+      "ja": "監視"
+     },
+     {
+      "en": "privacy",
+      "ja": "プライバシー"
+     },
+     {
+      "en": "algorithm",
+      "ja": "アルゴリズム"
+     },
+     {
+      "en": "disrupt",
+      "ja": "（既存の秩序を）混乱・一新させる"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "Why did California's billionaire tax fail to surf the blue wave?",
+   "link": "https://www.npr.org/sections/planet-money/2026/11/10/g-s1-152755/why-did-californias-billionaire-tax-fail-to-surf-the-blue-wave",
+   "summary": "Two economists debate what California's vote on Prop 40 means for the wealth tax movement.",
+   "source": "NPR Business",
+   "published": "2026-11-10T06:30:00-05:00",
+   "theme": "econ",
+   "score": 8,
+   "paper": {
+    "index_line": "Why did California's billionaire tax fail to surf the blue wave?",
+    "headline": "Why did California's billionaire tax fail to surf the blue wave?",
+    "subhead": "経済・市場",
+    "lead": "Two economists debate what California's vote on Prop 40 means for the wealth tax movement.",
+    "sources": "NPR Business",
+    "what_happened": "",
+    "keio_angle": "インフレ・金利・貿易摩擦は経済学部の長文で頻出。「需要と供給」「インセンティブ」「比較優位」で説明できるか意識しよう。",
+    "vocab": [
+     {
+      "en": "inflation",
+      "ja": "インフレ"
+     },
+     {
+      "en": "tariff",
+      "ja": "関税"
+     },
+     {
+      "en": "incentive",
+      "ja": "誘因"
+     },
+     {
+      "en": "comparative advantage",
+      "ja": "比較優位"
+     },
+     {
+      "en": "fiscal",
+      "ja": "財政の"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
