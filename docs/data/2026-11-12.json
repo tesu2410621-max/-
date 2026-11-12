@@ -1,0 +1,218 @@
+{
+ "date": "2026-11-12",
+ "mode": "live",
+ "issue": 43,
+ "theme": "経済・市場・企業",
+ "essays": [
+  {
+   "title": "景気ウォッチャー調査 6か月ぶり低下 物価上昇など消費に影響",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261110de73686",
+   "summary": "働く人に景気の実感を聞く先月の景気ウォッチャー調査は、景気の現状を示す指数が6か月ぶりに低下し、物価の上昇や相次ぐ不正アクセスが消費に影響を及ぼしているという声が寄せられました。",
+   "source": "NHK 経済",
+   "published": "2026-11-10T19:30:56+09:00",
+   "theme": "economy",
+   "score": 24.0,
+   "faculty": "sogo",
+   "faculties": [
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "景気ウォッチャー調査 6か月ぶり低下 物価上昇など消費に影響",
+    "headline": "景気ウォッチャー調査 6か月ぶり低下 物価上昇など消費に影響",
+    "subhead": "経済・市場・企業の具体例として読む",
+    "lead": "働く人に景気の実感を聞く先月の景気ウォッチャー調査は、景気の現状を示す指数が6か月ぶりに低下し、物価の上昇や相次ぐ不正アクセスが消費に影響を及ぼしているという声が寄せられました。",
+    "sources": "NHK 経済",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "市場メカニズムに委ねるか、政府が介入して是正するか",
+    "pros": [
+     "市場メカニズムに委ねる"
+    ],
+    "cons": [
+     "政府が介入して是正する"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "市場の失敗",
+      "definition": ""
+     },
+     {
+      "term": "インセンティブ",
+      "definition": ""
+     },
+     {
+      "term": "トレードオフ",
+      "definition": ""
+     },
+     {
+      "term": "財政の持続可能性",
+      "definition": ""
+     }
+    ],
+    "question": "この経済ニュースが家計・企業・政府にどう影響するかを整理し、望ましい政策対応を論じよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "オーストラリア AI不正アクセス受け安全対策強化へ",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261110de73743",
+   "summary": "「オープンAI」のAIモデルが2026年6月オーストラリア政府のサイトに不正にアクセスしたことを受け、政府はAIの開発企業に刑事責任を問う法改正を検討するなど、AIの安全対策を強化する方針を示しました…",
+   "source": "NHK 国際",
+   "published": "2026-11-10T19:40:44+09:00",
+   "theme": "ai",
+   "score": 25.5,
+   "faculty": "kankyo",
+   "faculties": [
+    "kankyo",
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "オーストラリア AI不正アクセス受け安全対策強化へ",
+    "headline": "オーストラリア AI不正アクセス受け安全対策強化へ",
+    "subhead": "AI・デジタル社会の具体例として読む",
+    "lead": "「オープンAI」のAIモデルが2026年6月オーストラリア政府のサイトに不正にアクセスしたことを受け、政府はAIの開発企業に刑事責任を問う法改正を検討するなど、AIの安全対策を強化する方針を示しました…",
+    "sources": "NHK 国際",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "技術革新による効率化・新産業創出か、雇用の置き換え・格差拡大か",
+    "pros": [
+     "技術革新による効率化・新産業創出"
+    ],
+    "cons": [
+     "雇用の置き換え・格差拡大"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "技術的失業",
+      "definition": ""
+     },
+     {
+      "term": "デジタル・デバイド",
+      "definition": ""
+     },
+     {
+      "term": "アルゴリズムの透明性",
+      "definition": ""
+     },
+     {
+      "term": "プラットフォーム規制",
+      "definition": ""
+     }
+    ],
+    "question": "この技術が社会に広がるとき、誰が得をし誰が損をするのかを整理し、望ましいルールのあり方を提案せよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "Should you trust new AI agents with your money and data?",
+   "link": "https://www.npr.org/2026/11/10/nx-s1-6018588/should-you-trust-new-ai-agents-with-your-money-and-data",
+   "summary": "Tech companies want agentic AI to be the new way you shop. But should you trust AI when your money's involved?",
+   "source": "NPR Business",
+   "published": "2026-11-10T16:44:32-05:00",
+   "theme": "tech",
+   "score": 8,
+   "paper": {
+    "index_line": "Should you trust new AI agents with your money and data?",
+    "headline": "Should you trust new AI agents with your money and data?",
+    "subhead": "テクノロジーと社会",
+    "lead": "Tech companies want agentic AI to be the new way you shop. But should you trust AI when your money's involved?",
+    "sources": "NPR Business",
+    "what_happened": "",
+    "keio_angle": "AI・SNS・プライバシーは経済・商の両方で近年頻出。技術の「便益」と「副作用（格差・依存・監視）」の両面で書かれることが多い。",
+    "vocab": [
+     {
+      "en": "automation",
+      "ja": "自動化"
+     },
+     {
+      "en": "surveillance",
+      "ja": "監視"
+     },
+     {
+      "en": "privacy",
+      "ja": "プライバシー"
+     },
+     {
+      "en": "algorithm",
+      "ja": "アルゴリズム"
+     },
+     {
+      "en": "disrupt",
+      "ja": "（既存の秩序を）混乱・一新させる"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "US inflation higher than expected in October - here's what is happening with prices",
+   "link": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
+   "summary": "Prices rose by 0.4% over the month, driven by increases in shelter, food and energy costs.",
+   "source": "BBC Business",
+   "published": "2026-11-10T14:45:46+00:00",
+   "theme": "econ",
+   "score": 7,
+   "paper": {
+    "index_line": "US inflation higher than expected in October - here's what is happening with prices",
+    "headline": "US inflation higher than expected in October - here's what is happening with prices",
+    "subhead": "経済・市場",
+    "lead": "Prices rose by 0.4% over the month, driven by increases in shelter, food and energy costs.",
+    "sources": "BBC Business",
+    "what_happened": "",
+    "keio_angle": "インフレ・金利・貿易摩擦は経済学部の長文で頻出。「需要と供給」「インセンティブ」「比較優位」で説明できるか意識しよう。",
+    "vocab": [
+     {
+      "en": "inflation",
+      "ja": "インフレ"
+     },
+     {
+      "en": "tariff",
+      "ja": "関税"
+     },
+     {
+      "en": "incentive",
+      "ja": "誘因"
+     },
+     {
+      "en": "comparative advantage",
+      "ja": "比較優位"
+     },
+     {
+      "en": "fiscal",
+      "ja": "財政の"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
