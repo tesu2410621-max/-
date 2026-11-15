@@ -1,0 +1,218 @@
+{
+ "date": "2026-11-15",
+ "mode": "live",
+ "issue": 46,
+ "theme": "文化・言語・歴史・メディア",
+ "essays": [
+  {
+   "title": "鳥取：温泉漫画 ホットな文化 県立図書館で「続テルマエ・ロマエ」展 ：地域ニュース",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5WMVBkQ3gyZWZSMi1FTWxIeXFLYUU1enZSZGdWaVZEN0VpSnNPazZoc3Y1WFZIS2J2U1ZTaWpQTUk4c2l0Y0ZVX2FEOFJsUDBZYXRWRV9jTjNPYjFnNkhfMHp5cGZqeEdFa0ZlZG5Cd0Y2RFE?oc=5",
+   "summary": "",
+   "source": "読売新聞",
+   "published": "2026-11-14T20:00:00+00:00",
+   "theme": "culture",
+   "score": 13.5,
+   "faculty": "bun",
+   "faculties": [
+    "bun"
+   ],
+   "paper": {
+    "index_line": "鳥取：温泉漫画 ホットな文化 県立図書館で「続テルマエ・ロマエ」展 ：地域ニュース",
+    "headline": "鳥取：温泉漫画 ホットな文化 県立図書館で「続テルマエ・ロマエ」展 ：地域ニュース",
+    "subhead": "文化・言語・歴史・メディアの具体例として読む",
+    "lead": "",
+    "sources": "読売新聞",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "伝統・固有性の継承か、変化・グローバル化への適応か",
+    "pros": [
+     "伝統・固有性の継承"
+    ],
+    "cons": [
+     "変化・グローバル化への適応"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "アイデンティティ",
+      "definition": ""
+     },
+     {
+      "term": "集合的記憶",
+      "definition": ""
+     },
+     {
+      "term": "文化相対主義",
+      "definition": ""
+     },
+     {
+      "term": "他者理解",
+      "definition": ""
+     }
+    ],
+    "question": "このニュースを手がかりに、人間にとって文化（言葉・歴史・芸術）が持つ意味について考えを述べよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "米中 関税引き下げのための「貿易委員会」初会合開く",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261114de75960",
+   "summary": "アメリカと中国は、関税の引き下げなどを検討するために設立した「貿易委員会」の初めての会合をオンライン形式で開きました。両国は来週、中国で開かれるAPEC＝アジア太平洋経済協力会議にあわせて、首脳会談を…",
+   "source": "NHK 国際",
+   "published": "2026-11-15T05:45:34+09:00",
+   "theme": "global",
+   "score": 25.5,
+   "faculty": "hou",
+   "faculties": [
+    "hou",
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "米中 関税引き下げのための「貿易委員会」初会合開く",
+    "headline": "米中 関税引き下げのための「貿易委員会」初会合開く",
+    "subhead": "国際関係・安全保障の具体例として読む",
+    "lead": "アメリカと中国は、関税の引き下げなどを検討するために設立した「貿易委員会」の初めての会合をオンライン形式で開きました。両国は来週、中国で開かれるAPEC＝アジア太平洋経済協力会議にあわせて、首脳会談を…",
+    "sources": "NHK 国際",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "国益の追求か、国際協調・人道か",
+    "pros": [
+     "国益の追求"
+    ],
+    "cons": [
+     "国際協調・人道"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "安全保障のジレンマ",
+      "definition": ""
+     },
+     {
+      "term": "ソフトパワー",
+      "definition": ""
+     },
+     {
+      "term": "経済安全保障",
+      "definition": ""
+     },
+     {
+      "term": "グローバル・ガバナンス",
+      "definition": ""
+     }
+    ],
+    "question": "この国際問題に対し、日本はどのような立場・行動をとるべきか。複数の立場を比較して論じよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "Interest rate rises likely in coming months, Bank of England’s chief economist says",
+   "link": "https://www.theguardian.com/business/2026/nov/14/interest-rate-rises-inflation-bank-of-england-chief-economist",
+   "summary": "‘We have further to go,’ says Huw Pill after increase to 4% this month as Bank seeks to tackle rising inflationThe Bank of England will probably need to raise interest rates next month and again in early 2027 to combat rising inflation, its chief economist has said.Signalling a sharp rise in mortgag",
+   "source": "The Guardian Economics",
+   "published": "2026-11-14T14:42:27+00:00",
+   "theme": "econ",
+   "score": 8,
+   "paper": {
+    "index_line": "Interest rate rises likely in coming months, Bank of England’s chief economist says",
+    "headline": "Interest rate rises likely in coming months, Bank of England’s chief economist says",
+    "subhead": "経済・市場",
+    "lead": "‘We have further to go,’ says Huw Pill after increase to 4% this month as Bank seeks to tackle rising inflationThe Bank of England will probably need to raise interest rates next month and again in early 2027 to combat rising inflation, its chief economist has said.Signalling a sharp rise in mortgag",
+    "sources": "The Guardian Economics",
+    "what_happened": "",
+    "keio_angle": "インフレ・金利・貿易摩擦は経済学部の長文で頻出。「需要と供給」「インセンティブ」「比較優位」で説明できるか意識しよう。",
+    "vocab": [
+     {
+      "en": "inflation",
+      "ja": "インフレ"
+     },
+     {
+      "en": "tariff",
+      "ja": "関税"
+     },
+     {
+      "en": "incentive",
+      "ja": "誘因"
+     },
+     {
+      "en": "comparative advantage",
+      "ja": "比較優位"
+     },
+     {
+      "en": "fiscal",
+      "ja": "財政の"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "Russell Brand’s trial, rape myths and a questionable faith | Letters",
+   "link": "https://www.theguardian.com/news/2026/nov/11/russell-brand-trial-myths-and-a-questionable-faith",
+   "summary": "Readers respond to reporting on the disgraced actor and comedian’s trial and conviction for rape and sexual assaultYou report that in the wake of Russell Brand’s trial, the government pledged “to examine calls to crack down on ‘rape myths’ in trials” (Russell Brand suspected to have attacked at leas",
+   "source": "The Guardian Law",
+   "published": "2026-11-11T17:26:36+00:00",
+   "theme": "business",
+   "score": 7,
+   "paper": {
+    "index_line": "Russell Brand’s trial, rape myths and a questionable faith | Letters",
+    "headline": "Russell Brand’s trial, rape myths and a questionable faith | Letters",
+    "subhead": "ビジネス・経営・消費",
+    "lead": "Readers respond to reporting on the disgraced actor and comedian’s trial and conviction for rape and sexual assaultYou report that in the wake of Russell Brand’s trial, the government pledged “to examine calls to crack down on ‘rape myths’ in trials” (Russell Brand suspected to have attacked at leas",
+    "sources": "The Guardian Law",
+    "what_happened": "",
+    "keio_angle": "商学部の長文ではマーケティング・消費者行動・企業戦略が定番。「なぜ人は買うのか」という行動経済学の視点が効く。",
+    "vocab": [
+     {
+      "en": "consumer behavior",
+      "ja": "消費者行動"
+     },
+     {
+      "en": "revenue",
+      "ja": "収益"
+     },
+     {
+      "en": "brand loyalty",
+      "ja": "ブランドへの愛着"
+     },
+     {
+      "en": "competitor",
+      "ja": "競合他社"
+     },
+     {
+      "en": "stakeholder",
+      "ja": "利害関係者"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
