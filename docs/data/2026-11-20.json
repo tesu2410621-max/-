@@ -1,0 +1,218 @@
+{
+ "date": "2026-11-20",
+ "mode": "live",
+ "issue": 51,
+ "theme": "経済・市場・企業",
+ "essays": [
+  {
+   "title": "消費減税に合わせた支援金 年収56万円程度からの案",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261119de78090",
+   "summary": "政府は、食料品の消費税減税と合わせて導入するとしている「支援金」の支給が始まる年収について、これまで複数の案を示してきましたが、新たに年収56万円程度からとする案を検討していることがわかりました。",
+   "source": "NHK 政治",
+   "published": "2026-11-19T06:14:36+09:00",
+   "theme": "economy",
+   "score": 28.5,
+   "faculty": "sogo",
+   "faculties": [
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "消費減税に合わせた支援金 年収56万円程度からの案",
+    "headline": "消費減税に合わせた支援金 年収56万円程度からの案",
+    "subhead": "経済・市場・企業の具体例として読む",
+    "lead": "政府は、食料品の消費税減税と合わせて導入するとしている「支援金」の支給が始まる年収について、これまで複数の案を示してきましたが、新たに年収56万円程度からとする案を検討していることがわかりました。",
+    "sources": "NHK 政治",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "市場メカニズムに委ねるか、政府が介入して是正するか",
+    "pros": [
+     "市場メカニズムに委ねる"
+    ],
+    "cons": [
+     "政府が介入して是正する"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "市場の失敗",
+      "definition": ""
+     },
+     {
+      "term": "インセンティブ",
+      "definition": ""
+     },
+     {
+      "term": "トレードオフ",
+      "definition": ""
+     },
+     {
+      "term": "財政の持続可能性",
+      "definition": ""
+     }
+    ],
+    "question": "この経済ニュースが家計・企業・政府にどう影響するかを整理し、望ましい政策対応を論じよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "生成AI×システム開発で企業の業務課題を解決！株式会社ISTソフトウェアが「生成AIソリューションメニュー」ページをリ",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBaNV9mdnI2QU9aUU5VQXV3b2s2bUV5c1E0bEdtcEQ3bFRnNVB4aUtsMVNVeERKWU5kZzZTbTgyY1ZxZmpvazdIdm5BYUY0dEdMNm9tbGQzQzNOSnc0WXhMVExaam9HQQ?oc=5",
+   "summary": "",
+   "source": "ニコニコニュース",
+   "published": "2026-11-19T08:51:41+00:00",
+   "theme": "ai",
+   "score": 21.0,
+   "faculty": "kankyo",
+   "faculties": [
+    "kankyo",
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "生成AI×システム開発で企業の業務課題を解決！株式会社ISTソフトウェアが「生成AIソリューションメニュー」ページをリ",
+    "headline": "生成AI×システム開発で企業の業務課題を解決！株式会社ISTソフトウェアが「生成AIソリューションメニュー」ページをリ",
+    "subhead": "AI・デジタル社会の具体例として読む",
+    "lead": "",
+    "sources": "ニコニコニュース",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "技術革新による効率化・新産業創出か、雇用の置き換え・格差拡大か",
+    "pros": [
+     "技術革新による効率化・新産業創出"
+    ],
+    "cons": [
+     "雇用の置き換え・格差拡大"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "技術的失業",
+      "definition": ""
+     },
+     {
+      "term": "デジタル・デバイド",
+      "definition": ""
+     },
+     {
+      "term": "アルゴリズムの透明性",
+      "definition": ""
+     },
+     {
+      "term": "プラットフォーム規制",
+      "definition": ""
+     }
+    ],
+    "question": "この技術が社会に広がるとき、誰が得をし誰が損をするのかを整理し、望ましいルールのあり方を提案せよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "Fossil fuel lobbyists are trying to derail climate action once again at COP31. Can they be stopped?",
+   "link": "https://theconversation.com/fossil-fuel-lobbyists-are-trying-to-derail-climate-action-once-again-at-cop31-can-they-be-stopped-294668",
+   "summary": "The whole point of this summit is to address climate change. Why are fossil fuel cheerleaders still allowed in the door?",
+   "source": "The Conversation",
+   "published": "2026-11-19T03:55:07Z",
+   "theme": "environment",
+   "score": 8,
+   "paper": {
+    "index_line": "Fossil fuel lobbyists are trying to derail climate action once again at COP31. Can they be stopped?",
+    "headline": "Fossil fuel lobbyists are trying to derail climate action once again at COP31. Can they be stopped?",
+    "subhead": "環境・エネルギー",
+    "lead": "The whole point of this summit is to address climate change. Why are fossil fuel cheerleaders still allowed in the door?",
+    "sources": "The Conversation",
+    "what_happened": "",
+    "keio_angle": "気候変動は「外部性」「共有地の悲劇」など経済学の概念と結びつけて出題されやすい。",
+    "vocab": [
+     {
+      "en": "emissions",
+      "ja": "排出（量）"
+     },
+     {
+      "en": "externality",
+      "ja": "外部性"
+     },
+     {
+      "en": "sustainable",
+      "ja": "持続可能な"
+     },
+     {
+      "en": "fossil fuel",
+      "ja": "化石燃料"
+     },
+     {
+      "en": "mitigate",
+      "ja": "緩和する"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "Yale Study Finds Expanding Marijuana Retail Licenses in Washington by 10% Could Save Consumers $7.6 Million Annually",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZndwdFdMQ1lkLWVmN0YxNVBVVHhVcDJBUkxDT0M1LS1tdUhhSy13ME9Fcm01X1VkQmNRZzhuVlhnYXhPWWRxbnJ2elREM1RNRW5LYmpIaER2SEozWkNtX0JOeG9wX285SDEyc3FCd3B5RENCVG5FNWM2cGgwRFdlMDdSUlB0ekZzLUQzaUVLdlE5Z1N1aEp0QXVhQ3Jha1RJRy0wRFN3dWl1OHhRblNxdXNIN2RWa3pjai03MkpVeUlOMW1YTldjVW5faHp2RTFzZ3RMQ3lEemYxTnVJampQeWZ5ekxzcUIwMFE?oc=5",
+   "summary": "",
+   "source": "The Marijuana Herald",
+   "published": "2026-11-19T15:25:28+00:00",
+   "theme": "business",
+   "score": 8,
+   "paper": {
+    "index_line": "Yale Study Finds Expanding Marijuana Retail Licenses in Washington by 10% Could Save Consumers $7.6 Million Annually",
+    "headline": "Yale Study Finds Expanding Marijuana Retail Licenses in Washington by 10% Could Save Consumers $7.6 Million Annually",
+    "subhead": "ビジネス・経営・消費",
+    "lead": "",
+    "sources": "The Marijuana Herald",
+    "what_happened": "",
+    "keio_angle": "商学部の長文ではマーケティング・消費者行動・企業戦略が定番。「なぜ人は買うのか」という行動経済学の視点が効く。",
+    "vocab": [
+     {
+      "en": "consumer behavior",
+      "ja": "消費者行動"
+     },
+     {
+      "en": "revenue",
+      "ja": "収益"
+     },
+     {
+      "en": "brand loyalty",
+      "ja": "ブランドへの愛着"
+     },
+     {
+      "en": "competitor",
+      "ja": "競合他社"
+     },
+     {
+      "en": "stakeholder",
+      "ja": "利害関係者"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
