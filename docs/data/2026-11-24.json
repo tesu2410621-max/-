@@ -1,0 +1,220 @@
+{
+ "date": "2026-11-24",
+ "mode": "live",
+ "issue": 55,
+ "theme": "教育・学び",
+ "essays": [
+  {
+   "title": "韓国 大学入試 スマートグラスなどの対策で混乱 教育相が辞意",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261122de80041",
+   "summary": "韓国で今月19日に行われた大学進学のための共通試験で、スマートグラスを使用するなどAIを悪用した不正行為への対策を政府が試験直前に強化して混乱が広がったことを受け、教育相が22日、辞意を表明しました。",
+   "source": "NHK 国際",
+   "published": "2026-11-22T20:21:50+09:00",
+   "theme": "education",
+   "score": 25.5,
+   "faculty": "sogo",
+   "faculties": [
+    "sogo",
+    "bun"
+   ],
+   "paper": {
+    "index_line": "韓国 大学入試 スマートグラスなどの対策で混乱 教育相が辞意",
+    "headline": "韓国 大学入試 スマートグラスなどの対策で混乱 教育相が辞意",
+    "subhead": "教育・学びの具体例として読む",
+    "lead": "韓国で今月19日に行われた大学進学のための共通試験で、スマートグラスを使用するなどAIを悪用した不正行為への対策を政府が試験直前に強化して混乱が広がったことを受け、教育相が22日、辞意を表明しました。",
+    "sources": "NHK 国際",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "画一的な一斉教育の効率か、個別最適な学びか",
+    "pros": [
+     "画一的な一斉教育の効率"
+    ],
+    "cons": [
+     "個別最適な学び"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "教育の機会均等",
+      "definition": ""
+     },
+     {
+      "term": "人的資本",
+      "definition": ""
+     },
+     {
+      "term": "個別最適な学び",
+      "definition": ""
+     },
+     {
+      "term": "文化資本",
+      "definition": ""
+     }
+    ],
+    "question": "この教育課題を解決するために、学校・家庭・社会はそれぞれ何をすべきか。具体策を述べよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "Plant-based lunches could cut Australia’s emissions by 15m tonnes, new research shows",
+   "link": "https://www.theguardian.com/environment/2026/nov/23/plant-based-lunches-could-cut-australia-emissions-by-15m-tonnes-new-research-shows",
+   "summary": "Nationwide change in lunch habits could cut more climate pollution than grounding every domestic flightGet our breaking news email, free app or daily news podcastAustralians could collectively cut climate pollution by more than 15m tonnes – more than grounding every domestic flight – simply by chang",
+   "source": "The Guardian Environment",
+   "published": "2026-11-23T13:58:01+00:00",
+   "lang": "en",
+   "theme": "environment",
+   "score": 19.5,
+   "faculty": "kankyo",
+   "faculties": [
+    "kankyo",
+    "sogo"
+   ],
+   "paper": {
+    "index_line": "Plant-based lunches could cut Australia’s emissions by 15m tonnes, new research shows",
+    "headline": "Plant-based lunches could cut Australia’s emissions by 15m tonnes, new research shows",
+    "subhead": "環境・エネルギーの具体例として読む",
+    "lead": "Nationwide change in lunch habits could cut more climate pollution than grounding every domestic flightGet our breaking news email, free app or daily news podcastAustralians could collectively cut climate pollution by more than 15m tonnes – more than grounding every domestic flight – simply by chang",
+    "sources": "The Guardian Environment",
+    "what_happened": "",
+    "context_title": "なぜ重要か",
+    "context": "",
+    "points": [],
+    "issue": "排出削減の緊急性か、経済成長・エネルギー価格の安定か",
+    "pros": [
+     "排出削減の緊急性"
+    ],
+    "cons": [
+     "経済成長・エネルギー価格の安定"
+    ],
+    "connection": "",
+    "keywords": [
+     {
+      "term": "外部不経済",
+      "definition": ""
+     },
+     {
+      "term": "カーボンプライシング",
+      "definition": ""
+     },
+     {
+      "term": "共有地の悲劇",
+      "definition": ""
+     },
+     {
+      "term": "エネルギー安全保障",
+      "definition": ""
+     }
+    ],
+    "question": "環境保全と経済活動を両立させるために、どのような仕組み（規制・市場・技術）が有効か論じよ。",
+    "answer_claim": "",
+    "answer_reason": "",
+    "answer_plan": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "english": [
+  {
+   "title": "Why fossil fuel-producing countries are stalling this crucial climate report",
+   "link": "https://theconversation.com/why-fossil-fuel-producing-countries-are-stalling-this-crucial-climate-report-296997",
+   "summary": "Independent, expert climate science is critical to our future.",
+   "source": "The Conversation",
+   "published": "2026-11-21T05:45:46Z",
+   "theme": "environment",
+   "score": 9,
+   "paper": {
+    "index_line": "Why fossil fuel-producing countries are stalling this crucial climate report",
+    "headline": "Why fossil fuel-producing countries are stalling this crucial climate report",
+    "subhead": "環境・エネルギー",
+    "lead": "Independent, expert climate science is critical to our future.",
+    "sources": "The Conversation",
+    "what_happened": "",
+    "keio_angle": "気候変動は「外部性」「共有地の悲劇」など経済学の概念と結びつけて出題されやすい。",
+    "vocab": [
+     {
+      "en": "emissions",
+      "ja": "排出（量）"
+     },
+     {
+      "en": "externality",
+      "ja": "外部性"
+     },
+     {
+      "en": "sustainable",
+      "ja": "持続可能な"
+     },
+     {
+      "en": "fossil fuel",
+      "ja": "化石燃料"
+     },
+     {
+      "en": "mitigate",
+      "ja": "緩和する"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  },
+  {
+   "title": "New study finds Google car searches losing ground as social media, AI vehicle recommendations surge",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTks3X0hwd0k3c0pPekhod2ZoQndJbHJsWXBueU9uRnAwWV9VblNnWkt6d2ExQkxadXBWOHkyekN1M2FvX2JKTjdCLTAtQ3pxaHFwQ1R2Z2xoUkRvNXc0cTR4cVpvN0JQRFpFLVFPUF9JQnQxdHJvZ29tOXRReVhsVFpMOVhGTU05cjdNYlR0RXVYc0xwdE8wV29rM3psamdUTm9XV2Q4anBNcTFZb2h1dEJBMFVmbG53NkZLOTlfdXA0cGMyaUhDYTVuWQ?oc=5",
+   "summary": "",
+   "source": "Car Dealership Guy News",
+   "published": "2026-11-23T08:39:13+00:00",
+   "theme": "tech",
+   "score": 8,
+   "paper": {
+    "index_line": "New study finds Google car searches losing ground as social media, AI vehicle recommendations surge",
+    "headline": "New study finds Google car searches losing ground as social media, AI vehicle recommendations surge",
+    "subhead": "テクノロジーと社会",
+    "lead": "",
+    "sources": "Car Dealership Guy News",
+    "what_happened": "",
+    "keio_angle": "AI・SNS・プライバシーは経済・商の両方で近年頻出。技術の「便益」と「副作用（格差・依存・監視）」の両面で書かれることが多い。",
+    "vocab": [
+     {
+      "en": "automation",
+      "ja": "自動化"
+     },
+     {
+      "en": "surveillance",
+      "ja": "監視"
+     },
+     {
+      "en": "privacy",
+      "ja": "プライバシー"
+     },
+     {
+      "en": "algorithm",
+      "ja": "アルゴリズム"
+     },
+     {
+      "en": "disrupt",
+      "ja": "（既存の秩序を）混乱・一新させる"
+     }
+    ],
+    "word_forms": [],
+    "example_en": "",
+    "example_ja": ""
+   },
+   "generated_by": "template",
+   "outside_window": false
+  }
+ ],
+ "history": {
+  "index_line": "",
+  "paragraphs": []
+ },
+ "generated_by": "template"
+}
